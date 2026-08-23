@@ -30,6 +30,8 @@ normalized JSON to `engineer_1/generated/`.
 - `backend_block_candidates.json`: parent-block payload candidates shaped for the
   current backend, with explicit blockers when required forecast fields are absent.
 - `review_queue.json`: deduplicated identifiers/names that need a human crosswalk.
+- `dashboard_summary.json`: compact frontend KPIs, region/variety rollups, and
+  current tracked block status.
 
 ## Canonical identifier rules
 
@@ -53,6 +55,9 @@ normalized JSON to `engineer_1/generated/`.
 - The MVP assumes one trip per truck per night. Therefore one required load equals
   one required truck. Return trips and owned-versus-outsourced fleet optimization
   are deferred.
+- Trucks should ideally be ordered 24 hours ahead; 12 hours is the minimum lead
+  time. Trailers are staged before the night pick.
+- One harvester covers approximately 10 acres per night.
 - Crop observations are grouped by code + normalized block name + variety; the
   most recent dated observation is selected.
 - Schedule names are mapped only when they exactly match a normalized Sugar
