@@ -1,11 +1,14 @@
 import { useEffect, useState } from 'react'
 import OverviewApp from './engineer_1/App'
 import PlannerApp from './engineer_2/App'
+import SatelliteApp from './enginerr_4/App'
 
-type Workspace = 'overview' | 'planner'
+type Workspace = 'overview' | 'planner' | 'satellite'
 
-const workspaceFromHash = (): Workspace =>
-  window.location.hash.replace('#', '') === 'planner' ? 'planner' : 'overview'
+const workspaceFromHash = (): Workspace => {
+  const hash = window.location.hash.replace('#', '')
+  return hash === 'planner' || hash === 'satellite' ? hash : 'overview'
+}
 
 export default function App() {
   const [workspace, setWorkspace] = useState<Workspace>(workspaceFromHash)
@@ -16,5 +19,7 @@ export default function App() {
     return () => window.removeEventListener('hashchange', handleHashChange)
   }, [])
 
-  return workspace === 'planner' ? <PlannerApp /> : <OverviewApp />
+  if (workspace === 'planner') return <PlannerApp />
+  if (workspace === 'satellite') return <SatelliteApp />
+  return <OverviewApp />
 }
