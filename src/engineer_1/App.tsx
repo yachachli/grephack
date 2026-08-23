@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
-  BarChart3, CalendarDays, ChevronDown, CloudSun, Database, Grape,
+  BarChart3, CalendarDays, ChevronDown, CloudSun, Grape, Layers3,
   LayoutDashboard, Menu, Search, Settings, Sprout, Truck, X,
 } from 'lucide-react'
 import summary from '../../engineer_1/generated/dashboard_summary.json'
@@ -14,6 +14,8 @@ const varieties: Record<string, string> = {
   PG: 'Pinot Grigio', PN: 'Pinot Noir', SB: 'Sauvignon Blanc', ZN: 'Zinfandel',
 }
 const openPlanner = () => { window.location.hash = 'planner' }
+const openForecasting = () => { window.location.hash = 'forecasting' }
+const openSatellite = () => { window.location.hash = 'satellite' }
 
 function Metric({ label, value, note, icon: Icon }: {
   label: string
@@ -33,6 +35,12 @@ export default function App() {
     return text.includes(query.toLowerCase()) && (status === 'all' || block.status === status)
   }), [query, status])
   const p = summary.portfolio
+
+  useEffect(() => {
+    if (window.location.hash === '#blocks') {
+      requestAnimationFrame(() => document.getElementById('block-status')?.scrollIntoView())
+    }
+  }, [])
   const asOf = new Date(`${summary.as_of_date}T12:00:00`).toLocaleDateString('en-US', {
     weekday: 'long', month: 'long', day: 'numeric', year: 'numeric',
   })
@@ -42,12 +50,12 @@ export default function App() {
       <div className="e1-brand"><span><Sprout /></span><div><b>VineFlow</b><small>HARVEST OPERATIONS</small></div></div>
       <button className="e1-close" onClick={() => setMobile(false)}><X /></button>
       <div className="e1-nav">
-        <button className="active"><LayoutDashboard size={18} />Overview</button>
-        <button onClick={() => document.getElementById('block-status')?.scrollIntoView()}><Grape size={18} />Block Status</button>
+        <button className={window.location.hash === '#blocks' ? '' : 'active'} onClick={() => { window.location.hash = 'overview'; window.scrollTo({ top: 0, behavior: 'smooth' }) }}><LayoutDashboard size={18} />Overview</button>
+        <button className={window.location.hash === '#blocks' ? 'active' : ''} onClick={() => { window.location.hash = 'blocks'; document.getElementById('block-status')?.scrollIntoView() }}><Grape size={18} />Block Status</button>
         <button onClick={openPlanner}><CalendarDays size={18} />Harvest Planner</button>
-        <button><CloudSun size={18} />Forecasting</button>
-        <button><Truck size={18} />Fleet & Logistics</button>
-        <button><Database size={18} />Data Sources</button>
+        <button onClick={openForecasting}><CloudSun size={18} />Forecasting</button>
+        <button onClick={openPlanner}><Truck size={18} />Fleet & Logistics</button>
+        <button onClick={openSatellite}><Layers3 size={18} />Satellite Intelligence</button>
       </div>
       <div className="e1-bottom"><button><Settings size={18} />Settings</button><div><span>JM</span><p><b>Jordan Miller</b><small>Operations Manager</small></p></div></div>
     </aside>

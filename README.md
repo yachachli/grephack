@@ -17,7 +17,7 @@ The API starts at `http://localhost:4000`. Useful checks:
 
 ```bash
 curl http://localhost:4000/health
-curl 'http://localhost:4000/api/planner/week?start=2025-09-08'
+curl 'http://localhost:4000/api/planner/week?start=2026-08-23'
 ```
 
 To add a table, add the next numbered SQL file under `backend/db/migrations/` and run

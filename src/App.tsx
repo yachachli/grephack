@@ -1,13 +1,16 @@
-import { useEffect, useState } from 'react'
-import OverviewApp from './engineer_1/App'
-import PlannerApp from './engineer_2/App'
-import SatelliteApp from './enginerr_4/App'
+import { lazy, Suspense, useEffect, useState } from 'react'
 
-type Workspace = 'overview' | 'planner' | 'satellite'
+const OverviewApp = lazy(() => import('./engineer_1/App'))
+const PlannerApp = lazy(() => import('./engineer_2/App'))
+const SatelliteApp = lazy(() => import('./enginerr_4/App'))
+
+type Workspace = 'overview' | 'blocks' | 'planner' | 'forecasting' | 'satellite'
 
 const workspaceFromHash = (): Workspace => {
   const hash = window.location.hash.replace('#', '')
-  return hash === 'planner' || hash === 'satellite' ? hash : 'overview'
+  return ['blocks', 'planner', 'forecasting', 'satellite'].includes(hash)
+    ? hash as Workspace
+    : 'overview'
 }
 
 export default function App() {
@@ -19,7 +22,11 @@ export default function App() {
     return () => window.removeEventListener('hashchange', handleHashChange)
   }, [])
 
-  if (workspace === 'planner') return <PlannerApp />
-  if (workspace === 'satellite') return <SatelliteApp />
-  return <OverviewApp />
+  return <Suspense fallback={<div className="app-loading">Loading VineFlow…</div>}>
+    {workspace === 'planner' || workspace === 'forecasting'
+      ? <PlannerApp key={workspace} />
+      : workspace === 'satellite'
+        ? <SatelliteApp />
+        : <OverviewApp key={workspace} />}
+  </Suspense>
 }

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { CSSProperties } from 'react'
-import { Activity, CalendarDays, ChevronDown, Crosshair, Grape, History, Layers3, MapPin, Menu, Plus, Search, Settings, Sparkles, Sprout, TrendingDown } from 'lucide-react'
+import { Activity, CalendarDays, ChevronDown, CloudSun, Crosshair, Grape, Layers3, MapPin, Menu, Plus, Search, Settings, Sparkles, Sprout, TrendingDown } from 'lucide-react'
 import { GeoJSON, MapContainer, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import fieldDataRaw from '../../data/climate_operation_field_boundaries.geojson?raw'
@@ -26,7 +26,7 @@ type FieldFeature={type:'Feature';id?:string;properties:{field_id:string;legacy_
 type FieldCollection={type:'FeatureCollection';features:FieldFeature[]}
 const allFields=JSON.parse(fieldDataRaw) as FieldCollection
 const selectedId='d6c720e1-ec32-4592-a9bc-1847dacbcbcf'
-const selectedField=allFields.features.find(f=>f.properties.field_id===selectedId)!
+const selectedField=allFields.features.find(f=>f.properties.field_id===selectedId) ?? allFields.features[0]
 const [selectedLon,selectedLat]=selectedField.properties.centroid
 const cluster={type:'FeatureCollection',features:allFields.features.filter(f=>f.properties.farm_name==='Lodi').sort((a,b)=>{const da=(a.properties.centroid[0]-selectedLon)**2+(a.properties.centroid[1]-selectedLat)**2;const db=(b.properties.centroid[0]-selectedLon)**2+(b.properties.centroid[1]-selectedLat)**2;return da-db}).slice(0,17)} as FieldCollection
 
@@ -34,7 +34,7 @@ export default function App(){
  const [view,setView]=useState<View>('Portfolio'),[sceneIndex,setSceneIndex]=useState(4),[draw,setDraw]=useState(false),[selected,setSelected]=useState('A'),[mobile,setMobile]=useState(false),[toast,setToast]=useState('')
  const scene=scenes[sceneIndex], notify=(s:string)=>{setToast(s);setTimeout(()=>setToast(''),2000)}
  const line=scenes.map((s,i)=>`${i?'L':'M'} ${i*112} ${128-(s.ndvi-.5)*270}`).join(' ')
- return <div className="vf-shell"><aside className={mobile?'open':''}><div className="brand"><span><Sprout/></span><div><b>VineFlow</b><small>HARVEST INTELLIGENCE</small></div></div><nav><button><Activity/>Overview</button><button><Grape/>Block Status</button><button><CalendarDays/>Harvest Planner</button><button className="active"><Layers3/>Satellite Intelligence <i>NEW</i></button><button><History/>Brix Forecasting</button><button><History/>Crop History</button></nav><div className="aside-foot"><button><Settings/>Settings</button><div className="profile"><span>JM</span><div><b>Jordan Miller</b><small>Operations Manager</small></div></div></div></aside>
+ return <div className="vf-shell"><aside className={mobile?'open':''}><div className="brand"><span><Sprout/></span><div><b>VineFlow</b><small>HARVEST INTELLIGENCE</small></div></div><nav><button onClick={()=>{window.location.hash='overview'}}><Activity/>Overview</button><button onClick={()=>{window.location.hash='blocks'}}><Grape/>Block Status</button><button onClick={()=>{window.location.hash='planner'}}><CalendarDays/>Harvest Planner</button><button className="active"><Layers3/>Satellite Intelligence <i>NEW</i></button><button onClick={()=>{window.location.hash='forecasting'}}><CloudSun/>Brix Forecasting</button></nav><div className="aside-foot"><button><Settings/>Settings</button><div className="profile"><span>JM</span><div><b>Jordan Miller</b><small>Operations Manager</small></div></div></div></aside>
  <main><header><button className="hamb" onClick={()=>setMobile(!mobile)}><Menu/></button><div className="global-search"><Search/><input placeholder="Search vineyards, blocks, varieties…"/></div><div className="season"><span/> SENTINEL-2 LIVE <ChevronDown/></div></header><div className="content">
   <section className="topline"><div><p>SATELLITE INTELLIGENCE <span>•</span> LODI FARM</p><h1>FieldView Portfolio <em>/</em> {selectedField.properties.name}</h1><div className="block-meta"><b>Exact FieldView boundary</b><span>{(selectedField.properties.area_value*2.47105).toFixed(1)} acres</span><span>Field ID <code>{selectedField.properties.legacy_id}</code></span></div></div><button className="new-block" onClick={()=>setDraw(!draw)}><Plus/> {draw?'Finish boundary':'Draw new block'}</button></section>
   <div className="address"><Search/><input defaultValue="1525 East Jahant Rd, Acampo, CA 95220"/><button onClick={()=>notify('Map centered on East Jahant vineyard')}>Locate <Crosshair/></button></div>
