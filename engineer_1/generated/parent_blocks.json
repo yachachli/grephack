@@ -1,0 +1,1937 @@
+[
+  {
+    "active_2026": null,
+    "block_id": "block:98OK01CS",
+    "parent_code": "98OK01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 22.5606,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK02CS",
+    "parent_code": "98OK02CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 15.3967,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK03MA",
+    "parent_code": "98OK03MA",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 18.8524,
+    "variety_code": "MA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK04CS",
+    "parent_code": "98OK04CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 26.2287,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK05CS",
+    "parent_code": "98OK05CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 19.8929,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK06CS",
+    "parent_code": "98OK06CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 22.5282,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK07ME",
+    "parent_code": "98OK07ME",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 36.6787,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK08PS",
+    "parent_code": "98OK08PS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 23.8567,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK09CS",
+    "parent_code": "98OK09CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 38.478,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK10ZN",
+    "parent_code": "98OK10ZN",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 18.2648,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK11CF",
+    "parent_code": "98OK11CF",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 20.5068,
+    "variety_code": "CF"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ARDA01CS",
+    "parent_code": "ARDA01CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 36.3971,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BAPE01CH",
+    "parent_code": "BAPE01CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 41.4697,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BAVC01ZN",
+    "parent_code": "BAVC01ZN",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 16.5563,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BAVC02PR",
+    "parent_code": "BAVC02PR",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 11.5273,
+    "variety_code": "PR"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BEBU01ME",
+    "parent_code": "BEBU01ME",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 46.8141,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 14,
+    "total_acres": 87.5113,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BSHMOHCS",
+    "parent_code": "BSHMOHCS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 4.2215,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A01PV",
+    "parent_code": "CL3A01PV",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 88.558,
+    "variety_code": "PV"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A02SB",
+    "parent_code": "CL3A02SB",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 49.299,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A04PV",
+    "parent_code": "CL3A04PV",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 53.0866,
+    "variety_code": "PV"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A05ZN",
+    "parent_code": "CL3A05ZN",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 41.6975,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT01CS",
+    "parent_code": "CLAT01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 3,
+    "total_acres": 78.4758,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT02CH",
+    "parent_code": "CLAT02CH",
+    "region": "CLEMENTS",
+    "subblock_count": 2,
+    "total_acres": 165.5932,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT05CS",
+    "parent_code": "CLAT05CS",
+    "region": "CLEMENTS",
+    "subblock_count": 3,
+    "total_acres": 68.7195,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLBC00VD",
+    "parent_code": "CLBC00VD",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 6.8399,
+    "variety_code": "VD"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLBC01PG",
+    "parent_code": "CLBC01PG",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 38.7974,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLBC02CH",
+    "parent_code": "CLBC02CH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 59.5947,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLLA01ME",
+    "parent_code": "CLLA01ME",
+    "region": "CLEMENTS",
+    "subblock_count": 3,
+    "total_acres": 144.1968,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN01SY",
+    "parent_code": "CLMN01SY",
+    "region": "CLEMENTS",
+    "subblock_count": 3,
+    "total_acres": 118.9582,
+    "variety_code": "SY"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN02PV",
+    "parent_code": "CLMN02PV",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 14.635,
+    "variety_code": "PV"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN03PS",
+    "parent_code": "CLMN03PS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 4.8296,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN04PS",
+    "parent_code": "CLMN04PS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 11.9775,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN05PS",
+    "parent_code": "CLMN05PS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 15.9164,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMNOHPS",
+    "parent_code": "CLMNOHPS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 32.7235,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMO01BA",
+    "parent_code": "CLMO01BA",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 33.7342,
+    "variety_code": "BA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLNR01CS",
+    "parent_code": "CLNR01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 59.2782,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLOK01ME",
+    "parent_code": "CLOK01ME",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 100.0954,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLOK02CS",
+    "parent_code": "CLOK02CS",
+    "region": "CLEMENTS",
+    "subblock_count": 3,
+    "total_acres": 206.9838,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC01ME",
+    "parent_code": "CLPC01ME",
+    "region": "CLEMENTS",
+    "subblock_count": 3,
+    "total_acres": 75.7034,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC02BA",
+    "parent_code": "CLPC02BA",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 27.7636,
+    "variety_code": "BA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC03ME",
+    "parent_code": "CLPC03ME",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 42.9794,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC06PR",
+    "parent_code": "CLPC06PR",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 79.4831,
+    "variety_code": "PR"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC07CS",
+    "parent_code": "CLPC07CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 75.5419,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC4APR",
+    "parent_code": "CLPC4APR",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 57.2677,
+    "variety_code": "PR"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC4BCH",
+    "parent_code": "CLPC4BCH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 60.1226,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPT01CS",
+    "parent_code": "CLPT01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 82.5507,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR101ME",
+    "parent_code": "CLR101ME",
+    "region": "CLEMENTS",
+    "subblock_count": 3,
+    "total_acres": 132.3231,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR201MA",
+    "parent_code": "CLR201MA",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 32.3216,
+    "variety_code": "MA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR202CH",
+    "parent_code": "CLR202CH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 69.3216,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CO8802CH",
+    "parent_code": "CO8802CH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 31.6752,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBAI02SA",
+    "parent_code": "DBAI02SA",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 9.901,
+    "variety_code": "SA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBAI03ZN",
+    "parent_code": "DBAI03ZN",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 9.0563,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBAI04CS",
+    "parent_code": "DBAI04CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 9.1158,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBDA05CH",
+    "parent_code": "DBDA05CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 9.7379,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DFDA01CS",
+    "parent_code": "DFDA01CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 15.0305,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DFDA04ZN",
+    "parent_code": "DFDA04ZN",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 7.9407,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DFDA07ND",
+    "parent_code": "DFDA07ND",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 6.6498,
+    "variety_code": "ND"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DULA01CS",
+    "parent_code": "DULA01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 3.6672,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU02SB",
+    "parent_code": "DVDU02SB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 38.843,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU03SB",
+    "parent_code": "DVDU03SB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 46.8529,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU04SB",
+    "parent_code": "DVDU04SB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 33.405,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU05CH",
+    "parent_code": "DVDU05CH",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 42.04,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU06VI",
+    "parent_code": "DVDU06VI",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 5.055,
+    "variety_code": "VI"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU07MC",
+    "parent_code": "DVDU07MC",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 28.1725,
+    "variety_code": "MC"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU07MC-GR",
+    "parent_code": "DVDU07MC-GR",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "GR"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU07MC-OLD",
+    "parent_code": "DVDU07MC-OLD",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "LD"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU08PN",
+    "parent_code": "DVDU08PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 45.5707,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU1CSB",
+    "parent_code": "DVDU1CSB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 44.7851,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVMA01PN",
+    "parent_code": "DVMA01PN",
+    "region": "DELTA",
+    "subblock_count": 3,
+    "total_acres": 88.5268,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVMA02PG",
+    "parent_code": "DVMA02PG",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 103.7203,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA01TO",
+    "parent_code": "FDJA01TO",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 19.9604,
+    "variety_code": "TO"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA02TE",
+    "parent_code": "FDJA02TE",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 19.9883,
+    "variety_code": "TE"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA03MA",
+    "parent_code": "FDJA03MA",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 35.8311,
+    "variety_code": "MA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA04ME",
+    "parent_code": "FDJA04ME",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 43.0088,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA05ME",
+    "parent_code": "FDJA05ME",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 18.0938,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA06TA",
+    "parent_code": "FDJA06TA",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 8.0338,
+    "variety_code": "TA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY01PN",
+    "parent_code": "FFRY01PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 37.4904,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY02PN",
+    "parent_code": "FFRY02PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 14.9421,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY04CH",
+    "parent_code": "FFRY04CH",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 15.8074,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY05CH",
+    "parent_code": "FFRY05CH",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 24.6463,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY09PN",
+    "parent_code": "FFRY09PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 4.4196,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY10PN",
+    "parent_code": "FFRY10PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 9.41,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY15CB",
+    "parent_code": "FFRY15CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 40.2025,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY3BAL",
+    "parent_code": "FFRY3BAL",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 18.8228,
+    "variety_code": "AL"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY99PN",
+    "parent_code": "FFRY99PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 17.7409,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:GEWENOCH",
+    "parent_code": "GEWENOCH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 25.635,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:GZWESOCH",
+    "parent_code": "GZWESOCH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 26.717,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:HEBO01CS",
+    "parent_code": "HEBO01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 16.8955,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:HIHV04CS",
+    "parent_code": "HIHV04CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 44.2865,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:HIHV05PS",
+    "parent_code": "HIHV05PS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 56.5181,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:IWHM01CS",
+    "parent_code": "IWHM01CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 3.8232,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:JONR01CH",
+    "parent_code": "JONR01CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 37.4446,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:JONR02SB",
+    "parent_code": "JONR02SB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 6.8058,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:JONR03GV",
+    "parent_code": "JONR03GV",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 4.4725,
+    "variety_code": "GV"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:KBBR01ZN",
+    "parent_code": "KBBR01ZN",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 28.246,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:KBBR02TD",
+    "parent_code": "KBBR02TD",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 22.1317,
+    "variety_code": "TD"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR02CH",
+    "parent_code": "LAPR02CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 33.9349,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR03ME",
+    "parent_code": "LAPR03ME",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 33.7974,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR04PS",
+    "parent_code": "LAPR04PS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 43.4383,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR05CS",
+    "parent_code": "LAPR05CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 42.7506,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LASHI-CH",
+    "parent_code": "LASHI-CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LASHI-ZN",
+    "parent_code": "LASHI-ZN",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LEWIS-100",
+    "parent_code": "LEWIS-100",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LEWIS-18AC",
+    "parent_code": "LEWIS-18AC",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "AC"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LEWIS-4AC",
+    "parent_code": "LEWIS-4AC",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "AC"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF1001CS",
+    "parent_code": "LF1001CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 48.7621,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF1002PS",
+    "parent_code": "LF1002PS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 49.1078,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF3801CS",
+    "parent_code": "LF3801CS",
+    "region": "LODI",
+    "subblock_count": 3,
+    "total_acres": 93.6785,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8001TD",
+    "parent_code": "LF8001TD",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 24.6768,
+    "variety_code": "TD"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8002PV",
+    "parent_code": "LF8002PV",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 25.8232,
+    "variety_code": "PV"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8003PS",
+    "parent_code": "LF8003PS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 7.119,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8004CH",
+    "parent_code": "LF8004CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 18.381,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBE01CS",
+    "parent_code": "LFBE01CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 57.7204,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBE02VI",
+    "parent_code": "LFBE02VI",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 37.635,
+    "variety_code": "VI"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBT01CH",
+    "parent_code": "LFBT01CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 37.5936,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBT02SB",
+    "parent_code": "LFBT02SB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 37.4697,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFDA02PG",
+    "parent_code": "LFDA02PG",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 9.7015,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFDA03CH",
+    "parent_code": "LFDA03CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 18.2331,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX01SA",
+    "parent_code": "LFEX01SA",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 16.7273,
+    "variety_code": "SA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX02SY",
+    "parent_code": "LFEX02SY",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 19.4116,
+    "variety_code": "SY"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX03VI",
+    "parent_code": "LFEX03VI",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 16.1603,
+    "variety_code": "VI"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX04VI",
+    "parent_code": "LFEX04VI",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 11.7288,
+    "variety_code": "VI"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFGC01CS",
+    "parent_code": "LFGC01CS",
+    "region": "LODI",
+    "subblock_count": 3,
+    "total_acres": 163.6667,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRA01CS",
+    "parent_code": "LFRA01CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 34.7034,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRA02CF",
+    "parent_code": "LFRA02CF",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 14.7741,
+    "variety_code": "CF"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR01PV",
+    "parent_code": "LFRR01PV",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 6.1597,
+    "variety_code": "PV"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR02CS",
+    "parent_code": "LFRR02CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 11.1488,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR03CS",
+    "parent_code": "LFRR03CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 28.8538,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR04CS",
+    "parent_code": "LFRR04CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 8.3569,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR05MP",
+    "parent_code": "LFRR05MP",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 4.5355,
+    "variety_code": "MP"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR06AG",
+    "parent_code": "LFRR06AG",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 6.5973,
+    "variety_code": "AG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR07PB",
+    "parent_code": "LFRR07PB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 4.9841,
+    "variety_code": "PB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR08GB",
+    "parent_code": "LFRR08GB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 4.6208,
+    "variety_code": "GB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRT01ND",
+    "parent_code": "LFRT01ND",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 3.2127,
+    "variety_code": "ND"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRT02PR",
+    "parent_code": "LFRT02PR",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 27.178,
+    "variety_code": "PR"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRT03AN",
+    "parent_code": "LFRT03AN",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 0.2822,
+    "variety_code": "AN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFTO01CS",
+    "parent_code": "LFTO01CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 57.2273,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFTO02SB",
+    "parent_code": "LFTO02SB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 56.0225,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW104CS",
+    "parent_code": "LFW104CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 54.2479,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW202TD",
+    "parent_code": "LFW202TD",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 31.9934,
+    "variety_code": "TD"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW301CS",
+    "parent_code": "LFW301CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 39.8825,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW302SB",
+    "parent_code": "LFW302SB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 49.0723,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MEJA03CS",
+    "parent_code": "MEJA03CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 30.5813,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFLO01PG",
+    "parent_code": "MFLO01PG",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 41.7632,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFLO02TE",
+    "parent_code": "MFLO02TE",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 21.9422,
+    "variety_code": "TE"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN00PN",
+    "parent_code": "MFRN00PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 4.596,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN01PN",
+    "parent_code": "MFRN01PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 33.9294,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN02PN",
+    "parent_code": "MFRN02PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 45.3656,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN03PG",
+    "parent_code": "MFRN03PG",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 44.7435,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ01CH",
+    "parent_code": "MJMJ01CH",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 28.4469,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ02PG",
+    "parent_code": "MJMJ02PG",
+    "region": "DELTA",
+    "subblock_count": 2,
+    "total_acres": 65.9841,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ03CB",
+    "parent_code": "MJMJ03CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 19.4132,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ04CB",
+    "parent_code": "MJMJ04CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 36.7782,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MKJA04CS",
+    "parent_code": "MKJA04CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 35.6543,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MRPR01CS",
+    "parent_code": "MRPR01CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 34.6612,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MUMU01SB",
+    "parent_code": "MUMU01SB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 21.1752,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MUMU02PG",
+    "parent_code": "MUMU02PG",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 20.7651,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI01CS",
+    "parent_code": "ONMI01CS",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 35.8625,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI02CS",
+    "parent_code": "ONMI02CS",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 41.1177,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI05CS",
+    "parent_code": "ONMI05CS",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 32.6332,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI06CS",
+    "parent_code": "ONMI06CS",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 30.4461,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI07ME",
+    "parent_code": "ONMI07ME",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 38.2999,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI08ME",
+    "parent_code": "ONMI08ME",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 37.9901,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI09CH",
+    "parent_code": "ONMI09CH",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 37.4349,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI3ACS",
+    "parent_code": "ONMI3ACS",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 8.7138,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POCR03CS",
+    "parent_code": "POCR03CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 59.4361,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POCR03CS-E",
+    "parent_code": "POCR03CS-E",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 40.8781,
+    "variety_code": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POCR03CS-W",
+    "parent_code": "POCR03CS-W",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 18.558,
+    "variety_code": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POHM01PV",
+    "parent_code": "POHM01PV",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 14.6178,
+    "variety_code": "PV"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPBR03CH",
+    "parent_code": "PPBR03CH",
+    "region": "CLEMENTS",
+    "subblock_count": 4,
+    "total_acres": 81.9807,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPCR01ME",
+    "parent_code": "PPCR01ME",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 33.2012,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPCR02CH",
+    "parent_code": "PPCR02CH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 32.7885,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ01CH",
+    "parent_code": "PRHZ01CH",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 12.2527,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ02PN",
+    "parent_code": "PRHZ02PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 7.0463,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ03PN",
+    "parent_code": "PRHZ03PN",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 7.0564,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ05CB",
+    "parent_code": "PRHZ05CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 33.3789,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ06CB",
+    "parent_code": "PRHZ06CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 8.3006,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ08CB",
+    "parent_code": "PRHZ08CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 4.8613,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ11CB",
+    "parent_code": "PRHZ11CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 21.3621,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ14CB",
+    "parent_code": "PRHZ14CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 2.9606,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ15CB",
+    "parent_code": "PRHZ15CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 22.45,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ16CB",
+    "parent_code": "PRHZ16CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 6.2848,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ17CB",
+    "parent_code": "PRHZ17CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 7.0751,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ18PS",
+    "parent_code": "PRHZ18PS",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 9.2894,
+    "variety_code": "PS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ21CH",
+    "parent_code": "PRHZ21CH",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 9.5311,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ22CB",
+    "parent_code": "PRHZ22CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 3.9711,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ7ASB",
+    "parent_code": "PRHZ7ASB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 10.1965,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ7BSB",
+    "parent_code": "PRHZ7BSB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 3.8076,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ99CB",
+    "parent_code": "PRHZ99CB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 0.8015,
+    "variety_code": "CB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ99MA",
+    "parent_code": "PRHZ99MA",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 8.6803,
+    "variety_code": "MA"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ99SB",
+    "parent_code": "PRHZ99SB",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 1.9333,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RING01CS",
+    "parent_code": "RING01CS",
+    "region": "LODI",
+    "subblock_count": 3,
+    "total_acres": 125.2315,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR101CH",
+    "parent_code": "RSR101CH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 26.2989,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR102CS",
+    "parent_code": "RSR102CS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 3.7298,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR103CH",
+    "parent_code": "RSR103CH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 8.735,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR203CH",
+    "parent_code": "RSR203CH",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 23.2115,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SEJA01CS",
+    "parent_code": "SEJA01CS",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 18.1212,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SERA01PN",
+    "parent_code": "SERA01PN",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 18.2214,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM01TD",
+    "parent_code": "SLHM01TD",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 19.2441,
+    "variety_code": "TD"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM02VI",
+    "parent_code": "SLHM02VI",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 19.0512,
+    "variety_code": "VI"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM03CH",
+    "parent_code": "SLHM03CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 18.9339,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM04SB",
+    "parent_code": "SLHM04SB",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 35.2154,
+    "variety_code": "SB"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM05PN",
+    "parent_code": "SLHM05PN",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 23.1201,
+    "variety_code": "PN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM06ZN",
+    "parent_code": "SLHM06ZN",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 4.4855,
+    "variety_code": "ZN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM08PR",
+    "parent_code": "SLHM08PR",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 7.1491,
+    "variety_code": "PR"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SMSM01ME",
+    "parent_code": "SMSM01ME",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 22.6344,
+    "variety_code": "ME"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:STARR-HARNEY",
+    "parent_code": "STARR-HARNEY",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "EY"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:STARR-ZIN",
+    "parent_code": "STARR-ZIN",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 0,
+    "variety_code": "IN"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:VKDD01CH",
+    "parent_code": "VKDD01CH",
+    "region": "LODI",
+    "subblock_count": 1,
+    "total_acres": 25.8926,
+    "variety_code": "CH"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:WHWH01GE",
+    "parent_code": "WHWH01GE",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 37.9899,
+    "variety_code": "GE"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:WHWH02PG",
+    "parent_code": "WHWH02PG",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 34.5876,
+    "variety_code": "PG"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:WHWH03AL",
+    "parent_code": "WHWH03AL",
+    "region": "DELTA",
+    "subblock_count": 1,
+    "total_acres": 29.9117,
+    "variety_code": "AL"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ZLLAOHCS",
+    "parent_code": "ZLLAOHCS",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 39.7685,
+    "variety_code": "CS"
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ZLSO01PN",
+    "parent_code": "ZLSO01PN",
+    "region": "CLEMENTS",
+    "subblock_count": 1,
+    "total_acres": 82.3923,
+    "variety_code": "PN"
+  }
+]

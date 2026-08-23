@@ -1,0 +1,3312 @@
+[
+  {
+    "acres": 22.56,
+    "apiReady": true,
+    "blockName": "98OK01CS",
+    "blockers": [],
+    "estimatedTons": 177.814,
+    "externalId": "98OK01CS",
+    "harvestWindowEnd": "2026-08-26",
+    "harvestWindowStart": "2026-08-26",
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "99 Oaks B1 CS"
+  },
+  {
+    "acres": 15.4,
+    "apiReady": false,
+    "blockName": "98OK02CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 131.19,
+    "externalId": "98OK02CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "99 Oaks B2 CS"
+  },
+  {
+    "acres": 18.85,
+    "apiReady": false,
+    "blockName": "98OK03MA",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 130.27,
+    "externalId": "98OK03MA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "MA",
+    "vineyardName": "99 Oaks B3 MA"
+  },
+  {
+    "acres": 26.23,
+    "apiReady": false,
+    "blockName": "98OK04CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 187.187,
+    "externalId": "98OK04CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "98OK04CS"
+  },
+  {
+    "acres": 19.89,
+    "apiReady": false,
+    "blockName": "98OK05CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 130.777,
+    "externalId": "98OK05CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "98OK05CS"
+  },
+  {
+    "acres": 22.53,
+    "apiReady": false,
+    "blockName": "98OK06CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 164.598,
+    "externalId": "98OK06CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "99 Oaks B6 CS"
+  },
+  {
+    "acres": 36.68,
+    "apiReady": false,
+    "blockName": "98OK07ME",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 212.938,
+    "externalId": "98OK07ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "99 Oaks B7 ME row 1-80"
+  },
+  {
+    "acres": 23.86,
+    "apiReady": false,
+    "blockName": "98OK08PS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 169.955,
+    "externalId": "98OK08PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PS",
+    "vineyardName": "99 Oaks B8 PS"
+  },
+  {
+    "acres": 38.48,
+    "apiReady": false,
+    "blockName": "98OK09CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 371.629,
+    "externalId": "98OK09CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "99 Oaks B9 CS"
+  },
+  {
+    "acres": 18.26,
+    "apiReady": true,
+    "blockName": "98OK10ZN",
+    "blockers": [],
+    "estimatedTons": 131.384,
+    "externalId": "98OK10ZN",
+    "harvestWindowEnd": "2026-08-28",
+    "harvestWindowStart": "2026-08-28",
+    "region": "CLEMENTS",
+    "variety": "ZN",
+    "vineyardName": "99 Oaks B10 ZN"
+  },
+  {
+    "acres": 20.51,
+    "apiReady": false,
+    "blockName": "98OK11CF",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 166.647,
+    "externalId": "98OK11CF",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CF",
+    "vineyardName": "98OK11CF"
+  },
+  {
+    "acres": 36.4,
+    "apiReady": false,
+    "blockName": "ARDA01CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 262.801,
+    "externalId": "ARDA01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "A&R Davis B1 CS - East"
+  },
+  {
+    "acres": 41.47,
+    "apiReady": false,
+    "blockName": "BAPE01CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 313.113,
+    "externalId": "BAPE01CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "Baum Peltier B1 CH"
+  },
+  {
+    "acres": 16.56,
+    "apiReady": false,
+    "blockName": "BAVC01ZN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 149.39,
+    "externalId": "BAVC01ZN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ZN",
+    "vineyardName": "Baum Victor BLK 1"
+  },
+  {
+    "acres": 11.53,
+    "apiReady": false,
+    "blockName": "BAVC02PR",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 70.768,
+    "externalId": "BAVC02PR",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PR",
+    "vineyardName": "Baum Victor BLK 2"
+  },
+  {
+    "acres": 46.81,
+    "apiReady": false,
+    "blockName": "BEBU01ME",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 342.325,
+    "externalId": "BEBU01ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ME",
+    "vineyardName": "Bender Burlington ME"
+  },
+  {
+    "acres": 87.51,
+    "apiReady": false,
+    "blockName": "BHCH01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "BHCH01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "Birmingham Clements Hills CS -B11,12,13 (highlands)"
+  },
+  {
+    "acres": 4.22,
+    "apiReady": false,
+    "blockName": "BSHMOHCS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "BSHMOHCS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "BSHMOHCS"
+  },
+  {
+    "acres": 88.56,
+    "apiReady": false,
+    "blockName": "CL3A01PV",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CL3A01PV",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PV",
+    "vineyardName": "CL3A01PV"
+  },
+  {
+    "acres": 49.3,
+    "apiReady": false,
+    "blockName": "CL3A02SB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CL3A02SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "SB",
+    "vineyardName": "Clements AAA"
+  },
+  {
+    "acres": 53.09,
+    "apiReady": false,
+    "blockName": "CL3A04PV",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CL3A04PV",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PV",
+    "vineyardName": "CL3A04PV"
+  },
+  {
+    "acres": 41.7,
+    "apiReady": false,
+    "blockName": "CL3A05ZN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CL3A05ZN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ZN",
+    "vineyardName": "CL3A05ZN"
+  },
+  {
+    "acres": 78.48,
+    "apiReady": false,
+    "blockName": "CLAT01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLAT01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "CLAT01CS"
+  },
+  {
+    "acres": 165.59,
+    "apiReady": false,
+    "blockName": "CLAT02CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLAT02CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "CLAT02CH"
+  },
+  {
+    "acres": 68.72,
+    "apiReady": false,
+    "blockName": "CLAT05CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLAT05CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "CLAT05CS"
+  },
+  {
+    "acres": 6.84,
+    "apiReady": false,
+    "blockName": "CLBC00VD",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLBC00VD",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "VD",
+    "vineyardName": "CLBC00VD"
+  },
+  {
+    "acres": 38.8,
+    "apiReady": false,
+    "blockName": "CLBC01PG",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 293.622,
+    "externalId": "CLBC01PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PG",
+    "vineyardName": "Clements Bear Creek B1 PG"
+  },
+  {
+    "acres": 59.59,
+    "apiReady": true,
+    "blockName": "CLBC02CH",
+    "blockers": [],
+    "estimatedTons": 387.571,
+    "externalId": "CLBC02CH",
+    "harvestWindowEnd": "2026-08-23",
+    "harvestWindowStart": "2026-08-23",
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "Clements Bear Creek B2 CH"
+  },
+  {
+    "acres": 144.2,
+    "apiReady": true,
+    "blockName": "CLLA01ME",
+    "blockers": [],
+    "estimatedTons": 584.278,
+    "externalId": "CLLA01ME",
+    "harvestWindowEnd": "2026-08-28",
+    "harvestWindowStart": "2026-08-28",
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "Clements Lane ME"
+  },
+  {
+    "acres": 118.96,
+    "apiReady": false,
+    "blockName": "CLMN01SY",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLMN01SY",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "SY",
+    "vineyardName": "Clements Moren B1 - East"
+  },
+  {
+    "acres": 14.63,
+    "apiReady": false,
+    "blockName": "CLMN02PV",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLMN02PV",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PV",
+    "vineyardName": "CLMN02PV"
+  },
+  {
+    "acres": 4.83,
+    "apiReady": false,
+    "blockName": "CLMN03PS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 35.198,
+    "externalId": "CLMN03PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PS",
+    "vineyardName": "CLMN03PS"
+  },
+  {
+    "acres": 11.98,
+    "apiReady": false,
+    "blockName": "CLMN04PS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 73.273,
+    "externalId": "CLMN04PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PS",
+    "vineyardName": "Clements Moren BLK 4 (South)"
+  },
+  {
+    "acres": 15.92,
+    "apiReady": false,
+    "blockName": "CLMN05PS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLMN05PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PS",
+    "vineyardName": "Clements Moren BLK 5 (North)"
+  },
+  {
+    "acres": 32.72,
+    "apiReady": false,
+    "blockName": "CLMNOHPS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLMNOHPS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PS",
+    "vineyardName": "CLMNOHPS"
+  },
+  {
+    "acres": 33.73,
+    "apiReady": false,
+    "blockName": "CLMO01BA",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 191.825,
+    "externalId": "CLMO01BA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "BA",
+    "vineyardName": "Clements Mohr B1 BA"
+  },
+  {
+    "acres": 59.28,
+    "apiReady": false,
+    "blockName": "CLNR01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLNR01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "Clements Norgaard BLK 1"
+  },
+  {
+    "acres": 100.1,
+    "apiReady": false,
+    "blockName": "CLOK01ME",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLOK01ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "CLOK01ME"
+  },
+  {
+    "acres": 206.98,
+    "apiReady": false,
+    "blockName": "CLOK02CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLOK02CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "Clements 3 Oaks 2 NORTH"
+  },
+  {
+    "acres": 75.7,
+    "apiReady": false,
+    "blockName": "CLPC01ME",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLPC01ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "CLPC01ME"
+  },
+  {
+    "acres": 27.76,
+    "apiReady": false,
+    "blockName": "CLPC02BA",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 262.75,
+    "externalId": "CLPC02BA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "BA",
+    "vineyardName": "Clements Paddy Creek B2 BA"
+  },
+  {
+    "acres": 42.98,
+    "apiReady": false,
+    "blockName": "CLPC03ME",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLPC03ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "CLPC03ME"
+  },
+  {
+    "acres": 79.48,
+    "apiReady": false,
+    "blockName": "CLPC06PR",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLPC06PR",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PR",
+    "vineyardName": "CLPC06PR"
+  },
+  {
+    "acres": 75.54,
+    "apiReady": false,
+    "blockName": "CLPC07CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLPC07CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "Clements Paddy Creek BLK 7 - N"
+  },
+  {
+    "acres": 57.27,
+    "apiReady": false,
+    "blockName": "CLPC4APR",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 320.99,
+    "externalId": "CLPC4APR",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PR",
+    "vineyardName": "Clements Paddy Creek BLK 4A"
+  },
+  {
+    "acres": 60.12,
+    "apiReady": true,
+    "blockName": "CLPC4BCH",
+    "blockers": [],
+    "estimatedTons": 642.234,
+    "externalId": "CLPC4BCH",
+    "harvestWindowEnd": "2026-08-28",
+    "harvestWindowStart": "2026-08-26",
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "Clements Paddy Creek B4B CH"
+  },
+  {
+    "acres": 82.55,
+    "apiReady": false,
+    "blockName": "CLPT01CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 752.521,
+    "externalId": "CLPT01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "Clements Peters (North)"
+  },
+  {
+    "acres": 132.32,
+    "apiReady": false,
+    "blockName": "CLR101ME",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLR101ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "CLR101ME"
+  },
+  {
+    "acres": 32.32,
+    "apiReady": true,
+    "blockName": "CLR201MA",
+    "blockers": [],
+    "estimatedTons": 254.629,
+    "externalId": "CLR201MA",
+    "harvestWindowEnd": "2026-08-26",
+    "harvestWindowStart": "2026-08-26",
+    "region": "CLEMENTS",
+    "variety": "MA",
+    "vineyardName": "Clements Rose II B1 MA"
+  },
+  {
+    "acres": 69.32,
+    "apiReady": false,
+    "blockName": "CLR202CH",
+    "blockers": [
+      "missing_selected_crop_estimate"
+    ],
+    "estimatedTons": null,
+    "externalId": "CLR202CH",
+    "harvestWindowEnd": "2026-08-23",
+    "harvestWindowStart": "2026-08-23",
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "Clements Rose 2 B2 CH"
+  },
+  {
+    "acres": 31.68,
+    "apiReady": false,
+    "blockName": "CO8802CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "CO8802CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "CO8802CH"
+  },
+  {
+    "acres": 9.9,
+    "apiReady": false,
+    "blockName": "DBAI02SA",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 120.783,
+    "externalId": "DBAI02SA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SA",
+    "vineyardName": "Donald, Brian Airport B2 SG"
+  },
+  {
+    "acres": 9.06,
+    "apiReady": false,
+    "blockName": "DBAI03ZN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 69.704,
+    "externalId": "DBAI03ZN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ZN",
+    "vineyardName": "Donald, Brian Airport BLK 3"
+  },
+  {
+    "acres": 9.12,
+    "apiReady": false,
+    "blockName": "DBAI04CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DBAI04CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "DBAI04CS"
+  },
+  {
+    "acres": 9.74,
+    "apiReady": false,
+    "blockName": "DBDA05CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 45.83,
+    "externalId": "DBDA05CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "Doddington B1 CH"
+  },
+  {
+    "acres": 15.03,
+    "apiReady": false,
+    "blockName": "DFDA01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DFDA01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "DFDA01CS"
+  },
+  {
+    "acres": 7.94,
+    "apiReady": false,
+    "blockName": "DFDA04ZN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 63.2,
+    "externalId": "DFDA04ZN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ZN",
+    "vineyardName": "Donald, Fred Davis BLK 4"
+  },
+  {
+    "acres": 6.65,
+    "apiReady": false,
+    "blockName": "DFDA07ND",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 38.598,
+    "externalId": "DFDA07ND",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ND",
+    "vineyardName": "Donald David Fred B7 ND"
+  },
+  {
+    "acres": 3.67,
+    "apiReady": false,
+    "blockName": "DULA01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DULA01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "DULA01CS"
+  },
+  {
+    "acres": 38.84,
+    "apiReady": false,
+    "blockName": "DVDU02SB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU02SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "SB",
+    "vineyardName": "Diablo Dutra - BLK 2"
+  },
+  {
+    "acres": 46.85,
+    "apiReady": false,
+    "blockName": "DVDU03SB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU03SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "SB",
+    "vineyardName": "DVDU03SB"
+  },
+  {
+    "acres": 33.41,
+    "apiReady": false,
+    "blockName": "DVDU04SB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU04SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "SB",
+    "vineyardName": "DVDU04SB"
+  },
+  {
+    "acres": 42.04,
+    "apiReady": false,
+    "blockName": "DVDU05CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 252.472,
+    "externalId": "DVDU05CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CH",
+    "vineyardName": "Dutra B5 CH"
+  },
+  {
+    "acres": 5.05,
+    "apiReady": false,
+    "blockName": "DVDU06VI",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU06VI",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "VI",
+    "vineyardName": "DVDU06VI"
+  },
+  {
+    "acres": 28.17,
+    "apiReady": false,
+    "blockName": "DVDU07MC",
+    "blockers": [
+      "multiple_crop_segments_require_rollup_review",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU07MC",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "MC",
+    "vineyardName": "Diablo Dutra B7 (Old R1-48) MU"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "DVDU07MC-GR",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU07MC-GR",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "GR",
+    "vineyardName": "DVDU07MC-GR"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "DVDU07MC-OLD",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU07MC-OLD",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "LD",
+    "vineyardName": "DVDU07MC-OLD"
+  },
+  {
+    "acres": 45.57,
+    "apiReady": false,
+    "blockName": "DVDU08PN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU08PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "DVDU08PN"
+  },
+  {
+    "acres": 44.79,
+    "apiReady": false,
+    "blockName": "DVDU1CSB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVDU1CSB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "SB",
+    "vineyardName": "DVDU1CSB"
+  },
+  {
+    "acres": 88.53,
+    "apiReady": false,
+    "blockName": "DVMA01PN",
+    "blockers": [
+      "multiple_crop_segments_require_rollup_review",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "DVMA01PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "DVMA01PN"
+  },
+  {
+    "acres": 103.72,
+    "apiReady": false,
+    "blockName": "DVMA02PG",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 787.956,
+    "externalId": "DVMA02PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PG",
+    "vineyardName": "Diablo Maria B2 PG (West)"
+  },
+  {
+    "acres": 19.96,
+    "apiReady": false,
+    "blockName": "FDJA01TO",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 157.158,
+    "externalId": "FDJA01TO",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "TO",
+    "vineyardName": "Ford - BLK 1"
+  },
+  {
+    "acres": 19.99,
+    "apiReady": false,
+    "blockName": "FDJA02TE",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 158.291,
+    "externalId": "FDJA02TE",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "TE",
+    "vineyardName": "Ford B2 TM"
+  },
+  {
+    "acres": 35.83,
+    "apiReady": false,
+    "blockName": "FDJA03MA",
+    "blockers": [
+      "multiple_crop_segments_require_rollup_review",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FDJA03MA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "MA",
+    "vineyardName": "Ford - B3 MA (North)"
+  },
+  {
+    "acres": 43.01,
+    "apiReady": false,
+    "blockName": "FDJA04ME",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FDJA04ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ME",
+    "vineyardName": "Ford - B4 ME"
+  },
+  {
+    "acres": 18.09,
+    "apiReady": false,
+    "blockName": "FDJA05ME",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FDJA05ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ME",
+    "vineyardName": "Fritz ME"
+  },
+  {
+    "acres": 8.03,
+    "apiReady": false,
+    "blockName": "FDJA06TA",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FDJA06TA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "TA",
+    "vineyardName": "FDJA06TA"
+  },
+  {
+    "acres": 37.49,
+    "apiReady": false,
+    "blockName": "FFRY01PN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 413.175,
+    "externalId": "FFRY01PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "Foley BLK 1"
+  },
+  {
+    "acres": 14.94,
+    "apiReady": false,
+    "blockName": "FFRY02PN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FFRY02PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "FFRY02PN"
+  },
+  {
+    "acres": 15.81,
+    "apiReady": false,
+    "blockName": "FFRY04CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 133.251,
+    "externalId": "FFRY04CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CH",
+    "vineyardName": "Foley B4 CH"
+  },
+  {
+    "acres": 24.65,
+    "apiReady": false,
+    "blockName": "FFRY05CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 261.836,
+    "externalId": "FFRY05CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CH",
+    "vineyardName": "Foley B5 CH"
+  },
+  {
+    "acres": 4.42,
+    "apiReady": false,
+    "blockName": "FFRY09PN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 43.132,
+    "externalId": "FFRY09PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "FFRY09PN"
+  },
+  {
+    "acres": 9.41,
+    "apiReady": false,
+    "blockName": "FFRY10PN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FFRY10PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "FFRY10PN"
+  },
+  {
+    "acres": 40.2,
+    "apiReady": false,
+    "blockName": "FFRY15CB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FFRY15CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "FFRY15CB"
+  },
+  {
+    "acres": 18.82,
+    "apiReady": false,
+    "blockName": "FFRY3BAL",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FFRY3BAL",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "AL",
+    "vineyardName": "FFRY3BAL"
+  },
+  {
+    "acres": 17.74,
+    "apiReady": false,
+    "blockName": "FFRY99PN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "FFRY99PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "FFRY99PN"
+  },
+  {
+    "acres": 25.64,
+    "apiReady": false,
+    "blockName": "GEWENOCH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "GEWENOCH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "GEWENOCH"
+  },
+  {
+    "acres": 26.72,
+    "apiReady": false,
+    "blockName": "GZWESOCH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "GZWESOCH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "GZWESOCH"
+  },
+  {
+    "acres": 16.9,
+    "apiReady": false,
+    "blockName": "HEBO01CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 191.432,
+    "externalId": "HEBO01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "Henretty"
+  },
+  {
+    "acres": 44.29,
+    "apiReady": false,
+    "blockName": "HIHV04CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 324.746,
+    "externalId": "HIHV04CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "HIHV04CS"
+  },
+  {
+    "acres": 56.52,
+    "apiReady": false,
+    "blockName": "HIHV05PS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 409.788,
+    "externalId": "HIHV05PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PS",
+    "vineyardName": "HIHV05PS"
+  },
+  {
+    "acres": 3.82,
+    "apiReady": false,
+    "blockName": "IWHM01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "IWHM01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "IWHM01CS"
+  },
+  {
+    "acres": 37.44,
+    "apiReady": false,
+    "blockName": "JONR01CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "JONR01CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "North River B1 CH"
+  },
+  {
+    "acres": 6.81,
+    "apiReady": false,
+    "blockName": "JONR02SB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 75.35,
+    "externalId": "JONR02SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SB",
+    "vineyardName": "North River B2 SB"
+  },
+  {
+    "acres": 4.47,
+    "apiReady": false,
+    "blockName": "JONR03GV",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 30.709,
+    "externalId": "JONR03GV",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "GV",
+    "vineyardName": "North River B3 GV (Row 1-34)"
+  },
+  {
+    "acres": 28.25,
+    "apiReady": false,
+    "blockName": "KBBR01ZN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 263.145,
+    "externalId": "KBBR01ZN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ZN",
+    "vineyardName": "Bohn Ridge BLK 1"
+  },
+  {
+    "acres": 22.13,
+    "apiReady": false,
+    "blockName": "KBBR02TD",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 227.356,
+    "externalId": "KBBR02TD",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "TD",
+    "vineyardName": "Bohn Ridge - BLK 2 TE"
+  },
+  {
+    "acres": 33.93,
+    "apiReady": false,
+    "blockName": "LAPR02CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 255.125,
+    "externalId": "LAPR02CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "La Prima B2 CH"
+  },
+  {
+    "acres": 33.8,
+    "apiReady": false,
+    "blockName": "LAPR03ME",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 207.634,
+    "externalId": "LAPR03ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ME",
+    "vineyardName": "Martel ME"
+  },
+  {
+    "acres": 43.44,
+    "apiReady": false,
+    "blockName": "LAPR04PS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 302.33,
+    "externalId": "LAPR04PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PS",
+    "vineyardName": "LaPrima - BLK 4"
+  },
+  {
+    "acres": 42.75,
+    "apiReady": false,
+    "blockName": "LAPR05CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 350.655,
+    "externalId": "LAPR05CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LAPR05CS"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "LASHI-CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LASHI-CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "LASHI-CH"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "LASHI-ZN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LASHI-ZN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ZN",
+    "vineyardName": "Lashi Mark Shimozaki (spray 8/5 no harvest for 2 weeks)"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "LEWIS-100",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LEWIS-100",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "UNKNOWN",
+    "vineyardName": "LEWIS-100"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "LEWIS-18AC",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LEWIS-18AC",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "AC",
+    "vineyardName": "LEWIS-18AC"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "LEWIS-4AC",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LEWIS-4AC",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "AC",
+    "vineyardName": "LEWIS-4AC"
+  },
+  {
+    "acres": 48.76,
+    "apiReady": false,
+    "blockName": "LF1001CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 466.897,
+    "externalId": "LF1001CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LF 100 PS"
+  },
+  {
+    "acres": 49.11,
+    "apiReady": false,
+    "blockName": "LF1002PS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 348.381,
+    "externalId": "LF1002PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PS",
+    "vineyardName": "LF1002PS"
+  },
+  {
+    "acres": 93.68,
+    "apiReady": false,
+    "blockName": "LF3801CS",
+    "blockers": [
+      "multiple_crop_segments_require_rollup_review",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LF3801CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LF 38 - N of pump"
+  },
+  {
+    "acres": 24.68,
+    "apiReady": false,
+    "blockName": "LF8001TD",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 233.458,
+    "externalId": "LF8001TD",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "TD",
+    "vineyardName": "LF 80 BLK 1 TE"
+  },
+  {
+    "acres": 25.82,
+    "apiReady": false,
+    "blockName": "LF8002PV",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LF8002PV",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PV",
+    "vineyardName": "LF8002PV"
+  },
+  {
+    "acres": 7.12,
+    "apiReady": false,
+    "blockName": "LF8003PS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LF8003PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PS",
+    "vineyardName": "LF8003PS"
+  },
+  {
+    "acres": 18.38,
+    "apiReady": false,
+    "blockName": "LF8004CH",
+    "blockers": [
+      "multiple_crop_segments_require_rollup_review",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LF8004CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "LF 80 B4 Clone 70 (Rows 1-23)"
+  },
+  {
+    "acres": 57.72,
+    "apiReady": false,
+    "blockName": "LFBE01CS",
+    "blockers": [
+      "multiple_crop_segments_require_rollup_review",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFBE01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LF Bender B1 CS - Clone 35 (R1-72) NORTH"
+  },
+  {
+    "acres": 37.63,
+    "apiReady": false,
+    "blockName": "LFBE02VI",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 215.823,
+    "externalId": "LFBE02VI",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "VI",
+    "vineyardName": "LF Bender/ Genes B2 VG"
+  },
+  {
+    "acres": 37.59,
+    "apiReady": false,
+    "blockName": "LFBT01CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 285.579,
+    "externalId": "LFBT01CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "LF Blacktail CH"
+  },
+  {
+    "acres": 37.47,
+    "apiReady": false,
+    "blockName": "LFBT02SB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 334.728,
+    "externalId": "LFBT02SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SB",
+    "vineyardName": "LF Blacktail SB"
+  },
+  {
+    "acres": 9.7,
+    "apiReady": false,
+    "blockName": "LFDA02PG",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 61.739,
+    "externalId": "LFDA02PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PG",
+    "vineyardName": "LF Davis B2 PG"
+  },
+  {
+    "acres": 18.23,
+    "apiReady": false,
+    "blockName": "LFDA03CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFDA03CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "LFDA03CH"
+  },
+  {
+    "acres": 16.73,
+    "apiReady": false,
+    "blockName": "LFEX01SA",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 90.392,
+    "externalId": "LFEX01SA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SA",
+    "vineyardName": "LF Exotics B1 SG - North"
+  },
+  {
+    "acres": 19.41,
+    "apiReady": false,
+    "blockName": "LFEX02SY",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFEX02SY",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SY",
+    "vineyardName": "LF Exotics B2 SY"
+  },
+  {
+    "acres": 16.16,
+    "apiReady": false,
+    "blockName": "LFEX03VI",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 72.206,
+    "externalId": "LFEX03VI",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "VI",
+    "vineyardName": "LF Exotics B3 VG (North)"
+  },
+  {
+    "acres": 11.73,
+    "apiReady": false,
+    "blockName": "LFEX04VI",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 81.92,
+    "externalId": "LFEX04VI",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "VI",
+    "vineyardName": "LF Exotics B4 VG (South)"
+  },
+  {
+    "acres": 163.67,
+    "apiReady": false,
+    "blockName": "LFGC01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFGC01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LFGC01CS"
+  },
+  {
+    "acres": 34.7,
+    "apiReady": false,
+    "blockName": "LFRA01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFRA01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LFRA01CS"
+  },
+  {
+    "acres": 14.77,
+    "apiReady": false,
+    "blockName": "LFRA02CF",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 149.821,
+    "externalId": "LFRA02CF",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CF",
+    "vineyardName": "LF Railroad B2 CF"
+  },
+  {
+    "acres": 6.16,
+    "apiReady": false,
+    "blockName": "LFRR01PV",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFRR01PV",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PV",
+    "vineyardName": "LFRR01PV"
+  },
+  {
+    "acres": 11.15,
+    "apiReady": false,
+    "blockName": "LFRR02CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 92.946,
+    "externalId": "LFRR02CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LF River BLK 3"
+  },
+  {
+    "acres": 28.85,
+    "apiReady": false,
+    "blockName": "LFRR03CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 236.995,
+    "externalId": "LFRR03CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LFRR03CS"
+  },
+  {
+    "acres": 8.36,
+    "apiReady": false,
+    "blockName": "LFRR04CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 69.322,
+    "externalId": "LFRR04CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LFRR04CS"
+  },
+  {
+    "acres": 4.54,
+    "apiReady": false,
+    "blockName": "LFRR05MP",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 32.241,
+    "externalId": "LFRR05MP",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "MP",
+    "vineyardName": "LFRR05MP"
+  },
+  {
+    "acres": 6.6,
+    "apiReady": false,
+    "blockName": "LFRR06AG",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 54.562,
+    "externalId": "LFRR06AG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "AG",
+    "vineyardName": "LF River B6 AG"
+  },
+  {
+    "acres": 4.98,
+    "apiReady": false,
+    "blockName": "LFRR07PB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 48.216,
+    "externalId": "LFRR07PB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PB",
+    "vineyardName": "LF River B7 PP"
+  },
+  {
+    "acres": 4.62,
+    "apiReady": false,
+    "blockName": "LFRR08GB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 39.13,
+    "externalId": "LFRR08GB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "GB",
+    "vineyardName": "LF River B8 GB"
+  },
+  {
+    "acres": 3.21,
+    "apiReady": false,
+    "blockName": "LFRT01ND",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFRT01ND",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ND",
+    "vineyardName": "LFRT01ND"
+  },
+  {
+    "acres": 27.18,
+    "apiReady": false,
+    "blockName": "LFRT02PR",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 247.896,
+    "externalId": "LFRT02PR",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PR",
+    "vineyardName": "LF RedTail BLK 2 - W"
+  },
+  {
+    "acres": 0.28,
+    "apiReady": false,
+    "blockName": "LFRT03AN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFRT03AN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "AN",
+    "vineyardName": "LF Redtail B3 AC"
+  },
+  {
+    "acres": 57.23,
+    "apiReady": false,
+    "blockName": "LFTO01CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 607.266,
+    "externalId": "LFTO01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LF Twin Oaks B1 CS"
+  },
+  {
+    "acres": 56.02,
+    "apiReady": false,
+    "blockName": "LFTO02SB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 285.447,
+    "externalId": "LFTO02SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SB",
+    "vineyardName": "LF Twin Oaks B2 SB"
+  },
+  {
+    "acres": 54.25,
+    "apiReady": false,
+    "blockName": "LFW104CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 584.88,
+    "externalId": "LFW104CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LF JW1 BLK 4"
+  },
+  {
+    "acres": 31.99,
+    "apiReady": false,
+    "blockName": "LFW202TD",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFW202TD",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "TD",
+    "vineyardName": "LFW202TD"
+  },
+  {
+    "acres": 39.88,
+    "apiReady": false,
+    "blockName": "LFW301CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 240.303,
+    "externalId": "LFW301CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "LF JW3 BLK 1 (Juans)"
+  },
+  {
+    "acres": 49.07,
+    "apiReady": false,
+    "blockName": "LFW302SB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "LFW302SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SB",
+    "vineyardName": "LFW302SB"
+  },
+  {
+    "acres": 30.58,
+    "apiReady": false,
+    "blockName": "MEJA03CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "MEJA03CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "Mendonca B3 CS"
+  },
+  {
+    "acres": 41.76,
+    "apiReady": false,
+    "blockName": "MFLO01PG",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "MFLO01PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PG",
+    "vineyardName": "Liberty Oaks B1 PG"
+  },
+  {
+    "acres": 21.94,
+    "apiReady": false,
+    "blockName": "MFLO02TE",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "MFLO02TE",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "TE",
+    "vineyardName": "MFLO02TE"
+  },
+  {
+    "acres": 4.6,
+    "apiReady": false,
+    "blockName": "MFRN00PN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 64.453,
+    "externalId": "MFRN00PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "MFRN00PN"
+  },
+  {
+    "acres": 33.93,
+    "apiReady": false,
+    "blockName": "MFRN01PN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "MFRN01PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "MFRN01PN"
+  },
+  {
+    "acres": 45.37,
+    "apiReady": false,
+    "blockName": "MFRN02PN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 397.275,
+    "externalId": "MFRN02PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "Runyon - B2 PN R71-155"
+  },
+  {
+    "acres": 44.74,
+    "apiReady": false,
+    "blockName": "MFRN03PG",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 552.091,
+    "externalId": "MFRN03PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PG",
+    "vineyardName": "Runyon - B3 PG"
+  },
+  {
+    "acres": 28.45,
+    "apiReady": false,
+    "blockName": "MJMJ01CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "MJMJ01CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CH",
+    "vineyardName": "MJMJ01CH"
+  },
+  {
+    "acres": 65.98,
+    "apiReady": false,
+    "blockName": "MJMJ02PG",
+    "blockers": [
+      "multiple_crop_segments_require_rollup_review",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "MJMJ02PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PG",
+    "vineyardName": "Merrill-Johnson B2 PG (Old)"
+  },
+  {
+    "acres": 19.41,
+    "apiReady": false,
+    "blockName": "MJMJ03CB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 236.779,
+    "externalId": "MJMJ03CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "MJMJ03CB"
+  },
+  {
+    "acres": 36.78,
+    "apiReady": true,
+    "blockName": "MJMJ04CB",
+    "blockers": [],
+    "estimatedTons": 466.435,
+    "externalId": "MJMJ04CB",
+    "harvestWindowEnd": "2026-08-25",
+    "harvestWindowStart": "2026-08-25",
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "MJMJ04CB"
+  },
+  {
+    "acres": 35.65,
+    "apiReady": false,
+    "blockName": "MKJA04CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "MKJA04CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "Kidd B4 CS"
+  },
+  {
+    "acres": 34.66,
+    "apiReady": false,
+    "blockName": "MRPR01CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 314.2,
+    "externalId": "MRPR01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "MRPR01CS"
+  },
+  {
+    "acres": 21.18,
+    "apiReady": false,
+    "blockName": "MUMU01SB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 165.029,
+    "externalId": "MUMU01SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SB",
+    "vineyardName": "Muchmore B1 SB"
+  },
+  {
+    "acres": 20.77,
+    "apiReady": false,
+    "blockName": "MUMU02PG",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 175.928,
+    "externalId": "MUMU02PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PG",
+    "vineyardName": "Muchmore B2 PG"
+  },
+  {
+    "acres": 35.86,
+    "apiReady": false,
+    "blockName": "ONMI01CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 271.658,
+    "externalId": "ONMI01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CS",
+    "vineyardName": "Miller B1 CS"
+  },
+  {
+    "acres": 41.12,
+    "apiReady": false,
+    "blockName": "ONMI02CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 372.711,
+    "externalId": "ONMI02CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CS",
+    "vineyardName": "Miller B2 CS"
+  },
+  {
+    "acres": 32.63,
+    "apiReady": false,
+    "blockName": "ONMI05CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 318.548,
+    "externalId": "ONMI05CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CS",
+    "vineyardName": "Miller B5 CS"
+  },
+  {
+    "acres": 30.45,
+    "apiReady": false,
+    "blockName": "ONMI06CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 282.58,
+    "externalId": "ONMI06CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CS",
+    "vineyardName": "Miller B6 CS"
+  },
+  {
+    "acres": 38.3,
+    "apiReady": false,
+    "blockName": "ONMI07ME",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 312.197,
+    "externalId": "ONMI07ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "ME",
+    "vineyardName": "Miller B7 ME"
+  },
+  {
+    "acres": 37.99,
+    "apiReady": false,
+    "blockName": "ONMI08ME",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 306.503,
+    "externalId": "ONMI08ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "ME",
+    "vineyardName": "Miller B8 ME"
+  },
+  {
+    "acres": 37.43,
+    "apiReady": false,
+    "blockName": "ONMI09CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 319.358,
+    "externalId": "ONMI09CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CH",
+    "vineyardName": "Miller B9 CH - Clone 4 (R55-end)"
+  },
+  {
+    "acres": 8.71,
+    "apiReady": false,
+    "blockName": "ONMI3ACS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 82.162,
+    "externalId": "ONMI3ACS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CS",
+    "vineyardName": "ONMI3ACS"
+  },
+  {
+    "acres": 59.44,
+    "apiReady": false,
+    "blockName": "POCR03CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "POCR03CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "POCR03CS"
+  },
+  {
+    "acres": 40.88,
+    "apiReady": false,
+    "blockName": "POCR03CS-E",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "POCR03CS-E",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "UNKNOWN",
+    "vineyardName": "POCR03CS-E"
+  },
+  {
+    "acres": 18.56,
+    "apiReady": false,
+    "blockName": "POCR03CS-W",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "POCR03CS-W",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "UNKNOWN",
+    "vineyardName": "POCR03CS-W"
+  },
+  {
+    "acres": 14.62,
+    "apiReady": false,
+    "blockName": "POHM01PV",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "POHM01PV",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "PV",
+    "vineyardName": "POHM01PV"
+  },
+  {
+    "acres": 81.98,
+    "apiReady": false,
+    "blockName": "PPBR03CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 371.358,
+    "externalId": "PPBR03CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "Proplant Betsey Rose B3 CH"
+  },
+  {
+    "acres": 33.2,
+    "apiReady": false,
+    "blockName": "PPCR01ME",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PPCR01ME",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "PPCR01ME"
+  },
+  {
+    "acres": 32.79,
+    "apiReady": false,
+    "blockName": "PPCR02CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PPCR02CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "Proplant CRAIG B2 CH"
+  },
+  {
+    "acres": 12.25,
+    "apiReady": false,
+    "blockName": "PRHZ01CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 78.29,
+    "externalId": "PRHZ01CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CH",
+    "vineyardName": "Prince B1 CH"
+  },
+  {
+    "acres": 7.05,
+    "apiReady": false,
+    "blockName": "PRHZ02PN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 62.774,
+    "externalId": "PRHZ02PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "PRHZ02PN"
+  },
+  {
+    "acres": 7.06,
+    "apiReady": false,
+    "blockName": "PRHZ03PN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 52.787,
+    "externalId": "PRHZ03PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PN",
+    "vineyardName": "Prince B2 PN"
+  },
+  {
+    "acres": 33.38,
+    "apiReady": false,
+    "blockName": "PRHZ05CB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ05CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "PRHZ05CB"
+  },
+  {
+    "acres": 8.3,
+    "apiReady": false,
+    "blockName": "PRHZ06CB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ06CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "PRHZ06CB"
+  },
+  {
+    "acres": 4.86,
+    "apiReady": false,
+    "blockName": "PRHZ08CB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ08CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "PRHZ08CB"
+  },
+  {
+    "acres": 21.36,
+    "apiReady": false,
+    "blockName": "PRHZ11CB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 221.605,
+    "externalId": "PRHZ11CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "Prince B11 CB"
+  },
+  {
+    "acres": 2.96,
+    "apiReady": false,
+    "blockName": "PRHZ14CB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ14CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "Prince B14 CB"
+  },
+  {
+    "acres": 22.45,
+    "apiReady": false,
+    "blockName": "PRHZ15CB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 297.822,
+    "externalId": "PRHZ15CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "Prince B15 CB"
+  },
+  {
+    "acres": 6.28,
+    "apiReady": false,
+    "blockName": "PRHZ16CB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 73.668,
+    "externalId": "PRHZ16CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "Prince B16 CB (Reserve Rows 22-50)"
+  },
+  {
+    "acres": 7.08,
+    "apiReady": false,
+    "blockName": "PRHZ17CB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 54.802,
+    "externalId": "PRHZ17CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "Prince B17 CB"
+  },
+  {
+    "acres": 9.29,
+    "apiReady": false,
+    "blockName": "PRHZ18PS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ18PS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PS",
+    "vineyardName": "Prince BLK 18"
+  },
+  {
+    "acres": 9.53,
+    "apiReady": false,
+    "blockName": "PRHZ21CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 65.448,
+    "externalId": "PRHZ21CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CH",
+    "vineyardName": "Prince B21 CH"
+  },
+  {
+    "acres": 3.97,
+    "apiReady": false,
+    "blockName": "PRHZ22CB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 37.076,
+    "externalId": "PRHZ22CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "Prince B22 CB"
+  },
+  {
+    "acres": 10.2,
+    "apiReady": false,
+    "blockName": "PRHZ7ASB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ7ASB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "SB",
+    "vineyardName": "PRHZ7ASB"
+  },
+  {
+    "acres": 3.81,
+    "apiReady": false,
+    "blockName": "PRHZ7BSB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ7BSB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "SB",
+    "vineyardName": "PRHZ7BSB"
+  },
+  {
+    "acres": 0.8,
+    "apiReady": false,
+    "blockName": "PRHZ99CB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ99CB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "CB",
+    "vineyardName": "PRHZ99CB"
+  },
+  {
+    "acres": 8.68,
+    "apiReady": false,
+    "blockName": "PRHZ99MA",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ99MA",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "MA",
+    "vineyardName": "Prince B99 MA (Row 29-38)"
+  },
+  {
+    "acres": 1.93,
+    "apiReady": false,
+    "blockName": "PRHZ99SB",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "PRHZ99SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "SB",
+    "vineyardName": "PRHZ99SB"
+  },
+  {
+    "acres": 125.23,
+    "apiReady": false,
+    "blockName": "RING01CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "RING01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "RING01CS"
+  },
+  {
+    "acres": 26.3,
+    "apiReady": false,
+    "blockName": "RSR101CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 180.679,
+    "externalId": "RSR101CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "Rootstock 1 B1 CH"
+  },
+  {
+    "acres": 3.73,
+    "apiReady": false,
+    "blockName": "RSR102CS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "RSR102CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "RSR102CS"
+  },
+  {
+    "acres": 8.73,
+    "apiReady": false,
+    "blockName": "RSR103CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "RSR103CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "RSR103CH"
+  },
+  {
+    "acres": 23.21,
+    "apiReady": false,
+    "blockName": "RSR203CH",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "RSR203CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CH",
+    "vineyardName": "RSR203CH"
+  },
+  {
+    "acres": 18.12,
+    "apiReady": false,
+    "blockName": "SEJA01CS",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 175.343,
+    "externalId": "SEJA01CS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CS",
+    "vineyardName": "Seibly Jahant 1 CS"
+  },
+  {
+    "acres": 18.22,
+    "apiReady": false,
+    "blockName": "SERA01PN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "SERA01PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PN",
+    "vineyardName": "SERA01PN"
+  },
+  {
+    "acres": 19.24,
+    "apiReady": false,
+    "blockName": "SLHM01TD",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 209.018,
+    "externalId": "SLHM01TD",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "TD",
+    "vineyardName": "Stanton B1 TE"
+  },
+  {
+    "acres": 19.05,
+    "apiReady": false,
+    "blockName": "SLHM02VI",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 118.348,
+    "externalId": "SLHM02VI",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "VI",
+    "vineyardName": "Stanton Lange Home B2 VG"
+  },
+  {
+    "acres": 18.93,
+    "apiReady": false,
+    "blockName": "SLHM03CH",
+    "blockers": [
+      "missing_selected_crop_estimate"
+    ],
+    "estimatedTons": null,
+    "externalId": "SLHM03CH",
+    "harvestWindowEnd": "2026-08-27",
+    "harvestWindowStart": "2026-08-24",
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "Stanton B3 CH"
+  },
+  {
+    "acres": 35.22,
+    "apiReady": false,
+    "blockName": "SLHM04SB",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 247.867,
+    "externalId": "SLHM04SB",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "SB",
+    "vineyardName": "Stanton B4 SB"
+  },
+  {
+    "acres": 23.12,
+    "apiReady": false,
+    "blockName": "SLHM05PN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 198.72,
+    "externalId": "SLHM05PN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PN",
+    "vineyardName": "Stanton - BLK 5"
+  },
+  {
+    "acres": 4.49,
+    "apiReady": false,
+    "blockName": "SLHM06ZN",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 33.04,
+    "externalId": "SLHM06ZN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "ZN",
+    "vineyardName": "Stanton - BLK 6 ZN"
+  },
+  {
+    "acres": 7.15,
+    "apiReady": false,
+    "blockName": "SLHM08PR",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 61.822,
+    "externalId": "SLHM08PR",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "PR",
+    "vineyardName": "Stanton - BLK 8 PR"
+  },
+  {
+    "acres": 22.63,
+    "apiReady": true,
+    "blockName": "SMSM01ME",
+    "blockers": [],
+    "estimatedTons": 157.177,
+    "externalId": "SMSM01ME",
+    "harvestWindowEnd": "2026-08-27",
+    "harvestWindowStart": "2026-08-26",
+    "region": "CLEMENTS",
+    "variety": "ME",
+    "vineyardName": "Smith B1 ME"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "STARR-HARNEY",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "STARR-HARNEY",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "EY",
+    "vineyardName": "STARR-HARNEY"
+  },
+  {
+    "acres": 0,
+    "apiReady": false,
+    "blockName": "STARR-ZIN",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "STARR-ZIN",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "IN",
+    "vineyardName": "STARR-ZIN"
+  },
+  {
+    "acres": 25.89,
+    "apiReady": false,
+    "blockName": "VKDD01CH",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 207.953,
+    "externalId": "VKDD01CH",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "LODI",
+    "variety": "CH",
+    "vineyardName": "VKDD01CH"
+  },
+  {
+    "acres": 37.99,
+    "apiReady": false,
+    "blockName": "WHWH01GE",
+    "blockers": [
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": 266.71,
+    "externalId": "WHWH01GE",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "GE",
+    "vineyardName": "Wheelhouse B1 GW - Rows 1-70 (leaf pull)"
+  },
+  {
+    "acres": 34.59,
+    "apiReady": false,
+    "blockName": "WHWH02PG",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "WHWH02PG",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "PG",
+    "vineyardName": "Wheelhouse B2 PG"
+  },
+  {
+    "acres": 29.91,
+    "apiReady": false,
+    "blockName": "WHWH03AL",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "WHWH03AL",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "DELTA",
+    "variety": "AL",
+    "vineyardName": "Wheelhouse B3 AL"
+  },
+  {
+    "acres": 39.77,
+    "apiReady": false,
+    "blockName": "ZLLAOHCS",
+    "blockers": [
+      "missing_selected_crop_estimate",
+      "missing_harvest_window_from_forecasting_or_schedule"
+    ],
+    "estimatedTons": null,
+    "externalId": "ZLLAOHCS",
+    "harvestWindowEnd": null,
+    "harvestWindowStart": null,
+    "region": "CLEMENTS",
+    "variety": "CS",
+    "vineyardName": "ZLLAOHCS"
+  },
+  {
+    "acres": 82.39,
+    "apiReady": false,
+    "blockName": "ZLSO01PN",
+    "blockers": [
+      "missing_selected_crop_estimate"
+    ],
+    "estimatedTons": null,
+    "externalId": "ZLSO01PN",
+    "harvestWindowEnd": "2026-08-24",
+    "harvestWindowStart": "2026-08-24",
+    "region": "CLEMENTS",
+    "variety": "PN",
+    "vineyardName": "Zaballos-Lange Sowles (Mid)"
+  }
+]
