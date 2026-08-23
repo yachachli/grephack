@@ -1,0 +1,9 @@
+BRIX FORECASTING
+
+Brix is the sugar concentration in grape juice. As grapes ripen, Brix rises, and harvest is usually triggered when a block reaches the winery’s target value.
+
+VineFlow takes the latest field readings, the recent rate of Brix increase, and historical behavior for that block or variety. It then projects a likely target-date range and makes the confidence visible. For example: Smith is currently at 23.5 Brix, it has been gaining roughly 1.2 Brix per week, and it is likely to reach a 24-Brix target in the next few days.
+
+Why it works: it begins with transparent trend math rather than a black box. The result can be checked against the readings that a vineyard team already collects weekly on ATVs with a refractometer.
+
+Why it matters: readiness becomes early warning. Instead of discovering that fruit is ready after trucks and appointments are gone, the team gets a window to plan around.

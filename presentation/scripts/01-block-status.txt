@@ -1,0 +1,9 @@
+BLOCK STATUS
+
+VineFlow starts with the operational source of truth: the status sheet the team calls “the Bible.”
+
+Today, the answer to a basic question like “what is left to pick?” is spread across different spreadsheets. We bring the relevant information together at the block level: acres picked, acres remaining, loads remaining, region, and variety.
+
+Why it works: we are not asking the team to abandon the workflow they already trust. We normalize the same spreadsheet data into one consistent view, so every block uses the same identity and the same definitions.
+
+Why it matters: a harvest manager can see the real state of the operation in seconds. That shared baseline is what lets every later decision—forecasting, truck booking, and scheduling—be grounded in the same facts.

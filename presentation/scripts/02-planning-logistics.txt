@@ -1,0 +1,9 @@
+PLANNING + LOGISTICS
+
+The next question is not just “what is ready?” It is “can we harvest it and get it to the winery tonight?”
+
+VineFlow turns the harvest plan into a nightly capacity check. It combines the expected work for each block with winery appointments, truck availability, and machine allocation. If Tuesday needs twelve loads but only nine trucks are booked, the gap is visible before the night starts.
+
+Why it works: the math is straightforward and operationally meaningful. A load is typically a separate truck, at roughly 23 to 24 tons. One machine covers about ten acres per night. Those simple units make a capacity shortage concrete.
+
+Why it matters: trucks and winery delivery slots need lead time—ideally 24 hours. Catching a shortage early prevents fruit sitting past its target window, unnecessary overtime, and the scramble that turns harvest into a seven-day week.

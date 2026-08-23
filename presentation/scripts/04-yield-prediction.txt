@@ -1,0 +1,9 @@
+YIELD PREDICTION
+
+Knowing that fruit will be ready is only half the plan. The team also needs to know how much fruit is likely to come off each block.
+
+VineFlow’s yield capability combines crop counts, block acreage, field boundaries, and observed harvest results to estimate expected tons by block. The field boundary is important because it connects a physical part of the farm to the crop estimate, map, and harvest history.
+
+Why it works: the model can start from the team’s existing physical cluster counts, then improve as actual pick results come in. Rather than treating every block as an average, it has a specific location, acreage, and history.
+
+Why it matters: expected tons turn directly into expected loads, trucks, winery appointments, and machine time. That is the final link between a forecast about fruit and a plan the operator can execute.

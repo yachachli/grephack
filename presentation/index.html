@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Engineering for Someone — A VineFlow Story</title>
+    <title>VineFlow — Harvest Operations Story</title>
     <style>
       :root {
         --ink: #12231d;
@@ -73,7 +73,8 @@
         text-transform: uppercase;
       }
       .dark .kicker { color: #a6d69d; }
-      h1, h2, h3, p { margin-top: 0; }
+      h1, h2, h3, p, figure { margin-top: 0; }
+      figure { margin-right: 0; margin-bottom: 0; margin-left: 0; }
       h1 {
         max-width: 980px;
         margin-bottom: 1.25rem;
@@ -122,12 +123,12 @@
       .cover-card strong { display: block; color: #a6d69d; font-size: 3.8rem; letter-spacing: -.08em; }
       .cover-card span { color: rgba(255,255,255,.75); line-height: 1.4; }
       .photo-cover {
-        background-image: linear-gradient(90deg, rgba(8, 31, 23, .93) 0%, rgba(8, 31, 23, .72) 45%, rgba(8, 31, 23, .18) 100%), url("Screenshot 2026-08-23 at 4.13.51 PM.png");
+        background-image: linear-gradient(90deg, rgba(8, 31, 23, .93) 0%, rgba(8, 31, 23, .72) 45%, rgba(8, 31, 23, .18) 100%), url("assets/Screenshot%202026-08-23%20at%204.13.51%E2%80%AFPM.png");
         background-position: center;
         background-size: cover;
       }
       .photo-cover::before { display: none; }
-      .photo-cover .slide-inner { margin-left: max(0px, calc((100vw - 1180px) / 2)); }
+      .photo-cover .slide-inner { display: block; margin-left: max(0px, calc((100vw - 1180px) / 2)); }
       .photo-cover h1 { max-width: 710px; }
       .photo-cover .lead { max-width: 520px; }
 
@@ -240,6 +241,53 @@
       .feature > span { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; color: var(--vine); background: #d9ecd5; font-weight: 800; }
       .feature p { margin: .15rem 0 0; font-size: .92rem; }
 
+      .roles { align-items: center; }
+      .roles .slide-inner { width: min(100%, 1160px); }
+      .role-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2rem; }
+      .role-card {
+        min-height: 220px;
+        padding: 1.5rem;
+        border: 1px solid var(--line);
+        border-radius: 1.2rem;
+        background: rgba(255,255,255,.72);
+        box-shadow: 0 12px 28px rgba(18,35,29,.05);
+      }
+      .role-card .role-number { color: var(--leaf); font-family: Georgia, serif; font-size: 3.2rem; letter-spacing: -.08em; line-height: .9; }
+      .role-card h3 { margin: .8rem 0 .4rem; color: var(--vine); font-size: 1.32rem; letter-spacing: -.03em; }
+      .role-card p { max-width: 330px; margin: 0; color: var(--muted); line-height: 1.4; }
+      .role-card:nth-child(2) .role-number { color: #a77226; }
+      .role-card:nth-child(3) .role-number { color: #538951; }
+      .role-card:nth-child(4) .role-number { color: #9c513d; }
+
+      .field-shapes, .shape-recovery { align-items: center; }
+      .field-shapes .slide-inner, .shape-recovery .slide-inner { width: min(100%, 1180px); }
+      .shape-layout { display: grid; grid-template-columns: .82fr 1.18fr; gap: 2rem; align-items: center; }
+      .shape-layout h2 { margin-bottom: .9rem; }
+      .map-visual {
+        min-height: min(58vh, 520px);
+        overflow: hidden;
+        border: 1px solid rgba(255,255,255,.22);
+        border-radius: 1.25rem;
+        background: #203e34;
+        box-shadow: 0 24px 60px rgba(0,0,0,.23);
+      }
+      .map-visual svg { display: block; width: 100%; height: 100%; }
+      .map-legend { display: flex; gap: .6rem; margin-top: 1rem; color: rgba(255,255,255,.72); font-size: .82rem; }
+      .map-legend span { padding: .35rem .55rem; border: 1px solid rgba(255,255,255,.16); border-radius: 999px; }
+      .shape-recovery .slide-inner { display: grid; grid-template-columns: 1fr .95fr; gap: 2rem; align-items: center; }
+      .recovery-flow { display: grid; gap: .7rem; }
+      .recovery-node { position: relative; padding: 1.2rem 1.25rem; border: 1px solid var(--line); border-radius: 1rem; background: rgba(255,255,255,.76); }
+      .recovery-node:not(:last-child)::after { content: "↓"; position: absolute; left: 50%; bottom: -1.25rem; color: var(--leaf); font-family: Georgia, serif; font-size: 1.6rem; transform: translateX(-50%); }
+      .recovery-node small { display: block; color: var(--leaf); font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+      .recovery-node b { display: block; margin-top: .25rem; color: var(--vine); font-size: 1.12rem; }
+      .recovery-node p { margin: .3rem 0 0; color: var(--muted); font-size: .88rem; line-height: 1.4; }
+      .geometry-card { min-height: 430px; overflow: hidden; padding: 1.2rem; border-radius: 1.25rem; color: #ecf1e9; background: #142b23; box-shadow: 0 20px 50px rgba(18,35,29,.16); }
+      .geometry-card .tiny-label { color: #a6d69d; font-size: .72rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+      .geometry-card pre { margin: 1rem 0; color: #c9d8c5; font-size: clamp(.68rem, 1.1vw, .9rem); line-height: 1.65; white-space: pre-wrap; }
+      .geometry-card .geometry-result { display: flex; align-items: center; gap: .6rem; margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,.16); }
+      .geometry-result span { display: inline-grid; width: 28px; height: 28px; place-items: center; border-radius: 50%; color: var(--vine); background: #a6d69d; font-weight: 900; }
+      .geometry-result b { color: #fff; }
+
       .forecast { align-items: center; }
       .formula { display: grid; grid-template-columns: 1.2fr .12fr 1fr .12fr 1fr; align-items: center; gap: 1rem; margin-top: 2rem; }
       .formula-card { min-height: 155px; padding: 1.25rem; border: 1px solid var(--line); border-radius: 1rem; background: rgba(255,255,255,.55); }
@@ -247,6 +295,9 @@
       .formula-card p { margin: .5rem 0 0; color: var(--muted); font-size: .9rem; line-height: 1.4; }
       .formula-sign { color: var(--leaf); font-family: Georgia, serif; font-size: 2.5rem; text-align: center; }
       .note { margin-top: 1.4rem; color: var(--muted); font-size: .9rem; }
+      .brix-explainer { display: flex; align-items: center; gap: 1rem; margin-top: 1.25rem; padding: .9rem 1.1rem; border-radius: .85rem; background: #e6f0df; }
+      .brix-explainer strong { color: var(--vine); font-family: Georgia, serif; font-size: 1.5rem; letter-spacing: -.05em; }
+      .brix-explainer span { color: var(--muted); line-height: 1.35; }
 
       .close { align-items: center; }
       .close h1 { max-width: 900px; }
@@ -283,6 +334,9 @@
         .calling-photo { height: 48svh; }
         .maria-shot { height: 42svh; }
         .call-grid, .facts { grid-template-columns: 1fr; }
+        .role-grid { grid-template-columns: 1fr; }
+        .shape-layout, .shape-recovery .slide-inner { grid-template-columns: 1fr; }
+        .map-visual { min-height: 42svh; }
         .sheet-row { grid-template-columns: repeat(2, 1fr); }
         .chain { grid-template-columns: repeat(2, 1fr); }
         .chain div::after { display: none; }
@@ -291,6 +345,7 @@
         .loop-arrow { display: none; }
         .formula { grid-template-columns: 1fr; gap: .45rem; }
         .formula-sign { transform: rotate(90deg); }
+        .brix-explainer { align-items: flex-start; flex-direction: column; gap: .2rem; }
         .outcome { flex-wrap: wrap; }
       }
     </style>
@@ -301,11 +356,11 @@
         <div class="slide-inner">
           <div>
             <p class="kicker">How this started</p>
-            <h1>We each picked up the phone to <em>engineer for someone.</em></h1>
-            <p class="lead">Not with a product pitch. With a question: “Where does work feel harder than it should?”</p>
+            <h1>We picked up the phone.</h1>
+            <p class="lead">To find the biggest everyday problem we could solve for someone.</p>
           </div>
         </div>
-        <span class="footer">Engineering for Someone · 01</span>
+        <span class="footer">01</span>
       </section>
 
       <section class="slide light call-collage">
@@ -317,24 +372,24 @@
             <p class="call-caption">Real call histories from the team</p>
           </div>
           <div class="call-screens" aria-label="Team call histories">
-            <figure class="phone-shot"><img src="Screenshot 2026-08-23 at 4.05.59 PM.png" alt="Team member’s recent call history" /></figure>
-            <figure class="phone-shot"><img src="Screenshot 2026-08-23 at 4.12.28 PM.png" alt="Another team member’s recent call history" /></figure>
+            <figure class="phone-shot"><img src="assets/Screenshot%202026-08-23%20at%204.05.59%E2%80%AFPM.png" alt="Team member’s recent call history" /></figure>
+            <figure class="phone-shot"><img src="assets/Screenshot%202026-08-23%20at%204.12.28%E2%80%AFPM.png" alt="Another team member’s recent call history" /></figure>
           </div>
         </div>
-        <span class="footer">Engineering for Someone · 02</span>
+        <span class="footer">02</span>
       </section>
 
       <section class="slide cream human-call">
         <div class="slide-inner human-grid">
-          <figure class="calling-photo person"><img src="Screenshot 2026-08-23 at 4.13.19 PM.png" alt="A team member making a phone call" /></figure>
+          <figure class="calling-photo person"><img src="assets/Screenshot%202026-08-23%20at%204.13.19%E2%80%AFPM.png" alt="A team member making a phone call" /></figure>
           <div class="human-copy">
             <p class="kicker">Then one call stood out</p>
             <h2>A real person. A real operational fire drill.</h2>
             <p class="lead">Maria’s vineyard-harvest problem had urgency, data, and a clear cost of getting it wrong.</p>
           </div>
-          <figure class="maria-shot"><img src="Maria Zumkeller (Langetwins).png" alt="Call history with Maria Zumkeller at Langetwins" /></figure>
+          <figure class="maria-shot"><img src="assets/Maria%20Zumkeller%20(Langetwins).png" alt="Call history with Maria Zumkeller at Langetwins" /></figure>
         </div>
-        <span class="footer">Engineering for Someone · 03</span>
+        <span class="footer">03</span>
       </section>
 
       <section class="slide cream operator">
@@ -399,31 +454,72 @@
         <span class="footer">VineFlow · 07</span>
       </section>
 
-      <section class="slide light product">
-        <div class="slide-inner product-grid">
-          <div class="app-window" aria-label="Illustrative VineFlow forecasting dashboard">
-            <div class="app-bar"><i></i><i></i><i></i></div>
-            <div class="app-body">
-              <div class="app-label">VineFlow · Forecasting</div>
-              <div class="app-title">Harvest readiness</div>
-              <div class="app-metrics"><div><b>124</b><span>current blocks</span></div><div><b>448</b><span>Brix samples</span></div><div><b>3,218</b><span>historical samples</span></div></div>
-              <div class="rows">
-                <div class="row"><b>Smith · B-12</b><span>23.5 → 24.0</span><span class="pill">Watch</span></div>
-                <div class="row"><b>Los Robles · D-17</b><span>24.2 → 24.0</span><span class="pill">Ready</span></div>
-                <div class="row"><b>Mesa Ridge · B-7</b><span>22.1 → 23.0</span><span class="pill">Sep 16–18</span></div>
-                <div class="row"><b>Jones Ranch · B-4</b><span>22.7 → 23.0</span><span class="pill">Watch</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="product-copy">
-            <p class="kicker">Introducing VineFlow</p>
-            <h2>One view for the next call.</h2>
-            <div class="feature"><span>1</span><div><h3>The Bible, rebuilt</h3><p>Acres left, loads remaining, region and variety.</p></div></div>
-            <div class="feature"><span>2</span><div><h3>Brix, made actionable</h3><p>Current reading, target, trend, and a harvest window.</p></div></div>
-            <div class="feature"><span>3</span><div><h3>Capacity before it is gone</h3><p>Translate readiness into appointments, trucks, and machines.</p></div></div>
+      <section class="slide light roles">
+        <div class="slide-inner">
+          <p class="kicker">VineFlow · one connected system</p>
+          <h2>One operational decision. Four connected capabilities.</h2>
+          <div class="role-grid">
+            <article class="role-card"><div class="role-number">01</div><h3>Block status</h3><p>Clean shared blocks and rebuild the “Bible”: acres, loads, and harvest status.</p></article>
+            <article class="role-card"><div class="role-number">02</div><h3>Planning + logistics</h3><p>Turn readiness into winery appointments, trucks, and machine allocation—night by night.</p></article>
+            <article class="role-card"><div class="role-number">03</div><h3>Brix forecasting</h3><p>Current samples, targets, and historical trend become a harvest window.</p></article>
+            <article class="role-card"><div class="role-number">04</div><h3>Yield prediction</h3><p>Use crop counts and harvest results to predict expected tons for each block.</p></article>
           </div>
         </div>
         <span class="footer">VineFlow · 08</span>
+      </section>
+
+      <section class="slide dark field-shapes">
+        <div class="slide-inner shape-layout">
+          <div>
+            <p class="kicker">The missing input for yield</p>
+            <h2>To predict yield, we needed to know where each block actually is.</h2>
+            <p class="lead">The farm’s boundary geometry lived in FieldView—the system used to map fields and layer farm data.</p>
+            <div class="map-legend"><span>field boundaries</span><span>map layers</span><span>block geometry</span></div>
+          </div>
+          <div class="map-visual" aria-label="Illustration of mapped vineyard block boundaries">
+            <svg viewBox="0 0 700 520" role="img" aria-label="Field map with block boundaries">
+              <rect width="700" height="520" fill="#17372d"/>
+              <path d="M0 92C114 74 138 131 253 112s151-78 237-46 109 87 210 45v409H0Z" fill="#315e47"/>
+              <path d="M-5 248C95 219 157 281 247 259s139-71 220-38 129 50 238 12" fill="none" stroke="#c8d8a5" stroke-opacity=".28" stroke-width="16"/>
+              <path d="M-5 248C95 219 157 281 247 259s139-71 220-38 129 50 238 12" fill="none" stroke="#e0e7c9" stroke-opacity=".62" stroke-width="2"/>
+              <polygon points="74,98 232,72 278,178 150,224 58,178" fill="#78a65d" fill-opacity=".68" stroke="#e8f0d3" stroke-width="4"/>
+              <polygon points="304,74 472,110 450,228 285,195" fill="#bf9656" fill-opacity=".67" stroke="#e8f0d3" stroke-width="4"/>
+              <polygon points="113,273 267,232 345,335 279,430 96,398" fill="#64957d" fill-opacity=".72" stroke="#e8f0d3" stroke-width="4"/>
+              <polygon points="416,282 623,252 650,403 493,453 386,363" fill="#8aac65" fill-opacity=".72" stroke="#e8f0d3" stroke-width="4"/>
+              <g fill="#f5f6df" font-family="Inter, sans-serif" font-size="18" font-weight="700"><text x="124" y="150">Block A-12</text><text x="335" y="158">Block B-07</text><text x="143" y="335">Block C-04</text><text x="470" y="350">Block D-17</text></g>
+              <circle cx="625" cy="78" r="26" fill="#f0b457"/><path d="M618 78h14M625 71v14" stroke="#17372d" stroke-width="3"/>
+            </svg>
+          </div>
+        </div>
+        <span class="footer">VineFlow · 09</span>
+      </section>
+
+      <section class="slide cream shape-recovery">
+        <div class="slide-inner">
+          <div>
+            <p class="kicker">A last-minute breakthrough</p>
+            <h2>The map was visible. The geometry was hidden behind it.</h2>
+            <p class="lead">The first route we found produced a printable map. In an authorized session, we followed the application’s own requests until the boundary data emerged.</p>
+            <div class="recovery-flow">
+              <div class="recovery-node"><small>First attempt</small><b>Printable map</b><p>Useful to look at. Not enough to calculate.</p></div>
+              <div class="recovery-node"><small>Breakthrough</small><b>Application requests</b><p>Noisy at first; then the exact block geometry appeared.</p></div>
+              <div class="recovery-node"><small>Result</small><b>Shapes ready for yield</b><p>Real boundaries become a usable input to expected tons.</p></div>
+            </div>
+          </div>
+          <div class="geometry-card" aria-label="Illustrative field geometry payload">
+            <div class="tiny-label">Boundary geometry recovered</div>
+            <pre>{
+  "block": "D-17",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [ ... ]
+  },
+  "area_acres": 18.4
+}</pre>
+            <div class="geometry-result"><span>✓</span><b>Field shape → yield-model input</b></div>
+          </div>
+        </div>
+        <span class="footer">VineFlow · 10</span>
       </section>
 
       <section class="slide cream forecast">
@@ -438,9 +534,10 @@
             <div class="formula-sign">→</div>
             <div class="formula-card"><b>Target-date range</b><p>Flag the winery target window—and when to resample.</p></div>
           </div>
+          <div class="brix-explainer"><strong>What is Brix?</strong><span>°Brix measures sugar concentration in grape juice. Higher Brix generally means riper fruit.</span></div>
           <p class="note">Next signal: weather + weaker-canopy / NDVI data to sharpen the estimate.</p>
         </div>
-        <span class="footer">VineFlow · 09</span>
+        <span class="footer">VineFlow · 11</span>
       </section>
 
       <section class="slide dark close">
@@ -451,7 +548,7 @@
           <p class="lead">VineFlow is what happened when we stayed close to the problem.</p>
           <div class="outcome"><div>See readiness</div><div>Protect capacity</div><div>Harvest with confidence</div></div>
         </div>
-        <span class="footer">VineFlow · 10</span>
+        <span class="footer">VineFlow · 12</span>
       </section>
     </main>
 
