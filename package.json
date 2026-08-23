@@ -18,12 +18,13 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "typescript": "latest",
-    "typescript-eslint": "latest",
+    "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "latest"
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vite": "latest",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/js": "latest",

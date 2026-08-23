@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering for Someone — A VineFlow Story</title>
+    <style>
+      :root {
+        --ink: #12231d;
+        --muted: #66766e;
+        --paper: #f5f4ee;
+        --cream: #fbfaf6;
+        --vine: #174c3c;
+        --leaf: #6da66c;
+        --gold: #f0b457;
+        --red: #c6563e;
+        --line: rgba(18, 35, 29, 0.14);
+      }
+
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        overflow: hidden;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .deck { height: 100%; }
+      .slide {
+        display: none;
+        min-height: 100%;
+        padding: clamp(2rem, 5vw, 5.5rem) clamp(2rem, 8vw, 9rem);
+        position: relative;
+        isolation: isolate;
+      }
+      .slide.active { display: flex; }
+      .slide.dark { color: #f8f6ee; background: var(--vine); }
+      .slide.light { background: var(--paper); }
+      .slide.cream { background: var(--cream); }
+      .slide::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        pointer-events: none;
+      }
+      .slide.dark::before {
+        width: 52vw;
+        height: 52vw;
+        right: -18vw;
+        bottom: -30vw;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 48% 52% 42% 58%;
+        box-shadow: 0 0 0 4vw rgba(255,255,255,.035), 0 0 0 10vw rgba(255,255,255,.025);
+      }
+      .slide.light::before, .slide.cream::before {
+        width: 45vw;
+        height: 45vw;
+        border-radius: 50%;
+        right: -20vw;
+        top: -22vw;
+        background: rgba(109,166,108,.12);
+      }
+
+      .slide-inner { width: min(100%, 1180px); margin: auto; }
+      .kicker {
+        margin: 0 0 1rem;
+        color: var(--leaf);
+        font-size: .75rem;
+        font-weight: 800;
+        letter-spacing: .16em;
+        text-transform: uppercase;
+      }
+      .dark .kicker { color: #a6d69d; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 {
+        max-width: 980px;
+        margin-bottom: 1.25rem;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(3.2rem, 7vw, 7.5rem);
+        font-weight: 500;
+        letter-spacing: -.065em;
+        line-height: .94;
+      }
+      h2 {
+        max-width: 900px;
+        margin-bottom: 1.6rem;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(2.5rem, 5vw, 5.5rem);
+        font-weight: 500;
+        letter-spacing: -.055em;
+        line-height: .98;
+      }
+      h3 { margin-bottom: .5rem; font-size: 1.1rem; }
+      .lead { max-width: 680px; color: var(--muted); font-size: clamp(1.05rem, 1.55vw, 1.45rem); line-height: 1.55; }
+      .dark .lead { color: rgba(248,246,238,.78); }
+      .mark {
+        display: inline-grid;
+        width: 2.8rem;
+        height: 2.8rem;
+        place-items: center;
+        margin-right: .75rem;
+        border-radius: 50%;
+        color: var(--cream);
+        background: var(--leaf);
+        font-family: Georgia, serif;
+        font-size: 1.55rem;
+        vertical-align: middle;
+      }
+      .wordmark { display: flex; align-items: center; font-size: 1.1rem; font-weight: 800; letter-spacing: -.03em; }
+
+      .cover { align-items: center; }
+      .cover .slide-inner { display: grid; grid-template-columns: 1.15fr .85fr; gap: 2rem; align-items: center; }
+      .cover h1 em { color: #a6d69d; font-style: normal; }
+      .cover-card {
+        padding: 2rem;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 1.25rem;
+        background: rgba(0,0,0,.12);
+      }
+      .cover-card strong { display: block; color: #a6d69d; font-size: 3.8rem; letter-spacing: -.08em; }
+      .cover-card span { color: rgba(255,255,255,.75); line-height: 1.4; }
+      .photo-cover {
+        background-image: linear-gradient(90deg, rgba(8, 31, 23, .93) 0%, rgba(8, 31, 23, .72) 45%, rgba(8, 31, 23, .18) 100%), url("Screenshot 2026-08-23 at 4.13.51 PM.png");
+        background-position: center;
+        background-size: cover;
+      }
+      .photo-cover::before { display: none; }
+      .photo-cover .slide-inner { margin-left: max(0px, calc((100vw - 1180px) / 2)); }
+      .photo-cover h1 { max-width: 710px; }
+      .photo-cover .lead { max-width: 520px; }
+
+      .call-collage { align-items: center; }
+      .call-collage .slide-inner { width: min(100%, 1280px); }
+      .collage-layout { display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(1.25rem, 3vw, 3rem); align-items: center; }
+      .collage-copy h2 { margin-bottom: .8rem; }
+      .collage-copy .lead { max-width: 440px; }
+      .call-screens { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: end; }
+      .phone-shot {
+        overflow: hidden;
+        height: min(63vh, 590px);
+        border: 7px solid #181d1a;
+        border-radius: 1.5rem;
+        background: #101211;
+        box-shadow: 0 22px 48px rgba(18,35,29,.2);
+      }
+      .phone-shot:nth-child(2) { transform: translateY(-2rem); }
+      .phone-shot img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+      .call-caption { margin-top: .8rem; color: var(--muted); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+
+      .human-call { align-items: center; }
+      .human-call .slide-inner { width: min(100%, 1260px); }
+      .human-grid { display: grid; grid-template-columns: 1.15fr .75fr .65fr; gap: 1rem; align-items: end; }
+      .calling-photo { height: min(67vh, 610px); overflow: hidden; border-radius: 1.25rem; background: #dcd7c9; }
+      .calling-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+      .calling-photo.person { object-position: center; }
+      .calling-photo.person img { object-position: center 40%; }
+      .human-copy { padding: 1rem 1.25rem; }
+      .human-copy h2 { margin-bottom: .8rem; }
+      .human-copy .lead { max-width: 410px; }
+      .maria-shot { height: min(58vh, 530px); overflow: hidden; border-radius: 1.25rem; background: #2e3044; box-shadow: 0 18px 38px rgba(18,35,29,.18); }
+      .maria-shot img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+
+      .prompt { align-items: center; }
+      .quote { max-width: 980px; font-family: Georgia, serif; font-size: clamp(2.5rem, 5.8vw, 6.2rem); letter-spacing: -.06em; line-height: 1; }
+      .quote b { color: var(--gold); font-weight: inherit; }
+      .prompt .byline { margin-top: 2rem; color: rgba(255,255,255,.62); font-size: 1rem; }
+
+      .calls { align-items: center; }
+      .call-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2rem; }
+      .call {
+        min-height: 220px;
+        padding: 1.5rem;
+        border: 1px solid var(--line);
+        border-radius: 1.1rem;
+        background: rgba(255,255,255,.55);
+      }
+      .call .number { color: var(--leaf); font-family: Georgia, serif; font-size: 3rem; line-height: 1; }
+      .call p { margin: .75rem 0 0; color: var(--muted); line-height: 1.45; }
+
+      .operator { align-items: center; }
+      .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; overflow: hidden; margin-top: 2rem; border: 1px solid var(--line); border-radius: 1.1rem; background: var(--line); }
+      .fact { padding: 1.65rem; background: var(--cream); }
+      .fact strong { display: block; color: var(--vine); font-family: Georgia, serif; font-size: clamp(2.5rem, 4vw, 4rem); letter-spacing: -.07em; line-height: 1; }
+      .fact span { display: block; margin-top: .65rem; color: var(--muted); line-height: 1.4; }
+
+      .workflow { align-items: center; }
+      .sheet-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: .75rem; margin-top: 2rem; }
+      .sheet {
+        min-height: 155px;
+        padding: 1.2rem;
+        border-radius: .9rem;
+        color: #f9f7ef;
+        background: #3a7663;
+      }
+      .sheet:nth-child(2) { background: #295e4e; }
+      .sheet:nth-child(3) { background: #5f9860; }
+      .sheet:nth-child(4) { background: #567950; }
+      .sheet:nth-child(5) { background: #99703f; }
+      .sheet b { display: block; font-size: 1.05rem; }
+      .sheet span { display: block; margin-top: .6rem; color: rgba(255,255,255,.78); font-size: .87rem; line-height: 1.35; }
+      .break-line { display: flex; align-items: center; gap: 1rem; margin-top: 1.4rem; color: var(--red); font-weight: 800; }
+      .break-line::before, .break-line::after { content: ""; height: 1px; flex: 1; background: rgba(198,86,62,.35); }
+
+      .consequence { align-items: center; }
+      .chain { display: grid; grid-template-columns: repeat(4, 1fr); gap: .7rem; margin-top: 2rem; }
+      .chain div { padding: 1.3rem; border-radius: .9rem; background: rgba(255,255,255,.1); }
+      .chain div:not(:last-child)::after { content: "→"; position: absolute; margin-left: 1.25rem; color: var(--gold); font-size: 1.4rem; }
+      .chain b { display: block; color: #a6d69d; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; }
+      .chain span { display: block; margin-top: .55rem; font-size: 1.05rem; line-height: 1.35; }
+
+      .thesis { align-items: center; }
+      .thesis h2 { max-width: 1000px; }
+      .thesis h2 b { color: var(--vine); font-weight: inherit; }
+      .loop { display: flex; align-items: stretch; gap: .6rem; margin-top: 2.25rem; }
+      .loop-step { flex: 1; padding: 1.15rem; border: 1px solid var(--line); border-radius: .85rem; background: rgba(255,255,255,.55); }
+      .loop-step small { color: var(--leaf); font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+      .loop-step b { display: block; margin-top: .35rem; font-size: 1.1rem; }
+      .loop-arrow { align-self: center; color: var(--leaf); font-size: 1.6rem; }
+
+      .product { align-items: center; }
+      .product-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 2rem; align-items: stretch; }
+      .app-window { overflow: hidden; border: 1px solid var(--line); border-radius: 1rem; background: #fff; box-shadow: 0 20px 60px rgba(18,35,29,.12); }
+      .app-bar { height: 38px; padding: 0 14px; display: flex; align-items: center; gap: 6px; background: #e8ebe5; }
+      .app-bar i { width: 8px; height: 8px; border-radius: 50%; background: #a8b2a5; }
+      .app-body { padding: 1.3rem; }
+      .app-label { color: var(--leaf); font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+      .app-title { margin: .3rem 0 1rem; font-size: 1.55rem; font-weight: 800; letter-spacing: -.04em; }
+      .app-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; }
+      .app-metrics div { padding: .7rem; border-radius: .55rem; background: #eef4ed; }
+      .app-metrics b { display: block; color: var(--vine); font-size: 1.25rem; }
+      .app-metrics span { color: var(--muted); font-size: .68rem; }
+      .rows { margin-top: 1rem; }
+      .row { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: .5rem; padding: .65rem 0; border-bottom: 1px solid #e6eae4; font-size: .78rem; }
+      .pill { width: max-content; padding: .18rem .45rem; border-radius: 999px; color: #1d5b31; background: #dcefd7; font-size: .67rem; font-weight: 800; }
+      .product-copy { padding: 1rem 0; }
+      .product-copy p { color: var(--muted); font-size: 1.08rem; line-height: 1.55; }
+      .feature { display: grid; grid-template-columns: 28px 1fr; gap: .75rem; margin-top: 1rem; }
+      .feature > span { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; color: var(--vine); background: #d9ecd5; font-weight: 800; }
+      .feature p { margin: .15rem 0 0; font-size: .92rem; }
+
+      .forecast { align-items: center; }
+      .formula { display: grid; grid-template-columns: 1.2fr .12fr 1fr .12fr 1fr; align-items: center; gap: 1rem; margin-top: 2rem; }
+      .formula-card { min-height: 155px; padding: 1.25rem; border: 1px solid var(--line); border-radius: 1rem; background: rgba(255,255,255,.55); }
+      .formula-card b { display: block; color: var(--vine); font-size: 1.1rem; }
+      .formula-card p { margin: .5rem 0 0; color: var(--muted); font-size: .9rem; line-height: 1.4; }
+      .formula-sign { color: var(--leaf); font-family: Georgia, serif; font-size: 2.5rem; text-align: center; }
+      .note { margin-top: 1.4rem; color: var(--muted); font-size: .9rem; }
+
+      .close { align-items: center; }
+      .close h1 { max-width: 900px; }
+      .close .lead { margin-top: 1.5rem; }
+      .outcome { display: flex; gap: 1rem; margin-top: 2rem; }
+      .outcome div { padding: .8rem 1rem; border: 1px solid rgba(255,255,255,.2); border-radius: 99px; color: #a6d69d; font-weight: 700; }
+
+      .footer { position: absolute; right: clamp(1.3rem, 3vw, 3rem); bottom: 1.25rem; color: var(--muted); font-size: .72rem; font-weight: 700; letter-spacing: .08em; }
+      .dark .footer { color: rgba(255,255,255,.52); }
+      .controls { position: fixed; z-index: 10; right: 1.25rem; bottom: 1.1rem; display: flex; gap: .5rem; }
+      .controls button {
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--line);
+        border-radius: 50%;
+        color: var(--ink);
+        background: rgba(255,255,255,.88);
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+      .progress { position: fixed; z-index: 10; top: 0; left: 0; width: 100%; height: 4px; background: rgba(18,35,29,.08); }
+      .progress > span { display: block; height: 100%; width: 10%; background: var(--leaf); transition: width .25s ease; }
+
+      @media (max-width: 760px) {
+        body { overflow: auto; }
+        .slide { min-height: 100svh; padding: 4rem 1.5rem; }
+        .cover .slide-inner, .product-grid { grid-template-columns: 1fr; }
+        .photo-cover { background-position: 62% center; }
+        .photo-cover .slide-inner { margin-left: auto; }
+        .collage-layout, .human-grid { grid-template-columns: 1fr; }
+        .phone-shot { height: 48svh; }
+        .phone-shot:nth-child(2) { transform: none; }
+        .human-copy { padding: 0; }
+        .calling-photo { height: 48svh; }
+        .maria-shot { height: 42svh; }
+        .call-grid, .facts { grid-template-columns: 1fr; }
+        .sheet-row { grid-template-columns: repeat(2, 1fr); }
+        .chain { grid-template-columns: repeat(2, 1fr); }
+        .chain div::after { display: none; }
+        .loop { flex-wrap: wrap; }
+        .loop-step { min-width: calc(50% - .6rem); }
+        .loop-arrow { display: none; }
+        .formula { grid-template-columns: 1fr; gap: .45rem; }
+        .formula-sign { transform: rotate(90deg); }
+        .outcome { flex-wrap: wrap; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="deck" aria-live="polite">
+      <section class="slide dark cover photo-cover active">
+        <div class="slide-inner">
+          <div>
+            <p class="kicker">How this started</p>
+            <h1>We each picked up the phone to <em>engineer for someone.</em></h1>
+            <p class="lead">Not with a product pitch. With a question: “Where does work feel harder than it should?”</p>
+          </div>
+        </div>
+        <span class="footer">Engineering for Someone · 01</span>
+      </section>
+
+      <section class="slide light call-collage">
+        <div class="slide-inner collage-layout">
+          <div class="collage-copy">
+            <p class="kicker">No cold-start research</p>
+            <h2>We called the people we could reach.</h2>
+            <p class="lead">Friends. Family. Operators. The point was to find someone with a problem worth staying close to.</p>
+            <p class="call-caption">Real call histories from the team</p>
+          </div>
+          <div class="call-screens" aria-label="Team call histories">
+            <figure class="phone-shot"><img src="Screenshot 2026-08-23 at 4.05.59 PM.png" alt="Team member’s recent call history" /></figure>
+            <figure class="phone-shot"><img src="Screenshot 2026-08-23 at 4.12.28 PM.png" alt="Another team member’s recent call history" /></figure>
+          </div>
+        </div>
+        <span class="footer">Engineering for Someone · 02</span>
+      </section>
+
+      <section class="slide cream human-call">
+        <div class="slide-inner human-grid">
+          <figure class="calling-photo person"><img src="Screenshot 2026-08-23 at 4.13.19 PM.png" alt="A team member making a phone call" /></figure>
+          <div class="human-copy">
+            <p class="kicker">Then one call stood out</p>
+            <h2>A real person. A real operational fire drill.</h2>
+            <p class="lead">Maria’s vineyard-harvest problem had urgency, data, and a clear cost of getting it wrong.</p>
+          </div>
+          <figure class="maria-shot"><img src="Maria Zumkeller (Langetwins).png" alt="Call history with Maria Zumkeller at Langetwins" /></figure>
+        </div>
+        <span class="footer">Engineering for Someone · 03</span>
+      </section>
+
+      <section class="slide cream operator">
+        <div class="slide-inner">
+          <p class="kicker">The operator we heard from</p>
+          <h2>Harvest moves every night.</h2>
+          <p class="lead">Machines, trucks, winery appointments, and fruit that keeps ripening.</p>
+          <div class="facts">
+            <div class="fact"><strong>~7k</strong><span>acres across California</span></div>
+            <div class="fact"><strong>5–6</strong><span>wineries to coordinate in a good week</span></div>
+            <div class="fact"><strong>12–24h</strong><span>to secure truck capacity before a pick</span></div>
+          </div>
+        </div>
+        <span class="footer">VineFlow · 04</span>
+      </section>
+
+      <section class="slide light workflow">
+        <div class="slide-inner">
+          <p class="kicker">The current system</p>
+          <h2>Five sheets. One decision.</h2>
+          <div class="sheet-row">
+            <div class="sheet"><b>Schedule</b><span>Weekly picks + machines.</span></div>
+            <div class="sheet"><b>Status “Bible”</b><span>Acres, loads, remaining.</span></div>
+            <div class="sheet"><b>Summary</b><span>Region needs variety.</span></div>
+            <div class="sheet"><b>Sugar sheet</b><span>ATV Brix readings.</span></div>
+            <div class="sheet"><b>Crop estimate</b><span>Expected tons, siloed.</span></div>
+          </div>
+          <div class="break-line">What gets picked tonight—and can it get to the winery?</div>
+        </div>
+        <span class="footer">VineFlow · 05</span>
+      </section>
+
+      <section class="slide dark consequence">
+        <div class="slide-inner">
+          <p class="kicker">Why this matters</p>
+          <h2>A Brix reading becomes a logistics decision.</h2>
+          <div class="chain">
+            <div><b>1 · Brix</b><span>Fruit hits the winery target.</span></div>
+            <div><b>2 · Slot</b><span>Secure a winery appointment.</span></div>
+            <div><b>3 · Trucks</b><span>12 loads = 12 trucks · ~23.5 tons each.</span></div>
+            <div><b>4 · Machines</b><span>Deploy ~10 acres per machine, per night.</span></div>
+          </div>
+        </div>
+        <span class="footer">VineFlow · 06</span>
+      </section>
+
+      <section class="slide cream thesis">
+        <div class="slide-inner">
+          <p class="kicker">The product insight</p>
+          <h2>One <b>operational loop.</b></h2>
+          <p class="lead">From a field reading to the next call.</p>
+          <div class="loop">
+            <div class="loop-step"><small>01 · Observe</small><b>Status + Brix + crop</b></div>
+            <div class="loop-arrow">→</div>
+            <div class="loop-step"><small>02 · Predict</small><b>Likely Brix target date</b></div>
+            <div class="loop-arrow">→</div>
+            <div class="loop-step"><small>03 · Plan</small><b>Appointment, trucks, machines</b></div>
+            <div class="loop-arrow">→</div>
+            <div class="loop-step"><small>04 · Act</small><b>Book capacity 24 hours early</b></div>
+          </div>
+        </div>
+        <span class="footer">VineFlow · 07</span>
+      </section>
+
+      <section class="slide light product">
+        <div class="slide-inner product-grid">
+          <div class="app-window" aria-label="Illustrative VineFlow forecasting dashboard">
+            <div class="app-bar"><i></i><i></i><i></i></div>
+            <div class="app-body">
+              <div class="app-label">VineFlow · Forecasting</div>
+              <div class="app-title">Harvest readiness</div>
+              <div class="app-metrics"><div><b>124</b><span>current blocks</span></div><div><b>448</b><span>Brix samples</span></div><div><b>3,218</b><span>historical samples</span></div></div>
+              <div class="rows">
+                <div class="row"><b>Smith · B-12</b><span>23.5 → 24.0</span><span class="pill">Watch</span></div>
+                <div class="row"><b>Los Robles · D-17</b><span>24.2 → 24.0</span><span class="pill">Ready</span></div>
+                <div class="row"><b>Mesa Ridge · B-7</b><span>22.1 → 23.0</span><span class="pill">Sep 16–18</span></div>
+                <div class="row"><b>Jones Ranch · B-4</b><span>22.7 → 23.0</span><span class="pill">Watch</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="product-copy">
+            <p class="kicker">Introducing VineFlow</p>
+            <h2>One view for the next call.</h2>
+            <div class="feature"><span>1</span><div><h3>The Bible, rebuilt</h3><p>Acres left, loads remaining, region and variety.</p></div></div>
+            <div class="feature"><span>2</span><div><h3>Brix, made actionable</h3><p>Current reading, target, trend, and a harvest window.</p></div></div>
+            <div class="feature"><span>3</span><div><h3>Capacity before it is gone</h3><p>Translate readiness into appointments, trucks, and machines.</p></div></div>
+          </div>
+        </div>
+        <span class="footer">VineFlow · 08</span>
+      </section>
+
+      <section class="slide cream forecast">
+        <div class="slide-inner">
+          <p class="kicker">How the forecast earns trust</p>
+          <h2>Simple math. Clear recommendation.</h2>
+          <p class="lead">Current Brix + growth rate → a target-date range.</p>
+          <div class="formula">
+            <div class="formula-card"><b>Current Brix</b><p>Weekly ATV refractometer samples.</p></div>
+            <div class="formula-sign">+</div>
+            <div class="formula-card"><b>Historical + recent slope</b><p>Five seasons where available, plus the current trend.</p></div>
+            <div class="formula-sign">→</div>
+            <div class="formula-card"><b>Target-date range</b><p>Flag the winery target window—and when to resample.</p></div>
+          </div>
+          <p class="note">Next signal: weather + weaker-canopy / NDVI data to sharpen the estimate.</p>
+        </div>
+        <span class="footer">VineFlow · 09</span>
+      </section>
+
+      <section class="slide dark close">
+        <div class="slide-inner">
+          <div class="wordmark"><span class="mark">V</span>VineFlow</div>
+          <p class="kicker" style="margin-top: 3rem">The point</p>
+          <h1>We started with a phone call.</h1>
+          <p class="lead">VineFlow is what happened when we stayed close to the problem.</p>
+          <div class="outcome"><div>See readiness</div><div>Protect capacity</div><div>Harvest with confidence</div></div>
+        </div>
+        <span class="footer">VineFlow · 10</span>
+      </section>
+    </main>
+
+    <div class="progress" aria-hidden="true"><span></span></div>
+    <nav class="controls" aria-label="Presentation controls">
+      <button type="button" id="previous" aria-label="Previous slide">←</button>
+      <button type="button" id="next" aria-label="Next slide">→</button>
+    </nav>
+
+    <script>
+      const slides = [...document.querySelectorAll('.slide')]
+      const progress = document.querySelector('.progress > span')
+      let current = 0
+
+      function showSlide(index) {
+        current = Math.max(0, Math.min(index, slides.length - 1))
+        slides.forEach((slide, slideIndex) => slide.classList.toggle('active', slideIndex === current))
+        progress.style.width = `${((current + 1) / slides.length) * 100}%`
+        window.location.hash = `slide-${current + 1}`
+      }
+
+      document.querySelector('#previous').addEventListener('click', () => showSlide(current - 1))
+      document.querySelector('#next').addEventListener('click', () => showSlide(current + 1))
+      window.addEventListener('keydown', (event) => {
+        if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(event.key)) { event.preventDefault(); showSlide(current + 1) }
+        if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(event.key)) { event.preventDefault(); showSlide(current - 1) }
+        if (event.key === 'Home') showSlide(0)
+        if (event.key === 'End') showSlide(slides.length - 1)
+      })
+
+      const requested = Number(window.location.hash.replace('#slide-', ''))
+      showSlide(Number.isFinite(requested) && requested > 0 ? requested - 1 : 0)
+    </script>
+  </body>
+</html>

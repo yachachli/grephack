@@ -4,6 +4,7 @@ import { ZodError } from 'zod';
 import type { AppConfig } from './config.js';
 import { createDb, type Db } from './db.js';
 import { createBlocksRouter } from './routes/blocks.js';
+import { createForecastsRouter } from './routes/forecasts.js';
 import { createPlannerRouter } from './routes/planner.js';
 
 export function createApp(config: AppConfig, db: Db = createDb(config.databaseUrl)) {
@@ -18,6 +19,7 @@ export function createApp(config: AppConfig, db: Db = createDb(config.databaseUr
     } catch (error) { next(error); }
   });
   app.use('/api/blocks', createBlocksRouter(db));
+  app.use('/api/forecasts', createForecastsRouter());
   app.use('/api/planner', createPlannerRouter(db));
   app.use((_req, res) => res.status(404).json({ error: { code: 'NOT_FOUND', message: 'Not found' } }));
 
