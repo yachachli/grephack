@@ -1,0 +1,40 @@
+{
+  "assumptions": [
+    "Status Source List is the canonical acreage/block master.",
+    "Status latest observation is the current operational state.",
+    "Each truck is assumed to make one trip per night and carry 23.5 tons; required loads therefore equal required trucks for the MVP.",
+    "Variety suffixes derived from Status parent codes are provisional.",
+    "Crop selected estimate is the latest dated row per code + normalized block name + variety.",
+    "Schedule joins require an exact, unambiguous normalized name from the Sugar workbook.",
+    "2022 Sugar observations remain parent-unmapped because that workbook has no codes."
+  ],
+  "counts": {
+    "backend_api_ready_candidates": 8,
+    "backend_block_candidates": 215,
+    "block_status_records": 81,
+    "brix_observations": 3744,
+    "crop_estimate_observations": 496,
+    "harvest_events": 158,
+    "parent_blocks": 215,
+    "schedule_rows": 675,
+    "selected_crop_estimates": 137,
+    "subblocks": 255
+  },
+  "coverage": {
+    "managed_acres_from_status_master": 6944.52,
+    "schedule_rows_with_numeric_loads": 584,
+    "unmatched_brix_observations": 1338,
+    "unmatched_crop_observations": 23,
+    "unmatched_harvest_events": 5,
+    "unmatched_schedule_rows": 327
+  },
+  "generated_at": "2026-08-23T15:34:05-07:00",
+  "known_source_risks": [
+    "Harvest Summary covers a smaller implicit scope than the Status block master.",
+    "Schedule load cells mix numeric loads with tons, bins, and question marks.",
+    "Source formulas mix 23, 23.5, and 24 tons per load; the operator-confirmed practical payload is 23.5 tons despite four nominal six-ton compartments.",
+    "Crop code is not unique at observation grain and some rows mix units.",
+    "Sugar field and lab methods are not interchangeable without calibration.",
+    "Historical Brix backtests must avoid LAST BRIX, LAST SAMPLE DATE, and DONE fields to prevent leakage."
+  ]
+}

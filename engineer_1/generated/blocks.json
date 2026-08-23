@@ -1,0 +1,4337 @@
+[
+  {
+    "active_2026": null,
+    "block_id": "block:98OK01CS",
+    "parent_code": "98OK01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 2,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK01CS",
+    "subblock_id": "subblock:98OK01CS",
+    "total_acres": 22.560606060606062,
+    "total_vines": 16379.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK02CS",
+    "parent_code": "98OK02CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 3,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK02CS",
+    "subblock_id": "subblock:98OK02CS",
+    "total_acres": 15.396694214876034,
+    "total_vines": 11178.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK03MA",
+    "parent_code": "98OK03MA",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 4,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK03MA",
+    "subblock_id": "subblock:98OK03MA",
+    "total_acres": 18.852387843704776,
+    "total_vines": 13027.0,
+    "variety_code": "MA",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK04CS",
+    "parent_code": "98OK04CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 5,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK04CS",
+    "subblock_id": "subblock:98OK04CS",
+    "total_acres": 26.228654124457307,
+    "total_vines": 18124.0,
+    "variety_code": "CS",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK05CS",
+    "parent_code": "98OK05CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 6,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK05CS",
+    "subblock_id": "subblock:98OK05CS",
+    "total_acres": 19.892908827785817,
+    "total_vines": 13746.0,
+    "variety_code": "CS",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK06CS",
+    "parent_code": "98OK06CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 7,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK06CS",
+    "subblock_id": "subblock:98OK06CS",
+    "total_acres": 22.52821997105644,
+    "total_vines": 15567.0,
+    "variety_code": "CS",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK07ME",
+    "parent_code": "98OK07ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 8,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK07ME",
+    "subblock_id": "subblock:98OK07ME",
+    "total_acres": 36.67872648335745,
+    "total_vines": 25345.0,
+    "variety_code": "ME",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK08PS",
+    "parent_code": "98OK08PS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 9,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK08PS",
+    "subblock_id": "subblock:98OK08PS",
+    "total_acres": 23.85672937771346,
+    "total_vines": 16485.0,
+    "variety_code": "PS",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK09CS",
+    "parent_code": "98OK09CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 10,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK09CS",
+    "subblock_id": "subblock:98OK09CS",
+    "total_acres": 38.47796143250689,
+    "total_vines": 27935.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK10ZN",
+    "parent_code": "98OK10ZN",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 11,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK10ZN",
+    "subblock_id": "subblock:98OK10ZN",
+    "total_acres": 18.264833574529668,
+    "total_vines": 12621.0,
+    "variety_code": "ZN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:98OK11CF",
+    "parent_code": "98OK11CF",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 12,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "98OK11CF",
+    "subblock_id": "subblock:98OK11CF",
+    "total_acres": 20.506815365551425,
+    "total_vines": 16549.0,
+    "variety_code": "CF",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ARDA01CS",
+    "parent_code": "ARDA01CS",
+    "region": "LODI",
+    "source": {
+      "row": 13,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ARDA01CS",
+    "subblock_id": "subblock:ARDA01CS",
+    "total_acres": 36.39710610932476,
+    "total_vines": 22639.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BAPE01CH",
+    "parent_code": "BAPE01CH",
+    "region": "LODI",
+    "source": {
+      "row": 14,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BAPE01CH",
+    "subblock_id": "subblock:BAPE01CH",
+    "total_acres": 41.46969696969697,
+    "total_vines": 30107.0,
+    "variety_code": "CH",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BAVC01ZN",
+    "parent_code": "BAVC01ZN",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 15,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BAVC01ZN",
+    "subblock_id": "subblock:BAVC01ZN",
+    "total_acres": 16.556270096463024,
+    "total_vines": 10298.0,
+    "variety_code": "ZN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BAVC02PR",
+    "parent_code": "BAVC02PR",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 16,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BAVC02PR",
+    "subblock_id": "subblock:BAVC02PR",
+    "total_acres": 11.52733118971061,
+    "total_vines": 7170.0,
+    "variety_code": "PR",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BEBU01ME",
+    "parent_code": "BEBU01ME",
+    "region": "LODI",
+    "source": {
+      "row": 17,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BEBU01ME",
+    "subblock_id": "subblock:BEBU01ME",
+    "total_acres": 46.814126394052046,
+    "total_vines": 37779.0,
+    "variety_code": "ME",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 18,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-1",
+    "subblock_id": "subblock:BHCH01CS-1",
+    "total_acres": 4.52411575562701,
+    "total_vines": 2814.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 19,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-2",
+    "subblock_id": "subblock:BHCH01CS-2",
+    "total_acres": 3.855305466237942,
+    "total_vines": 2398.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 20,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-3",
+    "subblock_id": "subblock:BHCH01CS-3",
+    "total_acres": 1.207395498392283,
+    "total_vines": 751.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 21,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-4",
+    "subblock_id": "subblock:BHCH01CS-4",
+    "total_acres": 3.265273311897106,
+    "total_vines": 2031.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 22,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-5",
+    "subblock_id": "subblock:BHCH01CS-5",
+    "total_acres": 1.9533762057877813,
+    "total_vines": 1215.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 23,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-6",
+    "subblock_id": "subblock:BHCH01CS-6",
+    "total_acres": 0.9839228295819936,
+    "total_vines": 612.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 24,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-7",
+    "subblock_id": "subblock:BHCH01CS-7",
+    "total_acres": 4.180064308681672,
+    "total_vines": 2600.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 25,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-8",
+    "subblock_id": "subblock:BHCH01CS-8",
+    "total_acres": 2.6012861736334405,
+    "total_vines": 1618.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 26,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-9",
+    "subblock_id": "subblock:BHCH01CS-9",
+    "total_acres": 2.062700964630225,
+    "total_vines": 1283.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 27,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-10",
+    "subblock_id": "subblock:BHCH01CS-10",
+    "total_acres": 2.3392282958199355,
+    "total_vines": 1455.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 28,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-11",
+    "subblock_id": "subblock:BHCH01CS-11",
+    "total_acres": 1.2443729903536977,
+    "total_vines": 774.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 29,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-12",
+    "subblock_id": "subblock:BHCH01CS-12",
+    "total_acres": 6.305466237942122,
+    "total_vines": 3922.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 30,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-13",
+    "subblock_id": "subblock:BHCH01CS-13",
+    "total_acres": 9.233118971061094,
+    "total_vines": 5743.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BHCH01CS",
+    "parent_code": "BHCH01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 31,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BHCH01CS-ALL",
+    "subblock_id": "subblock:BHCH01CS-ALL",
+    "total_acres": 43.755627009646304,
+    "total_vines": 27216.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:BSHMOHCS",
+    "parent_code": "BSHMOHCS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 32,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "BSHMOHCS",
+    "subblock_id": "subblock:BSHMOHCS",
+    "total_acres": 4.2214876033057855,
+    "total_vines": 2554.0,
+    "variety_code": "CS",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A01PV",
+    "parent_code": "CL3A01PV",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 33,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CL3A01PV",
+    "subblock_id": "subblock:CL3A01PV",
+    "total_acres": 88.55800293685756,
+    "total_vines": 60308.0,
+    "variety_code": "PV",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A02SB",
+    "parent_code": "CL3A02SB",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 34,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CL3A02SB",
+    "subblock_id": "subblock:CL3A02SB",
+    "total_acres": 49.29903536977492,
+    "total_vines": 30664.0,
+    "variety_code": "SB",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A04PV",
+    "parent_code": "CL3A04PV",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 35,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CL3A04PV",
+    "subblock_id": "subblock:CL3A04PV",
+    "total_acres": 53.08663729809104,
+    "total_vines": 36152.0,
+    "variety_code": "PV",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CL3A05ZN",
+    "parent_code": "CL3A05ZN",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 36,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CL3A05ZN",
+    "subblock_id": "subblock:CL3A05ZN",
+    "total_acres": 41.697503671071956,
+    "total_vines": 28396.0,
+    "variety_code": "ZN",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT01CS",
+    "parent_code": "CLAT01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 37,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLAT01CS",
+    "subblock_id": "subblock:CLAT01CS",
+    "total_acres": 39.23788546255506,
+    "total_vines": 26721.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT01CS",
+    "parent_code": "CLAT01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 38,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLAT01CS-DISCH",
+    "subblock_id": "subblock:CLAT01CS-DISCH",
+    "total_acres": 35.19530102790015,
+    "total_vines": 23968.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT01CS",
+    "parent_code": "CLAT01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 39,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLAT01CS-NS",
+    "subblock_id": "subblock:CLAT01CS-NS",
+    "total_acres": 4.042584434654919,
+    "total_vines": 2753.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT02CH",
+    "parent_code": "CLAT02CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 40,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLATCH-84AC",
+    "subblock_id": "subblock:CLATCH-84AC",
+    "total_acres": 83.80029368575624,
+    "total_vines": 57068.0,
+    "variety_code": "CH",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT02CH",
+    "parent_code": "CLAT02CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 41,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLAT02CH",
+    "subblock_id": "subblock:CLAT02CH",
+    "total_acres": 81.79295154185021,
+    "total_vines": 55701.0,
+    "variety_code": "CH",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT05CS",
+    "parent_code": "CLAT05CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 42,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLAT05CS",
+    "subblock_id": "subblock:CLAT05CS",
+    "total_acres": 34.35976505139501,
+    "total_vines": 23399.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT05CS",
+    "parent_code": "CLAT05CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 43,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLAT05CS-N",
+    "subblock_id": "subblock:CLAT05CS-N",
+    "total_acres": 5.624082232011747,
+    "total_vines": 3830.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLAT05CS",
+    "parent_code": "CLAT05CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 44,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLAT05CS-S",
+    "subblock_id": "subblock:CLAT05CS-S",
+    "total_acres": 28.73568281938326,
+    "total_vines": 19569.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLBC00VD",
+    "parent_code": "CLBC00VD",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 45,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLBC00VD",
+    "subblock_id": "subblock:CLBC00VD",
+    "total_acres": 6.839941262848752,
+    "total_vines": 4658.0,
+    "variety_code": "VD",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLBC01PG",
+    "parent_code": "CLBC01PG",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 46,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLBC01PG",
+    "subblock_id": "subblock:CLBC01PG",
+    "total_acres": 38.797356828193834,
+    "total_vines": 26421.0,
+    "variety_code": "PG",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLBC02CH",
+    "parent_code": "CLBC02CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 47,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLBC02CH",
+    "subblock_id": "subblock:CLBC02CH",
+    "total_acres": 59.59471365638767,
+    "total_vines": 40584.0,
+    "variety_code": "CH",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLLA01ME",
+    "parent_code": "CLLA01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 48,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLLA01ME",
+    "subblock_id": "subblock:CLLA01ME",
+    "total_acres": 72.09838472834068,
+    "total_vines": 49099.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLLA01ME",
+    "parent_code": "CLLA01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 49,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLLA01ME-N",
+    "subblock_id": "subblock:CLLA01ME-N",
+    "total_acres": 63.96035242290749,
+    "total_vines": 43557.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLLA01ME",
+    "parent_code": "CLLA01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 50,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLLA01ME-S",
+    "subblock_id": "subblock:CLLA01ME-S",
+    "total_acres": 8.138032305433187,
+    "total_vines": 5542.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN01SY",
+    "parent_code": "CLMN01SY",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 51,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMN01SY",
+    "subblock_id": "subblock:CLMN01SY",
+    "total_acres": 59.47909967845659,
+    "total_vines": 36996.0,
+    "variety_code": "SY",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN01SY",
+    "parent_code": "CLMN01SY",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 52,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMN01SY-E",
+    "subblock_id": "subblock:CLMN01SY-E",
+    "total_acres": 34.146302250803856,
+    "total_vines": 21239.0,
+    "variety_code": "SY",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN01SY",
+    "parent_code": "CLMN01SY",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 53,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMN01SY-W",
+    "subblock_id": "subblock:CLMN01SY-W",
+    "total_acres": 25.332797427652732,
+    "total_vines": 15757.0,
+    "variety_code": "SY",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN02PV",
+    "parent_code": "CLMN02PV",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 54,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMN02PV",
+    "subblock_id": "subblock:CLMN02PV",
+    "total_acres": 14.635048231511254,
+    "total_vines": 9103.0,
+    "variety_code": "PV",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMNOHPS",
+    "parent_code": "CLMNOHPS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 55,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMNOHPS",
+    "subblock_id": "subblock:CLMNOHPS",
+    "total_acres": 32.72347266881029,
+    "total_vines": 20354.0,
+    "variety_code": "PS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN03PS",
+    "parent_code": "CLMN03PS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 56,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMN03PS",
+    "subblock_id": "subblock:CLMN03PS",
+    "total_acres": 4.829581993569132,
+    "total_vines": 3004.0,
+    "variety_code": "PS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN04PS",
+    "parent_code": "CLMN04PS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 57,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMN04PS",
+    "subblock_id": "subblock:CLMN04PS",
+    "total_acres": 11.97749196141479,
+    "total_vines": 7450.0,
+    "variety_code": "PS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMN05PS",
+    "parent_code": "CLMN05PS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 58,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMN05PS",
+    "subblock_id": "subblock:CLMN05PS",
+    "total_acres": 15.916398713826366,
+    "total_vines": 9900.0,
+    "variety_code": "PS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLMO01BA",
+    "parent_code": "CLMO01BA",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 59,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLMO01BA",
+    "subblock_id": "subblock:CLMO01BA",
+    "total_acres": 33.734214390602055,
+    "total_vines": 22973.0,
+    "variety_code": "BA",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLNR01CS",
+    "parent_code": "CLNR01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 60,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLNR01CS",
+    "subblock_id": "subblock:CLNR01CS",
+    "total_acres": 59.27823691460055,
+    "total_vines": 43036.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLOK01ME",
+    "parent_code": "CLOK01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 61,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLOK01ME",
+    "subblock_id": "subblock:CLOK01ME",
+    "total_acres": 100.09544787077827,
+    "total_vines": 68165.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLOK02CS",
+    "parent_code": "CLOK02CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 62,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLOK02CS",
+    "subblock_id": "subblock:CLOK02CS",
+    "total_acres": 103.49192364170338,
+    "total_vines": 70478.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLOK02CS",
+    "parent_code": "CLOK02CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 63,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLOK02CS-MAIN",
+    "subblock_id": "subblock:CLOK02CS-MAIN",
+    "total_acres": 92.49779735682819,
+    "total_vines": 62991.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLOK02CS",
+    "parent_code": "CLOK02CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 64,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLOK02CS-SW",
+    "subblock_id": "subblock:CLOK02CS-SW",
+    "total_acres": 10.994126284875184,
+    "total_vines": 7487.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC01ME",
+    "parent_code": "CLPC01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 65,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC01ME",
+    "subblock_id": "subblock:CLPC01ME",
+    "total_acres": 37.85168869309838,
+    "total_vines": 25777.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC01ME",
+    "parent_code": "CLPC01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 66,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC01ME-K",
+    "subblock_id": "subblock:CLPC01ME-K",
+    "total_acres": 25.35389133627019,
+    "total_vines": 17266.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC01ME",
+    "parent_code": "CLPC01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 67,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC01ME-NS",
+    "subblock_id": "subblock:CLPC01ME-NS",
+    "total_acres": 12.497797356828194,
+    "total_vines": 8511.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC02BA",
+    "parent_code": "CLPC02BA",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 68,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC02BA",
+    "subblock_id": "subblock:CLPC02BA",
+    "total_acres": 27.76358296622614,
+    "total_vines": 18907.0,
+    "variety_code": "BA",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC03ME",
+    "parent_code": "CLPC03ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 69,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC03ME",
+    "subblock_id": "subblock:CLPC03ME",
+    "total_acres": 42.97944199706314,
+    "total_vines": 29269.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC06PR",
+    "parent_code": "CLPC06PR",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 70,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC06PR",
+    "subblock_id": "subblock:CLPC06PR",
+    "total_acres": 79.48311306901616,
+    "total_vines": 54128.0,
+    "variety_code": "PR",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC07CS",
+    "parent_code": "CLPC07CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 71,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC07CS",
+    "subblock_id": "subblock:CLPC07CS",
+    "total_acres": 75.54185022026432,
+    "total_vines": 51444.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC4APR",
+    "parent_code": "CLPC4APR",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 72,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC4APR",
+    "subblock_id": "subblock:CLPC4APR",
+    "total_acres": 57.267657992565056,
+    "total_vines": 46215.0,
+    "variety_code": "PR",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPC4BCH",
+    "parent_code": "CLPC4BCH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 73,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPC4BCH",
+    "subblock_id": "subblock:CLPC4BCH",
+    "total_acres": 60.12258953168044,
+    "total_vines": 43649.0,
+    "variety_code": "CH",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLPT01CS",
+    "parent_code": "CLPT01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 74,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLPT01CS",
+    "subblock_id": "subblock:CLPT01CS",
+    "total_acres": 82.55066079295155,
+    "total_vines": 56217.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR101ME",
+    "parent_code": "CLR101ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 75,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLR101ME",
+    "subblock_id": "subblock:CLR101ME",
+    "total_acres": 66.16152716593245,
+    "total_vines": 45056.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR101ME",
+    "parent_code": "CLR101ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 76,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLR101ME-E",
+    "subblock_id": "subblock:CLR101ME-E",
+    "total_acres": 36.18795888399413,
+    "total_vines": 24644.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR101ME",
+    "parent_code": "CLR101ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 77,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLR101ME-W",
+    "subblock_id": "subblock:CLR101ME-W",
+    "total_acres": 29.973568281938327,
+    "total_vines": 20412.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR201MA",
+    "parent_code": "CLR201MA",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 78,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLR201MA",
+    "subblock_id": "subblock:CLR201MA",
+    "total_acres": 32.3215859030837,
+    "total_vines": 22011.0,
+    "variety_code": "MA",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CLR202CH",
+    "parent_code": "CLR202CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 79,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CLR202CH",
+    "subblock_id": "subblock:CLR202CH",
+    "total_acres": 69.3215859030837,
+    "total_vines": 47208.0,
+    "variety_code": "CH",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:CO8802CH",
+    "parent_code": "CO8802CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 80,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "CO8802CH",
+    "subblock_id": "subblock:CO8802CH",
+    "total_acres": 31.675241157556272,
+    "total_vines": 19702.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBAI02SA",
+    "parent_code": "DBAI02SA",
+    "region": "LODI",
+    "source": {
+      "row": 81,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DBAI02SA",
+    "subblock_id": "subblock:DBAI02SA",
+    "total_acres": 9.901028277634962,
+    "total_vines": 7703.0,
+    "variety_code": "SA",
+    "vines_per_acre": 778.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBAI03ZN",
+    "parent_code": "DBAI03ZN",
+    "region": "LODI",
+    "source": {
+      "row": 82,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DBAI03ZN",
+    "subblock_id": "subblock:DBAI03ZN",
+    "total_acres": 9.056270096463022,
+    "total_vines": 5633.0,
+    "variety_code": "ZN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBAI04CS",
+    "parent_code": "DBAI04CS",
+    "region": "LODI",
+    "source": {
+      "row": 83,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DBAI04CS",
+    "subblock_id": "subblock:DBAI04CS",
+    "total_acres": 9.115755627009646,
+    "total_vines": 5670.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DBDA05CH",
+    "parent_code": "DBDA05CH",
+    "region": "LODI",
+    "source": {
+      "row": 84,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DBDA05CH",
+    "subblock_id": "subblock:DBDA05CH",
+    "total_acres": 9.737942122186496,
+    "total_vines": 6057.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DFDA01CS",
+    "parent_code": "DFDA01CS",
+    "region": "LODI",
+    "source": {
+      "row": 85,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DFDA01CS",
+    "subblock_id": "subblock:DFDA01CS",
+    "total_acres": 15.030546623794212,
+    "total_vines": 9349.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DFDA04ZN",
+    "parent_code": "DFDA04ZN",
+    "region": "LODI",
+    "source": {
+      "row": 86,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DFDA04ZN",
+    "subblock_id": "subblock:DFDA04ZN",
+    "total_acres": 7.940665701881332,
+    "total_vines": 5487.0,
+    "variety_code": "ZN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DFDA07ND",
+    "parent_code": "DFDA07ND",
+    "region": "LODI",
+    "source": {
+      "row": 87,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DFDA07ND",
+    "subblock_id": "subblock:DFDA07ND",
+    "total_acres": 6.649782923299566,
+    "total_vines": 4595.0,
+    "variety_code": "ND",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DULA01CS",
+    "parent_code": "DULA01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 88,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DULA01CS",
+    "subblock_id": "subblock:DULA01CS",
+    "total_acres": 3.667202572347267,
+    "total_vines": 2281.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU02SB",
+    "parent_code": "DVDU02SB",
+    "region": "DELTA",
+    "source": {
+      "row": 89,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU02SB",
+    "subblock_id": "subblock:DVDU02SB",
+    "total_acres": 38.84297520661157,
+    "total_vines": 28200.0,
+    "variety_code": "SB",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU03SB",
+    "parent_code": "DVDU03SB",
+    "region": "DELTA",
+    "source": {
+      "row": 90,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU03SB",
+    "subblock_id": "subblock:DVDU03SB",
+    "total_acres": 46.852892561983474,
+    "total_vines": 28346.0,
+    "variety_code": "SB",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU04SB",
+    "parent_code": "DVDU04SB",
+    "region": "DELTA",
+    "source": {
+      "row": 91,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU04SB",
+    "subblock_id": "subblock:DVDU04SB",
+    "total_acres": 33.40495867768595,
+    "total_vines": 20210.0,
+    "variety_code": "SB",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU06VI",
+    "parent_code": "DVDU06VI",
+    "region": "DELTA",
+    "source": {
+      "row": 92,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU06VI",
+    "subblock_id": "subblock:DVDU06VI",
+    "total_acres": 5.055045871559633,
+    "total_vines": 2755.0,
+    "variety_code": "VI",
+    "vines_per_acre": 545.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU07MC",
+    "parent_code": "DVDU07MC",
+    "region": "DELTA",
+    "source": {
+      "row": 93,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU07MC",
+    "subblock_id": "subblock:DVDU07MC",
+    "total_acres": 28.172477064220182,
+    "total_vines": 15354.0,
+    "variety_code": "MC",
+    "vines_per_acre": 545.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU08PN",
+    "parent_code": "DVDU08PN",
+    "region": "DELTA",
+    "source": {
+      "row": 94,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU08PN",
+    "subblock_id": "subblock:DVDU08PN",
+    "total_acres": 45.57073954983923,
+    "total_vines": 28345.0,
+    "variety_code": "PN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU1CSB",
+    "parent_code": "DVDU1CSB",
+    "region": "DELTA",
+    "source": {
+      "row": 95,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU1CSB",
+    "subblock_id": "subblock:DVDU1CSB",
+    "total_acres": 44.78512396694215,
+    "total_vines": 32514.0,
+    "variety_code": "SB",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVMA01PN",
+    "parent_code": "DVMA01PN",
+    "region": "DELTA",
+    "source": {
+      "row": 96,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVMA01PN",
+    "subblock_id": "subblock:DVMA01PN",
+    "total_acres": 44.26338639652677,
+    "total_vines": 30586.0,
+    "variety_code": "PN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVMA01PN",
+    "parent_code": "DVMA01PN",
+    "region": "DELTA",
+    "source": {
+      "row": 97,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVMA01PN-EAST",
+    "subblock_id": "subblock:DVMA01PN-EAST",
+    "total_acres": 11.32561505065123,
+    "total_vines": 7826.0,
+    "variety_code": "PN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVMA01PN",
+    "parent_code": "DVMA01PN",
+    "region": "DELTA",
+    "source": {
+      "row": 98,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVMA01PN-WEST",
+    "subblock_id": "subblock:DVMA01PN-WEST",
+    "total_acres": 32.93777134587554,
+    "total_vines": 22760.0,
+    "variety_code": "PN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVMA02PG",
+    "parent_code": "DVMA02PG",
+    "region": "DELTA",
+    "source": {
+      "row": 99,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVMA02PG",
+    "subblock_id": "subblock:DVMA02PG",
+    "total_acres": 103.72026431718062,
+    "total_vines": 94178.0,
+    "variety_code": "PG",
+    "vines_per_acre": 908.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA01TO",
+    "parent_code": "FDJA01TO",
+    "region": "LODI",
+    "source": {
+      "row": 100,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FDJA01TO",
+    "subblock_id": "subblock:FDJA01TO",
+    "total_acres": 19.96035242290749,
+    "total_vines": 13593.0,
+    "variety_code": "TO",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA02TE",
+    "parent_code": "FDJA02TE",
+    "region": "LODI",
+    "source": {
+      "row": 101,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FDJA02TE",
+    "subblock_id": "subblock:FDJA02TE",
+    "total_acres": 19.98825256975037,
+    "total_vines": 13612.0,
+    "variety_code": "TE",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA03MA",
+    "parent_code": "FDJA03MA",
+    "region": "LODI",
+    "source": {
+      "row": 102,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FDJA03MA",
+    "subblock_id": "subblock:FDJA03MA",
+    "total_acres": 35.83113069016153,
+    "total_vines": 24401.0,
+    "variety_code": "MA",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA04ME",
+    "parent_code": "FDJA04ME",
+    "region": "LODI",
+    "source": {
+      "row": 103,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FDJA04ME",
+    "subblock_id": "subblock:FDJA04ME",
+    "total_acres": 43.008810572687224,
+    "total_vines": 29289.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA05ME",
+    "parent_code": "FDJA05ME",
+    "region": "LODI",
+    "source": {
+      "row": 104,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FDJA05ME",
+    "subblock_id": "subblock:FDJA05ME",
+    "total_acres": 18.09383033419023,
+    "total_vines": 14077.0,
+    "variety_code": "ME",
+    "vines_per_acre": 778.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FDJA06TA",
+    "parent_code": "FDJA06TA",
+    "region": "LODI",
+    "source": {
+      "row": 105,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FDJA06TA",
+    "subblock_id": "subblock:FDJA06TA",
+    "total_acres": 8.033773861967694,
+    "total_vines": 5471.0,
+    "variety_code": "TA",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY01PN",
+    "parent_code": "FFRY01PN",
+    "region": "DELTA",
+    "source": {
+      "row": 106,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY01PN",
+    "subblock_id": "subblock:FFRY01PN",
+    "total_acres": 37.4903536977492,
+    "total_vines": 23319.0,
+    "variety_code": "PN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY02PN",
+    "parent_code": "FFRY02PN",
+    "region": "DELTA",
+    "source": {
+      "row": 107,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY02PN",
+    "subblock_id": "subblock:FFRY02PN",
+    "total_acres": 14.942122186495176,
+    "total_vines": 9294.0,
+    "variety_code": "PN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY04CH",
+    "parent_code": "FFRY04CH",
+    "region": "DELTA",
+    "source": {
+      "row": 108,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY04CH",
+    "subblock_id": "subblock:FFRY04CH",
+    "total_acres": 15.807420494699647,
+    "total_vines": 8947.0,
+    "variety_code": "CH",
+    "vines_per_acre": 566.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY05CH",
+    "parent_code": "FFRY05CH",
+    "region": "DELTA",
+    "source": {
+      "row": 109,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY05CH",
+    "subblock_id": "subblock:FFRY05CH",
+    "total_acres": 24.64630225080386,
+    "total_vines": 15330.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY09PN",
+    "parent_code": "FFRY09PN",
+    "region": "DELTA",
+    "source": {
+      "row": 110,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY09PN",
+    "subblock_id": "subblock:FFRY09PN",
+    "total_acres": 4.419614147909968,
+    "total_vines": 2749.0,
+    "variety_code": "PN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY10PN",
+    "parent_code": "FFRY10PN",
+    "region": "DELTA",
+    "source": {
+      "row": 111,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY10PN",
+    "subblock_id": "subblock:FFRY10PN",
+    "total_acres": 9.409967845659164,
+    "total_vines": 5853.0,
+    "variety_code": "PN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY15CB",
+    "parent_code": "FFRY15CB",
+    "region": "DELTA",
+    "source": {
+      "row": 112,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY15CB",
+    "subblock_id": "subblock:FFRY15CB",
+    "total_acres": 40.202508960573475,
+    "total_vines": 22433.0,
+    "variety_code": "CB",
+    "vines_per_acre": 558.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY3BAL",
+    "parent_code": "FFRY3BAL",
+    "region": "DELTA",
+    "source": {
+      "row": 113,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY3BAL",
+    "subblock_id": "subblock:FFRY3BAL",
+    "total_acres": 18.82280049566295,
+    "total_vines": 15190.0,
+    "variety_code": "AL",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:FFRY99PN",
+    "parent_code": "FFRY99PN",
+    "region": "DELTA",
+    "source": {
+      "row": 114,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "FFRY99PN",
+    "subblock_id": "subblock:FFRY99PN",
+    "total_acres": 17.740909090909092,
+    "total_vines": 11709.0,
+    "variety_code": "PN",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:GEWENOCH",
+    "parent_code": "GEWENOCH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 115,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "GEWENOCH",
+    "subblock_id": "subblock:GEWENOCH",
+    "total_acres": 25.635048231511256,
+    "total_vines": 15945.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:GZWESOCH",
+    "parent_code": "GZWESOCH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 116,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "GZWESOCH",
+    "subblock_id": "subblock:GZWESOCH",
+    "total_acres": 26.717041800643088,
+    "total_vines": 16618.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:HEBO01CS",
+    "parent_code": "HEBO01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 117,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "HEBO01CS",
+    "subblock_id": "subblock:HEBO01CS",
+    "total_acres": 16.89549839228296,
+    "total_vines": 10509.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:HIHV04CS",
+    "parent_code": "HIHV04CS",
+    "region": "LODI",
+    "source": {
+      "row": 118,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "HIHV04CS",
+    "subblock_id": "subblock:HIHV04CS",
+    "total_acres": 44.28654124457308,
+    "total_vines": 30602.0,
+    "variety_code": "CS",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:HIHV05PS",
+    "parent_code": "HIHV05PS",
+    "region": "LODI",
+    "source": {
+      "row": 119,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "HIHV05PS",
+    "subblock_id": "subblock:HIHV05PS",
+    "total_acres": 56.51808972503618,
+    "total_vines": 39054.0,
+    "variety_code": "PS",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:IWHM01CS",
+    "parent_code": "IWHM01CS",
+    "region": "LODI",
+    "source": {
+      "row": 120,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "IWHM01CS",
+    "subblock_id": "subblock:IWHM01CS",
+    "total_acres": 3.8231511254019295,
+    "total_vines": 2378.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:JONR01CH",
+    "parent_code": "JONR01CH",
+    "region": "LODI",
+    "source": {
+      "row": 121,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "JONR01CH",
+    "subblock_id": "subblock:JONR01CH",
+    "total_acres": 37.444628099173556,
+    "total_vines": 22654.0,
+    "variety_code": "CH",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:JONR02SB",
+    "parent_code": "JONR02SB",
+    "region": "LODI",
+    "source": {
+      "row": 122,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "JONR02SB",
+    "subblock_id": "subblock:JONR02SB",
+    "total_acres": 6.805785123966942,
+    "total_vines": 4941.0,
+    "variety_code": "SB",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:JONR03GV",
+    "parent_code": "JONR03GV",
+    "region": "LODI",
+    "source": {
+      "row": 123,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "JONR03GV",
+    "subblock_id": "subblock:JONR03GV",
+    "total_acres": 4.472451790633609,
+    "total_vines": 3247.0,
+    "variety_code": "GV",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:KBBR01ZN",
+    "parent_code": "KBBR01ZN",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 124,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "KBBR01ZN",
+    "subblock_id": "subblock:KBBR01ZN",
+    "total_acres": 28.2459807073955,
+    "total_vines": 17569.0,
+    "variety_code": "ZN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:KBBR02TD",
+    "parent_code": "KBBR02TD",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 125,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "KBBR02TD",
+    "subblock_id": "subblock:KBBR02TD",
+    "total_acres": 22.131693198263385,
+    "total_vines": 15293.0,
+    "variety_code": "TD",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR02CH",
+    "parent_code": "LAPR02CH",
+    "region": "LODI",
+    "source": {
+      "row": 126,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LAPR02CH",
+    "subblock_id": "subblock:LAPR02CH",
+    "total_acres": 33.93487698986976,
+    "total_vines": 23449.0,
+    "variety_code": "CH",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR03ME",
+    "parent_code": "LAPR03ME",
+    "region": "LODI",
+    "source": {
+      "row": 127,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LAPR03ME",
+    "subblock_id": "subblock:LAPR03ME",
+    "total_acres": 33.79739507959479,
+    "total_vines": 23354.0,
+    "variety_code": "ME",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR04PS",
+    "parent_code": "LAPR04PS",
+    "region": "LODI",
+    "source": {
+      "row": 128,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LAPR04PS",
+    "subblock_id": "subblock:LAPR04PS",
+    "total_acres": 43.43830334190231,
+    "total_vines": 33795.0,
+    "variety_code": "PS",
+    "vines_per_acre": 778.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LAPR05CS",
+    "parent_code": "LAPR05CS",
+    "region": "LODI",
+    "source": {
+      "row": 129,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LAPR05CS",
+    "subblock_id": "subblock:LAPR05CS",
+    "total_acres": 42.75064267352185,
+    "total_vines": 33260.0,
+    "variety_code": "CS",
+    "vines_per_acre": 778.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF1001CS",
+    "parent_code": "LF1001CS",
+    "region": "LODI",
+    "source": {
+      "row": 130,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF1001CS",
+    "subblock_id": "subblock:LF1001CS",
+    "total_acres": 48.762057877813504,
+    "total_vines": 30330.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF1002PS",
+    "parent_code": "LF1002PS",
+    "region": "LODI",
+    "source": {
+      "row": 131,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF1002PS",
+    "subblock_id": "subblock:LF1002PS",
+    "total_acres": 49.10780669144982,
+    "total_vines": 39630.0,
+    "variety_code": "PS",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF3801CS",
+    "parent_code": "LF3801CS",
+    "region": "LODI",
+    "source": {
+      "row": 132,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF3801CS",
+    "subblock_id": "subblock:LF3801CS",
+    "total_acres": 46.839228295819936,
+    "total_vines": 29134.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF3801CS",
+    "parent_code": "LF3801CS",
+    "region": "LODI",
+    "source": {
+      "row": 133,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF3801CS-SPRAWL",
+    "subblock_id": "subblock:LF3801CS-SPRAWL",
+    "total_acres": 18.95337620578778,
+    "total_vines": 11789.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF3801CS",
+    "parent_code": "LF3801CS",
+    "region": "LODI",
+    "source": {
+      "row": 134,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF3801CS-VSP",
+    "subblock_id": "subblock:LF3801CS-VSP",
+    "total_acres": 27.885852090032156,
+    "total_vines": 17345.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8001TD",
+    "parent_code": "LF8001TD",
+    "region": "LODI",
+    "source": {
+      "row": 135,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF8001TD",
+    "subblock_id": "subblock:LF8001TD",
+    "total_acres": 24.676848874598072,
+    "total_vines": 15349.0,
+    "variety_code": "TD",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8002PV",
+    "parent_code": "LF8002PV",
+    "region": "LODI",
+    "source": {
+      "row": 136,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF8002PV",
+    "subblock_id": "subblock:LF8002PV",
+    "total_acres": 25.823151125401928,
+    "total_vines": 16062.0,
+    "variety_code": "PV",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8003PS",
+    "parent_code": "LF8003PS",
+    "region": "LODI",
+    "source": {
+      "row": 137,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF8003PS",
+    "subblock_id": "subblock:LF8003PS",
+    "total_acres": 7.118971061093248,
+    "total_vines": 4428.0,
+    "variety_code": "PS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LF8004CH",
+    "parent_code": "LF8004CH",
+    "region": "LODI",
+    "source": {
+      "row": 138,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LF8004CH",
+    "subblock_id": "subblock:LF8004CH",
+    "total_acres": 18.381028938906752,
+    "total_vines": 11433.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBE01CS",
+    "parent_code": "LFBE01CS",
+    "region": "LODI",
+    "source": {
+      "row": 139,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFBE01CS",
+    "subblock_id": "subblock:LFBE01CS",
+    "total_acres": 57.72038567493113,
+    "total_vines": 41905.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBE02VI",
+    "parent_code": "LFBE02VI",
+    "region": "LODI",
+    "source": {
+      "row": 140,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFBE02VI",
+    "subblock_id": "subblock:LFBE02VI",
+    "total_acres": 37.634961439588686,
+    "total_vines": 29280.0,
+    "variety_code": "VI",
+    "vines_per_acre": 778.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBT01CH",
+    "parent_code": "LFBT01CH",
+    "region": "LODI",
+    "source": {
+      "row": 141,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFBT01CH",
+    "subblock_id": "subblock:LFBT01CH",
+    "total_acres": 37.59355638166047,
+    "total_vines": 30338.0,
+    "variety_code": "CH",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFBT02SB",
+    "parent_code": "LFBT02SB",
+    "region": "LODI",
+    "source": {
+      "row": 142,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFBT02SB",
+    "subblock_id": "subblock:LFBT02SB",
+    "total_acres": 37.46969696969697,
+    "total_vines": 27203.0,
+    "variety_code": "SB",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFDA02PG",
+    "parent_code": "LFDA02PG",
+    "region": "LODI",
+    "source": {
+      "row": 143,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFDA02PG",
+    "subblock_id": "subblock:LFDA02PG",
+    "total_acres": 9.701541850220265,
+    "total_vines": 8809.0,
+    "variety_code": "PG",
+    "vines_per_acre": 908.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFDA03CH",
+    "parent_code": "LFDA03CH",
+    "region": "LODI",
+    "source": {
+      "row": 144,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFDA03CH",
+    "subblock_id": "subblock:LFDA03CH",
+    "total_acres": 18.233118971061092,
+    "total_vines": 11341.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX01SA",
+    "parent_code": "LFEX01SA",
+    "region": "LODI",
+    "source": {
+      "row": 145,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFEX01SA",
+    "subblock_id": "subblock:LFEX01SA",
+    "total_acres": 16.727272727272727,
+    "total_vines": 10120.0,
+    "variety_code": "SA",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX02SY",
+    "parent_code": "LFEX02SY",
+    "region": "LODI",
+    "source": {
+      "row": 146,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFEX02SY",
+    "subblock_id": "subblock:LFEX02SY",
+    "total_acres": 19.411570247933884,
+    "total_vines": 11744.0,
+    "variety_code": "SY",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX03VI",
+    "parent_code": "LFEX03VI",
+    "region": "LODI",
+    "source": {
+      "row": 147,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFEX03VI",
+    "subblock_id": "subblock:LFEX03VI",
+    "total_acres": 16.160330578512397,
+    "total_vines": 9777.0,
+    "variety_code": "VI",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFEX04VI",
+    "parent_code": "LFEX04VI",
+    "region": "LODI",
+    "source": {
+      "row": 148,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFEX04VI",
+    "subblock_id": "subblock:LFEX04VI",
+    "total_acres": 11.728791773778921,
+    "total_vines": 9125.0,
+    "variety_code": "VI",
+    "vines_per_acre": 778.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFGC01CS",
+    "parent_code": "LFGC01CS",
+    "region": "LODI",
+    "source": {
+      "row": 149,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFGC01CS",
+    "subblock_id": "subblock:LFGC01CS",
+    "total_acres": 81.83333333333333,
+    "total_vines": 59411.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFGC01CS",
+    "parent_code": "LFGC01CS",
+    "region": "LODI",
+    "source": {
+      "row": 150,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFGC01CS-N",
+    "subblock_id": "subblock:LFGC01CS-N",
+    "total_acres": 62.86776859504132,
+    "total_vines": 45642.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFGC01CS",
+    "parent_code": "LFGC01CS",
+    "region": "LODI",
+    "source": {
+      "row": 151,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFGC01CS-S",
+    "subblock_id": "subblock:LFGC01CS-S",
+    "total_acres": 18.96556473829201,
+    "total_vines": 13769.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRA01CS",
+    "parent_code": "LFRA01CS",
+    "region": "LODI",
+    "source": {
+      "row": 152,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRA01CS",
+    "subblock_id": "subblock:LFRA01CS",
+    "total_acres": 34.70337738619677,
+    "total_vines": 23633.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRA02CF",
+    "parent_code": "LFRA02CF",
+    "region": "LODI",
+    "source": {
+      "row": 153,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRA02CF",
+    "subblock_id": "subblock:LFRA02CF",
+    "total_acres": 14.774104683195592,
+    "total_vines": 10726.0,
+    "variety_code": "CF",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR01PV",
+    "parent_code": "LFRR01PV",
+    "region": "LODI",
+    "source": {
+      "row": 154,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR01PV",
+    "subblock_id": "subblock:LFRR01PV",
+    "total_acres": 6.159691629955947,
+    "total_vines": 5593.0,
+    "variety_code": "PV",
+    "vines_per_acre": 908.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR02CS",
+    "parent_code": "LFRR02CS",
+    "region": "LODI",
+    "source": {
+      "row": 155,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR02CS",
+    "subblock_id": "subblock:LFRR02CS",
+    "total_acres": 11.148760330578513,
+    "total_vines": 8094.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR03CS",
+    "parent_code": "LFRR03CS",
+    "region": "LODI",
+    "source": {
+      "row": 156,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR03CS",
+    "subblock_id": "subblock:LFRR03CS",
+    "total_acres": 28.853779429987608,
+    "total_vines": 23285.0,
+    "variety_code": "CS",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR04CS",
+    "parent_code": "LFRR04CS",
+    "region": "LODI",
+    "source": {
+      "row": 157,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR04CS",
+    "subblock_id": "subblock:LFRR04CS",
+    "total_acres": 8.356913183279742,
+    "total_vines": 5198.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR05MP",
+    "parent_code": "LFRR05MP",
+    "region": "LODI",
+    "source": {
+      "row": 158,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR05MP",
+    "subblock_id": "subblock:LFRR05MP",
+    "total_acres": 4.535455861070912,
+    "total_vines": 3134.0,
+    "variety_code": "MP",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR06AG",
+    "parent_code": "LFRR06AG",
+    "region": "LODI",
+    "source": {
+      "row": 159,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR06AG",
+    "subblock_id": "subblock:LFRR06AG",
+    "total_acres": 6.59727385377943,
+    "total_vines": 5324.0,
+    "variety_code": "AG",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR07PB",
+    "parent_code": "LFRR07PB",
+    "region": "LODI",
+    "source": {
+      "row": 160,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR07PB",
+    "subblock_id": "subblock:LFRR07PB",
+    "total_acres": 4.984081041968162,
+    "total_vines": 3444.0,
+    "variety_code": "PB",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRR08GB",
+    "parent_code": "LFRR08GB",
+    "region": "LODI",
+    "source": {
+      "row": 161,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRR08GB",
+    "subblock_id": "subblock:LFRR08GB",
+    "total_acres": 4.620839363241679,
+    "total_vines": 3193.0,
+    "variety_code": "GB",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRT01ND",
+    "parent_code": "LFRT01ND",
+    "region": "LODI",
+    "source": {
+      "row": 162,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRT01ND",
+    "subblock_id": "subblock:LFRT01ND",
+    "total_acres": 3.21273516642547,
+    "total_vines": 2220.0,
+    "variety_code": "ND",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRT02PR",
+    "parent_code": "LFRT02PR",
+    "region": "LODI",
+    "source": {
+      "row": 163,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRT02PR",
+    "subblock_id": "subblock:LFRT02PR",
+    "total_acres": 27.178002894356005,
+    "total_vines": 18780.0,
+    "variety_code": "PR",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFRT03AN",
+    "parent_code": "LFRT03AN",
+    "region": "LODI",
+    "source": {
+      "row": 164,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFRT03AN",
+    "subblock_id": "subblock:LFRT03AN",
+    "total_acres": 0.2821997105643994,
+    "total_vines": 195.0,
+    "variety_code": "AN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFTO01CS",
+    "parent_code": "LFTO01CS",
+    "region": "LODI",
+    "source": {
+      "row": 165,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFTO01CS",
+    "subblock_id": "subblock:LFTO01CS",
+    "total_acres": 57.22727272727273,
+    "total_vines": 41547.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFTO02SB",
+    "parent_code": "LFTO02SB",
+    "region": "LODI",
+    "source": {
+      "row": 166,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFTO02SB",
+    "subblock_id": "subblock:LFTO02SB",
+    "total_acres": 56.02250803858521,
+    "total_vines": 34846.0,
+    "variety_code": "SB",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW104CS",
+    "parent_code": "LFW104CS",
+    "region": "LODI",
+    "source": {
+      "row": 167,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFW104CS",
+    "subblock_id": "subblock:LFW104CS",
+    "total_acres": 54.247933884297524,
+    "total_vines": 39384.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW202TD",
+    "parent_code": "LFW202TD",
+    "region": "LODI",
+    "source": {
+      "row": 168,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFW202TD",
+    "subblock_id": "subblock:LFW202TD",
+    "total_acres": 31.993388429752066,
+    "total_vines": 19356.0,
+    "variety_code": "TD",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW301CS",
+    "parent_code": "LFW301CS",
+    "region": "LODI",
+    "source": {
+      "row": 169,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFW301CS",
+    "subblock_id": "subblock:LFW301CS",
+    "total_acres": 39.882525697503674,
+    "total_vines": 27160.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LFW302SB",
+    "parent_code": "LFW302SB",
+    "region": "LODI",
+    "source": {
+      "row": 170,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LFW302SB",
+    "subblock_id": "subblock:LFW302SB",
+    "total_acres": 49.07234726688103,
+    "total_vines": 30523.0,
+    "variety_code": "SB",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MEJA03CS",
+    "parent_code": "MEJA03CS",
+    "region": "LODI",
+    "source": {
+      "row": 171,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MEJA03CS",
+    "subblock_id": "subblock:MEJA03CS",
+    "total_acres": 30.581267217630852,
+    "total_vines": 22202.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFLO01PG",
+    "parent_code": "MFLO01PG",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 172,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MFLO01PG",
+    "subblock_id": "subblock:MFLO01PG",
+    "total_acres": 41.763215859030836,
+    "total_vines": 37921.0,
+    "variety_code": "PG",
+    "vines_per_acre": 908.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFLO02TE",
+    "parent_code": "MFLO02TE",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 173,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MFLO02TE",
+    "subblock_id": "subblock:MFLO02TE",
+    "total_acres": 21.94215938303342,
+    "total_vines": 17071.0,
+    "variety_code": "TE",
+    "vines_per_acre": 778.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN01PN",
+    "parent_code": "MFRN01PN",
+    "region": "DELTA",
+    "source": {
+      "row": 174,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MFRN01PN",
+    "subblock_id": "subblock:MFRN01PN",
+    "total_acres": 33.92936802973978,
+    "total_vines": 27381.0,
+    "variety_code": "PN",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN02PN",
+    "parent_code": "MFRN02PN",
+    "region": "DELTA",
+    "source": {
+      "row": 175,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MFRN02PN",
+    "subblock_id": "subblock:MFRN02PN",
+    "total_acres": 45.36555142503098,
+    "total_vines": 36610.0,
+    "variety_code": "PN",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN03PG",
+    "parent_code": "MFRN03PG",
+    "region": "DELTA",
+    "source": {
+      "row": 176,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MFRN03PG",
+    "subblock_id": "subblock:MFRN03PG",
+    "total_acres": 44.74349442379182,
+    "total_vines": 36108.0,
+    "variety_code": "PG",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ01CH",
+    "parent_code": "MJMJ01CH",
+    "region": "DELTA",
+    "source": {
+      "row": 177,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MJMJ01CH",
+    "subblock_id": "subblock:MJMJ01CH",
+    "total_acres": 28.44694533762058,
+    "total_vines": 17694.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ02PG",
+    "parent_code": "MJMJ02PG",
+    "region": "DELTA",
+    "source": {
+      "row": 178,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MJMJ02PG-OLD",
+    "subblock_id": "subblock:MJMJ02PG-OLD",
+    "total_acres": 43.95369030390738,
+    "total_vines": 30372.0,
+    "variety_code": "PG",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ02PG",
+    "parent_code": "MJMJ02PG",
+    "region": "DELTA",
+    "source": {
+      "row": 179,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MJMJ02PG-RETRAIN",
+    "subblock_id": "subblock:MJMJ02PG-RETRAIN",
+    "total_acres": 22.03039073806078,
+    "total_vines": 15223.0,
+    "variety_code": "PG",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ03CB",
+    "parent_code": "MJMJ03CB",
+    "region": "DELTA",
+    "source": {
+      "row": 180,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MJMJ03CB",
+    "subblock_id": "subblock:MJMJ03CB",
+    "total_acres": 19.41322314049587,
+    "total_vines": 14094.0,
+    "variety_code": "CB",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MJMJ04CB",
+    "parent_code": "MJMJ04CB",
+    "region": "DELTA",
+    "source": {
+      "row": 181,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MJMJ04CB",
+    "subblock_id": "subblock:MJMJ04CB",
+    "total_acres": 36.77823691460055,
+    "total_vines": 26701.0,
+    "variety_code": "CB",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MKJA04CS",
+    "parent_code": "MKJA04CS",
+    "region": "LODI",
+    "source": {
+      "row": 182,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MKJA04CS",
+    "subblock_id": "subblock:MKJA04CS",
+    "total_acres": 35.65426997245179,
+    "total_vines": 25885.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MRPR01CS",
+    "parent_code": "MRPR01CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 183,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MRPR01CS",
+    "subblock_id": "subblock:MRPR01CS",
+    "total_acres": 34.66115702479339,
+    "total_vines": 20970.0,
+    "variety_code": "CS",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MUMU01SB",
+    "parent_code": "MUMU01SB",
+    "region": "LODI",
+    "source": {
+      "row": 184,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MUMU01SB",
+    "subblock_id": "subblock:MUMU01SB",
+    "total_acres": 21.175206611570246,
+    "total_vines": 12811.0,
+    "variety_code": "SB",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MUMU02PG",
+    "parent_code": "MUMU02PG",
+    "region": "LODI",
+    "source": {
+      "row": 185,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MUMU02PG",
+    "subblock_id": "subblock:MUMU02PG",
+    "total_acres": 20.765051395007344,
+    "total_vines": 14141.0,
+    "variety_code": "PG",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI01CS",
+    "parent_code": "ONMI01CS",
+    "region": "DELTA",
+    "source": {
+      "row": 186,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI01CS",
+    "subblock_id": "subblock:ONMI01CS",
+    "total_acres": 35.86245353159851,
+    "total_vines": 28941.0,
+    "variety_code": "CS",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI02CS",
+    "parent_code": "ONMI02CS",
+    "region": "DELTA",
+    "source": {
+      "row": 187,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI02CS",
+    "subblock_id": "subblock:ONMI02CS",
+    "total_acres": 41.1177199504337,
+    "total_vines": 33182.0,
+    "variety_code": "CS",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI3ACS",
+    "parent_code": "ONMI3ACS",
+    "region": "DELTA",
+    "source": {
+      "row": 188,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI3ACS",
+    "subblock_id": "subblock:ONMI3ACS",
+    "total_acres": 8.71375464684015,
+    "total_vines": 7032.0,
+    "variety_code": "CS",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI05CS",
+    "parent_code": "ONMI05CS",
+    "region": "DELTA",
+    "source": {
+      "row": 189,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI05CS",
+    "subblock_id": "subblock:ONMI05CS",
+    "total_acres": 32.633209417596035,
+    "total_vines": 26335.0,
+    "variety_code": "CS",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI06CS",
+    "parent_code": "ONMI06CS",
+    "region": "DELTA",
+    "source": {
+      "row": 190,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI06CS",
+    "subblock_id": "subblock:ONMI06CS",
+    "total_acres": 30.44609665427509,
+    "total_vines": 24570.0,
+    "variety_code": "CS",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI07ME",
+    "parent_code": "ONMI07ME",
+    "region": "DELTA",
+    "source": {
+      "row": 191,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI07ME",
+    "subblock_id": "subblock:ONMI07ME",
+    "total_acres": 38.2998760842627,
+    "total_vines": 30908.0,
+    "variety_code": "ME",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI08ME",
+    "parent_code": "ONMI08ME",
+    "region": "DELTA",
+    "source": {
+      "row": 192,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI08ME",
+    "subblock_id": "subblock:ONMI08ME",
+    "total_acres": 37.99008674101611,
+    "total_vines": 30658.0,
+    "variety_code": "ME",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ONMI09CH",
+    "parent_code": "ONMI09CH",
+    "region": "DELTA",
+    "source": {
+      "row": 193,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ONMI09CH",
+    "subblock_id": "subblock:ONMI09CH",
+    "total_acres": 37.43494423791822,
+    "total_vines": 30210.0,
+    "variety_code": "CH",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POCR03CS",
+    "parent_code": "POCR03CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 194,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "POCR03CS",
+    "subblock_id": "subblock:POCR03CS",
+    "total_acres": 59.436123348017624,
+    "total_vines": 40476.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POCR03CS-E",
+    "parent_code": "POCR03CS-E",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 195,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "POCR03CS-E",
+    "subblock_id": "subblock:POCR03CS-E",
+    "total_acres": 40.87812041116006,
+    "total_vines": 27838.0,
+    "variety_code": null,
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POCR03CS-W",
+    "parent_code": "POCR03CS-W",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 196,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "POCR03CS-W",
+    "subblock_id": "subblock:POCR03CS-W",
+    "total_acres": 18.558002936857562,
+    "total_vines": 12638.0,
+    "variety_code": null,
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:POHM01PV",
+    "parent_code": "POHM01PV",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 197,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "POHM01PV",
+    "subblock_id": "subblock:POHM01PV",
+    "total_acres": 14.617768595041323,
+    "total_vines": 14150.0,
+    "variety_code": "PV",
+    "vines_per_acre": 968.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPBR03CH",
+    "parent_code": "PPBR03CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 198,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PPBR03CH",
+    "subblock_id": "subblock:PPBR03CH",
+    "total_acres": 40.9903536977492,
+    "total_vines": 25496.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPBR03CH",
+    "parent_code": "PPBR03CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 199,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PPBR03CH-E",
+    "subblock_id": "subblock:PPBR03CH-E",
+    "total_acres": 19.34726688102894,
+    "total_vines": 12034.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPBR03CH",
+    "parent_code": "PPBR03CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 200,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PPBR03CH-MID",
+    "subblock_id": "subblock:PPBR03CH-MID",
+    "total_acres": 13.932475884244372,
+    "total_vines": 8666.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPBR03CH",
+    "parent_code": "PPBR03CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 201,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PPBR03CH-W",
+    "subblock_id": "subblock:PPBR03CH-W",
+    "total_acres": 7.710610932475884,
+    "total_vines": 4796.0,
+    "variety_code": "CH",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPCR01ME",
+    "parent_code": "PPCR01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 202,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PPCR01ME",
+    "subblock_id": "subblock:PPCR01ME",
+    "total_acres": 33.201174743024964,
+    "total_vines": 22610.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PPCR02CH",
+    "parent_code": "PPCR02CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 203,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PPCR02CH",
+    "subblock_id": "subblock:PPCR02CH",
+    "total_acres": 32.78854625550661,
+    "total_vines": 22329.0,
+    "variety_code": "CH",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ01CH",
+    "parent_code": "PRHZ01CH",
+    "region": "DELTA",
+    "source": {
+      "row": 204,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ01CH",
+    "subblock_id": "subblock:PRHZ01CH",
+    "total_acres": 12.252650176678445,
+    "total_vines": 6935.0,
+    "variety_code": "CH",
+    "vines_per_acre": 566.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ02PN",
+    "parent_code": "PRHZ02PN",
+    "region": "DELTA",
+    "source": {
+      "row": 205,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ02PN",
+    "subblock_id": "subblock:PRHZ02PN",
+    "total_acres": 7.046309696092619,
+    "total_vines": 4869.0,
+    "variety_code": "PN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ03PN",
+    "parent_code": "PRHZ03PN",
+    "region": "DELTA",
+    "source": {
+      "row": 206,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ03PN",
+    "subblock_id": "subblock:PRHZ03PN",
+    "total_acres": 7.05643994211288,
+    "total_vines": 4876.0,
+    "variety_code": "PN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ05CB",
+    "parent_code": "PRHZ05CB",
+    "region": "DELTA",
+    "source": {
+      "row": 207,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ05CB",
+    "subblock_id": "subblock:PRHZ05CB",
+    "total_acres": 33.37885462555066,
+    "total_vines": 15154.0,
+    "variety_code": "CB",
+    "vines_per_acre": 454.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ06CB",
+    "parent_code": "PRHZ06CB",
+    "region": "DELTA",
+    "source": {
+      "row": 208,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ06CB",
+    "subblock_id": "subblock:PRHZ06CB",
+    "total_acres": 8.300578034682081,
+    "total_vines": 4308.0,
+    "variety_code": "CB",
+    "vines_per_acre": 519.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ08CB",
+    "parent_code": "PRHZ08CB",
+    "region": "DELTA",
+    "source": {
+      "row": 209,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ08CB",
+    "subblock_id": "subblock:PRHZ08CB",
+    "total_acres": 4.861271676300578,
+    "total_vines": 2523.0,
+    "variety_code": "CB",
+    "vines_per_acre": 519.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ11CB",
+    "parent_code": "PRHZ11CB",
+    "region": "DELTA",
+    "source": {
+      "row": 210,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ11CB",
+    "subblock_id": "subblock:PRHZ11CB",
+    "total_acres": 21.362121212121213,
+    "total_vines": 14099.0,
+    "variety_code": "CB",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ14CB",
+    "parent_code": "PRHZ14CB",
+    "region": "DELTA",
+    "source": {
+      "row": 211,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ14CB",
+    "subblock_id": "subblock:PRHZ14CB",
+    "total_acres": 2.9606060606060605,
+    "total_vines": 1954.0,
+    "variety_code": "CB",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ15CB",
+    "parent_code": "PRHZ15CB",
+    "region": "DELTA",
+    "source": {
+      "row": 212,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ15CB",
+    "subblock_id": "subblock:PRHZ15CB",
+    "total_acres": 22.45,
+    "total_vines": 14817.0,
+    "variety_code": "CB",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ16CB",
+    "parent_code": "PRHZ16CB",
+    "region": "DELTA",
+    "source": {
+      "row": 213,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ16CB",
+    "subblock_id": "subblock:PRHZ16CB",
+    "total_acres": 6.284848484848485,
+    "total_vines": 4148.0,
+    "variety_code": "CB",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ17CB",
+    "parent_code": "PRHZ17CB",
+    "region": "DELTA",
+    "source": {
+      "row": 214,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ17CB",
+    "subblock_id": "subblock:PRHZ17CB",
+    "total_acres": 7.07514450867052,
+    "total_vines": 3672.0,
+    "variety_code": "CB",
+    "vines_per_acre": 519.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ18PS",
+    "parent_code": "PRHZ18PS",
+    "region": "DELTA",
+    "source": {
+      "row": 215,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ18PS",
+    "subblock_id": "subblock:PRHZ18PS",
+    "total_acres": 9.289393939393939,
+    "total_vines": 6131.0,
+    "variety_code": "PS",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ21CH",
+    "parent_code": "PRHZ21CH",
+    "region": "DELTA",
+    "source": {
+      "row": 216,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ21CH",
+    "subblock_id": "subblock:PRHZ21CH",
+    "total_acres": 9.531114327062228,
+    "total_vines": 6586.0,
+    "variety_code": "CH",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ22CB",
+    "parent_code": "PRHZ22CB",
+    "region": "DELTA",
+    "source": {
+      "row": 217,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ22CB",
+    "subblock_id": "subblock:PRHZ22CB",
+    "total_acres": 3.9710982658959537,
+    "total_vines": 2061.0,
+    "variety_code": "CB",
+    "vines_per_acre": 519.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ7ASB",
+    "parent_code": "PRHZ7ASB",
+    "region": "DELTA",
+    "source": {
+      "row": 218,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ7ASB",
+    "subblock_id": "subblock:PRHZ7ASB",
+    "total_acres": 10.196531791907514,
+    "total_vines": 5292.0,
+    "variety_code": "SB",
+    "vines_per_acre": 519.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ7BSB",
+    "parent_code": "PRHZ7BSB",
+    "region": "DELTA",
+    "source": {
+      "row": 219,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ7BSB",
+    "subblock_id": "subblock:PRHZ7BSB",
+    "total_acres": 3.8075757575757576,
+    "total_vines": 2513.0,
+    "variety_code": "SB",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ99MA",
+    "parent_code": "PRHZ99MA",
+    "region": "DELTA",
+    "source": {
+      "row": 220,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ99MA",
+    "subblock_id": "subblock:PRHZ99MA",
+    "total_acres": 8.68030303030303,
+    "total_vines": 5729.0,
+    "variety_code": "MA",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ99CB",
+    "parent_code": "PRHZ99CB",
+    "region": "DELTA",
+    "source": {
+      "row": 221,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ99CB",
+    "subblock_id": "subblock:PRHZ99CB",
+    "total_acres": 0.8015151515151515,
+    "total_vines": 529.0,
+    "variety_code": "CB",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:PRHZ99SB",
+    "parent_code": "PRHZ99SB",
+    "region": "DELTA",
+    "source": {
+      "row": 222,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "PRHZ99SB",
+    "subblock_id": "subblock:PRHZ99SB",
+    "total_acres": 1.9333333333333333,
+    "total_vines": 1276.0,
+    "variety_code": "SB",
+    "vines_per_acre": 660.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RING01CS",
+    "parent_code": "RING01CS",
+    "region": "LODI",
+    "source": {
+      "row": 223,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "RING01CS",
+    "subblock_id": "subblock:RING01CS",
+    "total_acres": 62.61575562700965,
+    "total_vines": 38947.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RING01CS",
+    "parent_code": "RING01CS",
+    "region": "LODI",
+    "source": {
+      "row": 224,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "RING01CS-N",
+    "subblock_id": "subblock:RING01CS-N",
+    "total_acres": 31.225080385852092,
+    "total_vines": 19422.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RING01CS",
+    "parent_code": "RING01CS",
+    "region": "LODI",
+    "source": {
+      "row": 225,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "RING01CS-S",
+    "subblock_id": "subblock:RING01CS-S",
+    "total_acres": 31.390675241157556,
+    "total_vines": 19525.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR101CH",
+    "parent_code": "RSR101CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 226,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "RSR101CH",
+    "subblock_id": "subblock:RSR101CH",
+    "total_acres": 26.298898071625345,
+    "total_vines": 19093.0,
+    "variety_code": "CH",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR102CS",
+    "parent_code": "RSR102CS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 227,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "RSR102CS",
+    "subblock_id": "subblock:RSR102CS",
+    "total_acres": 3.7298091042584436,
+    "total_vines": 2540.0,
+    "variety_code": "CS",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR103CH",
+    "parent_code": "RSR103CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 228,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "RSR103CH-DRIVE",
+    "subblock_id": "subblock:RSR103CH-DRIVE",
+    "total_acres": 8.734982332155477,
+    "total_vines": 4944.0,
+    "variety_code": "CH",
+    "vines_per_acre": 566.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:RSR203CH",
+    "parent_code": "RSR203CH",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 229,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "RSR203CH",
+    "subblock_id": "subblock:RSR203CH",
+    "total_acres": 23.211453744493394,
+    "total_vines": 15807.0,
+    "variety_code": "CH",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SEJA01CS",
+    "parent_code": "SEJA01CS",
+    "region": "LODI",
+    "source": {
+      "row": 230,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SEJA01CS",
+    "subblock_id": "subblock:SEJA01CS",
+    "total_acres": 18.12121212121212,
+    "total_vines": 13156.0,
+    "variety_code": "CS",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SERA01PN",
+    "parent_code": "SERA01PN",
+    "region": "LODI",
+    "source": {
+      "row": 231,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SERA01PN",
+    "subblock_id": "subblock:SERA01PN",
+    "total_acres": 18.221418234442837,
+    "total_vines": 12591.0,
+    "variety_code": "PN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM01TD",
+    "parent_code": "SLHM01TD",
+    "region": "LODI",
+    "source": {
+      "row": 232,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SLHM01TD",
+    "subblock_id": "subblock:SLHM01TD",
+    "total_acres": 19.244114002478316,
+    "total_vines": 15530.0,
+    "variety_code": "TD",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM02VI",
+    "parent_code": "SLHM02VI",
+    "region": "LODI",
+    "source": {
+      "row": 233,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SLHM02VI",
+    "subblock_id": "subblock:SLHM02VI",
+    "total_acres": 19.051239669421488,
+    "total_vines": 11526.0,
+    "variety_code": "VI",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM03CH",
+    "parent_code": "SLHM03CH",
+    "region": "LODI",
+    "source": {
+      "row": 234,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SLHM03CH",
+    "subblock_id": "subblock:SLHM03CH",
+    "total_acres": 18.93388429752066,
+    "total_vines": 11455.0,
+    "variety_code": "CH",
+    "vines_per_acre": 605.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM05PN",
+    "parent_code": "SLHM05PN",
+    "region": "LODI",
+    "source": {
+      "row": 235,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SLHM05PN",
+    "subblock_id": "subblock:SLHM05PN",
+    "total_acres": 23.120115774240233,
+    "total_vines": 15976.0,
+    "variety_code": "PN",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM06ZN",
+    "parent_code": "SLHM06ZN",
+    "region": "LODI",
+    "source": {
+      "row": 236,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SLHM06ZN",
+    "subblock_id": "subblock:SLHM06ZN",
+    "total_acres": 4.485530546623794,
+    "total_vines": 2790.0,
+    "variety_code": "ZN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM08PR",
+    "parent_code": "SLHM08PR",
+    "region": "LODI",
+    "source": {
+      "row": 237,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SLHM08PR",
+    "subblock_id": "subblock:SLHM08PR",
+    "total_acres": 7.149059334298118,
+    "total_vines": 4940.0,
+    "variety_code": "PR",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SMSM01ME",
+    "parent_code": "SMSM01ME",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 238,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SMSM01ME",
+    "subblock_id": "subblock:SMSM01ME",
+    "total_acres": 22.634361233480178,
+    "total_vines": 15414.0,
+    "variety_code": "ME",
+    "vines_per_acre": 681.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:VKDD01CH",
+    "parent_code": "VKDD01CH",
+    "region": "LODI",
+    "source": {
+      "row": 239,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "VKDD01CH",
+    "subblock_id": "subblock:VKDD01CH",
+    "total_acres": 25.892561983471076,
+    "total_vines": 18798.0,
+    "variety_code": "CH",
+    "vines_per_acre": 726.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:WHWH01GE",
+    "parent_code": "WHWH01GE",
+    "region": "DELTA",
+    "source": {
+      "row": 240,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "WHWH01GE",
+    "subblock_id": "subblock:WHWH01GE",
+    "total_acres": 37.98986975397974,
+    "total_vines": 26251.0,
+    "variety_code": "GE",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:WHWH02PG",
+    "parent_code": "WHWH02PG",
+    "region": "DELTA",
+    "source": {
+      "row": 241,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "WHWH02PG",
+    "subblock_id": "subblock:WHWH02PG",
+    "total_acres": 34.58755426917511,
+    "total_vines": 23900.0,
+    "variety_code": "PG",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:WHWH03AL",
+    "parent_code": "WHWH03AL",
+    "region": "DELTA",
+    "source": {
+      "row": 242,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "WHWH03AL",
+    "subblock_id": "subblock:WHWH03AL",
+    "total_acres": 29.911722141823443,
+    "total_vines": 20669.0,
+    "variety_code": "AL",
+    "vines_per_acre": 691.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ZLLAOHCS",
+    "parent_code": "ZLLAOHCS",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 243,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ZLLAOHCS",
+    "subblock_id": "subblock:ZLLAOHCS",
+    "total_acres": 39.768488745980704,
+    "total_vines": 24736.0,
+    "variety_code": "CS",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:ZLSO01PN",
+    "parent_code": "ZLSO01PN",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 244,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "ZLSO01PN",
+    "subblock_id": "subblock:ZLSO01PN",
+    "total_acres": 82.39228295819936,
+    "total_vines": 51248.0,
+    "variety_code": "PN",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LASHI-CH",
+    "parent_code": "LASHI-CH",
+    "region": "LODI",
+    "source": {
+      "row": 245,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LASHI-CH",
+    "subblock_id": "subblock:LASHI-CH",
+    "total_acres": null,
+    "total_vines": null,
+    "variety_code": "CH",
+    "vines_per_acre": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LEWIS-100",
+    "parent_code": "LEWIS-100",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 246,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LEWIS-100",
+    "subblock_id": "subblock:LEWIS-100",
+    "total_acres": null,
+    "total_vines": null,
+    "variety_code": null,
+    "vines_per_acre": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LEWIS-4AC",
+    "parent_code": "LEWIS-4AC",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 247,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LEWIS-4AC",
+    "subblock_id": "subblock:LEWIS-4AC",
+    "total_acres": null,
+    "total_vines": null,
+    "variety_code": "AC",
+    "vines_per_acre": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LEWIS-18AC",
+    "parent_code": "LEWIS-18AC",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 248,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LEWIS-18AC",
+    "subblock_id": "subblock:LEWIS-18AC",
+    "total_acres": null,
+    "total_vines": null,
+    "variety_code": "AC",
+    "vines_per_acre": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:STARR-HARNEY",
+    "parent_code": "STARR-HARNEY",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 249,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "STARR-HARNEY",
+    "subblock_id": "subblock:STARR-HARNEY",
+    "total_acres": null,
+    "total_vines": null,
+    "variety_code": "EY",
+    "vines_per_acre": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:STARR-ZIN",
+    "parent_code": "STARR-ZIN",
+    "region": "CLEMENTS",
+    "source": {
+      "row": 250,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "STARR-ZIN",
+    "subblock_id": "subblock:STARR-ZIN",
+    "total_acres": null,
+    "total_vines": null,
+    "variety_code": "IN",
+    "vines_per_acre": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:LASHI-ZN",
+    "parent_code": "LASHI-ZN",
+    "region": "LODI",
+    "source": {
+      "row": 251,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "LASHI-ZN",
+    "subblock_id": "subblock:LASHI-ZN",
+    "total_acres": null,
+    "total_vines": null,
+    "variety_code": "ZN",
+    "vines_per_acre": null
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:SLHM04SB",
+    "parent_code": "SLHM04SB",
+    "region": "LODI",
+    "source": {
+      "row": 252,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "SLHM04SB",
+    "subblock_id": "subblock:SLHM04SB",
+    "total_acres": 35.21543408360129,
+    "total_vines": 21904.0,
+    "variety_code": "SB",
+    "vines_per_acre": 622.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:MFRN00PN",
+    "parent_code": "MFRN00PN",
+    "region": "DELTA",
+    "source": {
+      "row": 253,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "MFRN00PN",
+    "subblock_id": "subblock:MFRN00PN",
+    "total_acres": 4.596034696406444,
+    "total_vines": 3709.0,
+    "variety_code": "PN",
+    "vines_per_acre": 807.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU07MC-OLD",
+    "parent_code": "DVDU07MC-OLD",
+    "region": "DELTA",
+    "source": {
+      "row": 254,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU07MC-OLD",
+    "subblock_id": "subblock:DVDU07MC-OLD",
+    "total_acres": null,
+    "total_vines": 9951.0,
+    "variety_code": "LD",
+    "vines_per_acre": 545.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU07MC-GR",
+    "parent_code": "DVDU07MC-GR",
+    "region": "DELTA",
+    "source": {
+      "row": 255,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU07MC-GR",
+    "subblock_id": "subblock:DVDU07MC-GR",
+    "total_acres": null,
+    "total_vines": 5403.0,
+    "variety_code": "GR",
+    "vines_per_acre": 545.0
+  },
+  {
+    "active_2026": null,
+    "block_id": "block:DVDU05CH",
+    "parent_code": "DVDU05CH",
+    "region": "DELTA",
+    "source": {
+      "row": 256,
+      "sheet": "Source List",
+      "workbook": "2026 HARVEST STATUS.xlsx"
+    },
+    "subblock_code": "DVDU05CH",
+    "subblock_id": "subblock:DVDU05CH",
+    "total_acres": 42.04,
+    "total_vines": 36095.0,
+    "variety_code": "CH",
+    "vines_per_acre": 871.0
+  }
+]
