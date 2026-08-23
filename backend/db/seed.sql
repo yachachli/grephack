@@ -12,5 +12,6 @@ select id, '2025-09-09', 80 from blocks where external_id = 'mesa-c04'
   and not exists (select 1 from harvest_assignments where block_id = blocks.id and harvest_date = '2025-09-09');
 
 insert into nightly_truck_capacity (harvest_date, scheduled_trucks, tons_per_load)
-values ('2025-09-09', 9, 20)
-on conflict (harvest_date) do update set scheduled_trucks = excluded.scheduled_trucks;
+values ('2025-09-09', 9, 23.5)
+on conflict (harvest_date) do update set scheduled_trucks = excluded.scheduled_trucks,
+  tons_per_load = excluded.tons_per_load;

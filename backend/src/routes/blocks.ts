@@ -9,9 +9,9 @@ const blockInput = z.object({
   variety: z.string().min(1),
   region: z.string().min(1),
   acres: z.number().nonnegative(),
-  estimatedTons: z.number().nonnegative(),
-  harvestWindowStart: z.coerce.date(),
-  harvestWindowEnd: z.coerce.date(),
+  estimatedTons: z.number().nonnegative().nullable().optional(),
+  harvestWindowStart: z.coerce.date().nullable().optional(),
+  harvestWindowEnd: z.coerce.date().nullable().optional(),
 });
 
 export function createBlocksRouter(db: Db): Router {
@@ -19,7 +19,7 @@ export function createBlocksRouter(db: Db): Router {
 
   router.get('/', async (_req, res, next) => {
     try {
-      const { rows } = await db.query('select * from blocks order by harvest_window_start, vineyard_name, block_name');
+      const { rows } = await db.query('select * from blocks order by harvest_window_start nulls last, vineyard_name, block_name');
       res.json({ data: rows });
     } catch (error) { next(error); }
   });
@@ -41,7 +41,7 @@ export function createBlocksRouter(db: Db): Router {
            harvest_window_end = excluded.harvest_window_end, updated_at = now()
          returning *`,
         [input.externalId, input.vineyardName, input.blockName, input.variety, input.region,
-          input.acres, input.estimatedTons, input.harvestWindowStart, input.harvestWindowEnd],
+          input.acres, input.estimatedTons ?? null, input.harvestWindowStart ?? null, input.harvestWindowEnd ?? null],
       );
       res.status(200).json({ data: rows[0] });
     } catch (error) { next(error); }
