@@ -5,7 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:api": "npm --prefix backend run dev",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "db:migrate": "npm --prefix backend run db:migrate",
+    "db:seed": "npm --prefix backend run db:seed",
+    "setup:backend": "npm --prefix backend install && docker compose up -d postgres && npm --prefix backend run db:migrate && npm --prefix backend run db:seed",
     "build": "vite build",
+    "build:api": "npm --prefix backend run build",
     "preview": "vite preview",
     "lint": "eslint ."
   },
