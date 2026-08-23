@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap');
+
+/* One product shell across every workspace. These selectors intentionally
+   normalize the independently-built sidebars without changing page content. */
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.e1-brand b,
+.shell .brand b,
+.vf-shell .brand b {
+  font-family: Manrope, sans-serif;
+}
+
+.e1-shell .e1-nav button,
+.shell > aside nav button,
+.vf-shell > aside nav button {
+  box-sizing: border-box;
+  min-height: 43px;
+  font-size: 14px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.vf-shell > aside {
+  width: 230px;
+  padding: 24px 15px;
+}
+
+.vf-shell .brand {
+  height: auto;
+  padding: 0 7px 27px;
+  border-bottom: 0;
+  gap: 10px;
+}
+
+.vf-shell .brand > span {
+  width: 38px;
+  height: 38px;
+  background: #dceba9;
+  color: #214b3e;
+}
+
+.vf-shell .brand b {
+  font: 700 19px Manrope, sans-serif;
+}
+
+.vf-shell .brand small {
+  color: #a9c0b8;
+  font-size: 8px;
+  letter-spacing: 1.3px;
+}
+
+.vf-shell > aside nav {
+  padding: 0;
+  gap: 5px;
+}
+
+.vf-shell > aside nav button {
+  padding: 11px 12px;
+  border-radius: 8px;
+  gap: 11px;
+}
+
+.vf-shell > aside nav button.active {
+  background: #285b4d;
+  box-shadow: inset 3px 0 #dceba9;
+}
+
+.vf-shell .aside-foot {
+  padding: 14px 12px 0;
+}
+
+.vf-shell main {
+  margin-left: 230px;
+  width: calc(100% - 230px);
+}
+
+.vf-shell header {
+  height: 66px;
+}
+
+@media (max-width: 1050px) {
+  .vf-shell main {
+    margin-left: 0;
+    width: 100%;
+  }
+}
