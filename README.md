@@ -26,3 +26,21 @@ everyone can safely run the command whenever they pull.
 
 See [backend/README.md](backend/README.md) for API routes, ownership boundaries, and the
 data model.
+
+## Forecasting workspace
+
+The Forecasting workspace uses Engineer 1's local normalized Brix and block outputs from
+`engineer_1/generated/`. It reads the Sugar workbooks only for the winery target-Brix
+settings needed to predict readiness. It does not estimate crop yield or planned tonnage.
+
+When source workbooks change, regenerate the normalized data first:
+
+```bash
+python3 engineer_1/pipeline.py
+```
+
+Then start the API with `npm run dev:api`, start Vite with `npm run dev`, and open
+**Forecasting** in the sidebar.
+
+Its read-only endpoints are available at `/api/forecasts`; `POST /api/forecasts/refresh`
+reloads the generated data and target settings after they change.
