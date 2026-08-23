@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import type { CSSProperties } from 'react'
-import { CalendarDays, ChevronDown, CloudSun, Crosshair, Grape, Layers3, LayoutDashboard, MapPin, Menu, Plus, Search, Settings, Sparkles, Sprout, TrendingDown, Truck } from 'lucide-react'
+import { Crosshair, Layers3, MapPin, Plus, Search, Sparkles, TrendingDown } from 'lucide-react'
 import { GeoJSON, MapContainer, TileLayer } from 'react-leaflet'
+import { AppHeader } from '../components/AppHeader'
+import { AppSidebar } from '../components/AppSidebar'
 import 'leaflet/dist/leaflet.css'
 import fieldDataRaw from '../../data/climate_operation_field_boundaries.geojson?raw'
 import './styles.css'
@@ -31,11 +33,11 @@ const [selectedLon,selectedLat]=selectedField.properties.centroid
 const cluster={type:'FeatureCollection',features:allFields.features.filter(f=>f.properties.farm_name==='Lodi').sort((a,b)=>{const da=(a.properties.centroid[0]-selectedLon)**2+(a.properties.centroid[1]-selectedLat)**2;const db=(b.properties.centroid[0]-selectedLon)**2+(b.properties.centroid[1]-selectedLat)**2;return da-db}).slice(0,17)} as FieldCollection
 
 export default function App(){
- const [view,setView]=useState<View>('Portfolio'),[sceneIndex,setSceneIndex]=useState(4),[draw,setDraw]=useState(false),[selected,setSelected]=useState('A'),[mobile,setMobile]=useState(false),[toast,setToast]=useState('')
+ const [view,setView]=useState<View>('Portfolio'),[sceneIndex,setSceneIndex]=useState(4),[draw,setDraw]=useState(false),[selected,setSelected]=useState('A'),[mobile,setMobile]=useState(false),[toast,setToast]=useState(''),[query,setQuery]=useState('')
  const scene=scenes[sceneIndex], notify=(s:string)=>{setToast(s);setTimeout(()=>setToast(''),2000)}
  const line=scenes.map((s,i)=>`${i?'L':'M'} ${i*112} ${128-(s.ndvi-.5)*270}`).join(' ')
- return <div className="vf-shell"><aside className={mobile?'open':''}><div className="brand"><span><Sprout/></span><div><b>VineFlow</b><small>HARVEST OPERATIONS</small></div></div><nav><button onClick={()=>{window.location.hash='overview'}}><LayoutDashboard/>Overview</button><button onClick={()=>{window.location.hash='blocks'}}><Grape/>Block Status</button><button onClick={()=>{window.location.hash='planner'}}><CalendarDays/>Harvest Planner</button><button onClick={()=>{window.location.hash='forecasting'}}><CloudSun/>Forecasting</button><button onClick={()=>{window.location.hash='planner'}}><Truck/>Fleet &amp; Logistics</button><button className="active"><Layers3/>Satellite Intelligence</button></nav><div className="aside-foot"><button><Settings/>Settings</button><div className="profile"><span>JM</span><div><b>Jordan Miller</b><small>Operations Manager</small></div></div></div></aside>
- <main><header><button className="hamb" onClick={()=>setMobile(!mobile)}><Menu/></button><div className="global-search"><Search/><input placeholder="Search vineyards, blocks, varieties…"/></div><div className="season"><span/> SENTINEL-2 LIVE <ChevronDown/></div></header><div className="content">
+ return <div className="vf-shell"><AppSidebar active="satellite" mobile={mobile} onClose={()=>setMobile(false)} />
+ <main><AppHeader query={query} onQueryChange={setQuery} onMenu={()=>setMobile(true)} /><div className="content">
   <section className="topline"><div><p>SATELLITE INTELLIGENCE <span>•</span> LODI FARM</p><h1>FieldView Portfolio <em>/</em> {selectedField.properties.name}</h1><div className="block-meta"><b>Exact FieldView boundary</b><span>{(selectedField.properties.area_value*2.47105).toFixed(1)} acres</span><span>Field ID <code>{selectedField.properties.legacy_id}</code></span></div></div><button className="new-block" onClick={()=>setDraw(!draw)}><Plus/> {draw?'Finish boundary':'Draw new block'}</button></section>
   <div className="address"><Search/><input defaultValue="1525 East Jahant Rd, Acampo, CA 95220"/><button onClick={()=>notify('Map centered on East Jahant vineyard')}>Locate <Crosshair/></button></div>
   <section className="decision-strip"><article><span>EXPECTED TONS</span><b>244.5 <small>tons</small></b><p>B1 + B3 + B4 crop estimates</p></article><article><span>CURRENT SUGAR</span><b>23.6° <small>Brix</small></b><p>Syrah B2 · sampled Aug 19</p></article><article className="attention"><span>CANOPY PRIORITY</span><b>Scout weak zones first</b><p>Targeted sampling—not a harvest decision</p></article><article className="gap"><span>DATA GAP</span><b>1 missing estimate</b><p>LF Exotics B2 expected tons</p></article></section>

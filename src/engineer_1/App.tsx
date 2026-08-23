@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
-  BarChart3, CalendarDays, ChevronDown, CloudSun, Grape, Layers3,
-  LayoutDashboard, Menu, Search, Settings, Sprout, Truck, X,
+  BarChart3, CalendarDays, Grape, Sprout, Truck,
 } from 'lucide-react'
+import { AppHeader } from '../components/AppHeader'
+import { AppSidebar } from '../components/AppSidebar'
 import summary from '../../engineer_1/generated/dashboard_summary.json'
 import './styles.css'
 
@@ -13,10 +14,6 @@ const varieties: Record<string, string> = {
   CH: 'Chardonnay', CS: 'Cabernet Sauvignon', ME: 'Merlot',
   PG: 'Pinot Grigio', PN: 'Pinot Noir', SB: 'Sauvignon Blanc', ZN: 'Zinfandel',
 }
-const openPlanner = () => { window.location.hash = 'planner' }
-const openForecasting = () => { window.location.hash = 'forecasting' }
-const openSatellite = () => { window.location.hash = 'satellite' }
-
 function Metric({ label, value, note, icon: Icon }: {
   label: string
   value: string
@@ -46,22 +43,10 @@ export default function App() {
   })
 
   return <div className="e1-shell">
-    <aside className={mobile ? 'open' : ''}>
-      <div className="e1-brand"><span><Sprout /></span><div><b>VineFlow</b><small>HARVEST OPERATIONS</small></div></div>
-      <button className="e1-close" onClick={() => setMobile(false)}><X /></button>
-      <div className="e1-nav">
-        <button className={window.location.hash === '#blocks' ? '' : 'active'} onClick={() => { window.location.hash = 'overview'; window.scrollTo({ top: 0, behavior: 'smooth' }) }}><LayoutDashboard size={18} />Overview</button>
-        <button className={window.location.hash === '#blocks' ? 'active' : ''} onClick={() => { window.location.hash = 'blocks'; document.getElementById('block-status')?.scrollIntoView() }}><Grape size={18} />Block Status</button>
-        <button onClick={openPlanner}><CalendarDays size={18} />Harvest Planner</button>
-        <button onClick={openForecasting}><CloudSun size={18} />Forecasting</button>
-        <button onClick={openPlanner}><Truck size={18} />Fleet & Logistics</button>
-        <button onClick={openSatellite}><Layers3 size={18} />Satellite Intelligence</button>
-      </div>
-      <div className="e1-bottom"><button><Settings size={18} />Settings</button><div><span>JM</span><p><b>Jordan Miller</b><small>Operations Manager</small></p></div></div>
-    </aside>
+    <AppSidebar active={window.location.hash === '#blocks' ? 'blocks' : 'overview'} mobile={mobile} onClose={() => setMobile(false)} />
 
     <main>
-      <div className="e1-header"><button className="e1-menu" onClick={() => setMobile(true)}><Menu /></button><div className="e1-search"><Search size={17} /><input value={query} onChange={e => setQuery(e.target.value)} placeholder="Search vineyards, blocks, varieties..." /></div><button className="e1-season">2026 Harvest <ChevronDown size={14} /></button></div>
+      <AppHeader query={query} onQueryChange={setQuery} onMenu={() => setMobile(true)} />
       <div className="e1-content">
         <div className="e1-title"><div><p>STATUS & OPERATIONS</p><h1>Harvest overview</h1><span>Workbook status through {asOf}</span></div><div className="e1-live"><i />Normalized from 7 source files</div></div>
         <section className="e1-metrics">

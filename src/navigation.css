@@ -86,3 +86,208 @@ body {
     width: 100%;
   }
 }
+
+/* Shared application chrome. Workspace styles never target these class names. */
+body .app-sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 40;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  padding: 24px 15px;
+  background: #173f35;
+  color: #fff;
+}
+
+body .app-sidebar .app-sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: auto;
+  padding: 0 7px 27px;
+  border: 0;
+}
+
+body .app-sidebar .app-sidebar-brand > span {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex: none;
+  border-radius: 10px;
+  background: #dceba9;
+  color: #214b3e;
+}
+
+body .app-sidebar .app-sidebar-brand b,
+body .app-sidebar .app-sidebar-brand small {
+  display: block;
+}
+
+body .app-sidebar .app-sidebar-brand b {
+  font: 700 19px Manrope, sans-serif;
+}
+
+body .app-sidebar .app-sidebar-brand small {
+  margin-top: 1px;
+  color: #a9c0b8;
+  font-size: 8px;
+  letter-spacing: 1.3px;
+  white-space: nowrap;
+}
+
+body .app-sidebar > nav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+
+body .app-sidebar > nav button,
+body .app-sidebar .app-sidebar-footer > button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-height: 43px;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #b9cdc6;
+  font: 400 14px/1.2 'DM Sans', sans-serif;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+body .app-sidebar > nav button.active {
+  background: #285b4d;
+  color: #fff;
+  box-shadow: inset 3px 0 #dceba9;
+}
+
+body .app-sidebar .app-sidebar-close {
+  display: none;
+}
+
+body .app-sidebar .app-sidebar-footer {
+  margin-top: auto;
+  padding: 0;
+}
+
+body .app-sidebar .app-sidebar-profile {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 12px;
+  padding: 16px 10px 4px;
+  border-top: 1px solid #31584f;
+}
+
+body .app-sidebar .app-sidebar-profile > span {
+  display: grid;
+  place-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #dceba9;
+  color: #21483d;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+body .app-sidebar .app-sidebar-profile b,
+body .app-sidebar .app-sidebar-profile small {
+  display: block;
+  font-size: 11px;
+}
+
+body .app-sidebar .app-sidebar-profile small {
+  margin-top: 2px;
+  color: #9ab6ad;
+  font-size: 9px;
+}
+
+body header.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 66px;
+  padding: 0 30px;
+  border-bottom: 1px solid #dfe4dc;
+  background: #fff;
+  color: #63706a;
+}
+
+body .app-header .app-header-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 520px;
+  flex: 1;
+}
+
+body .app-header .app-header-search input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #1d2b27;
+  font: 400 14px 'DM Sans', sans-serif;
+}
+
+body .app-header .app-header-season {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  padding: 8px 11px;
+  border: 1px solid #dfe4dc;
+  border-radius: 7px;
+  background: #fff;
+  color: #1d2b27;
+  font: 500 12px 'DM Sans', sans-serif;
+}
+
+body .app-header .app-header-menu {
+  display: none;
+  border: 0;
+  background: transparent;
+  color: #315e4c;
+}
+
+@media (max-width: 760px) {
+  body .app-sidebar {
+    transform: translateX(-100%);
+  }
+
+  body .app-sidebar.open {
+    transform: none;
+  }
+
+  body .app-sidebar .app-sidebar-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    border: 0;
+    background: transparent;
+    color: #fff;
+  }
+
+  body .app-header .app-header-menu {
+    display: block;
+  }
+
+  body header.app-header {
+    padding: 0 15px;
+  }
+}
