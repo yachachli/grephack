@@ -9,6 +9,8 @@
 - Trucks may circle back in reality, but distance and timing make this unreliable.
 - The fleet is a mix of owned and outsourced trucks; sourcing optimization is a
   later feature.
+- Truck-order lead time is 24 hours preferred and 12 hours minimum.
+- Trailers are staged before night harvest so fruit can be dumped immediately.
 
 The MVP calculation is therefore:
 
@@ -36,3 +38,16 @@ operator explicitly plans 12 loads, the explicit plan should win.
 Separately, canonical block fields `estimated_tons`, `harvest_window_start`, and
 `harvest_window_end` should be nullable until crop estimation and forecasting have
 produced them.
+
+## Scheduling constraints from the operator
+
+- A machine covers approximately 10 acres per night.
+- Machines are redistributed nightly according to vineyard priority and load
+  targets.
+- Winery delivery appointments are capacity constraints, not just notes. The
+  operation should request day/load slots early because wineries coordinate many
+  growers simultaneously.
+- The MVP should track an appointment confirmation state and surface plans inside
+  the 12-hour minimum truck-order window.
+- Large wineries may release a block based primarily on target Brix. Boutique
+  wineries may additionally require pH and TA lab results.

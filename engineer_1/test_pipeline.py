@@ -56,6 +56,21 @@ class PipelineTest(unittest.TestCase):
                 self.assertIsNotNone(candidate["harvestWindowEnd"])
                 self.assertEqual(candidate["blockers"], [])
 
+    def test_dashboard_summary_reconciles(self):
+        summary = self.load("dashboard_summary.json")
+        portfolio = summary["portfolio"]
+        self.assertEqual(summary["payload_tons"], 23.5)
+        self.assertEqual(portfolio["tracked_blocks"], len(summary["blocks"]))
+        self.assertAlmostEqual(
+            portfolio["acres_picked"] + portfolio["acres_remaining"],
+            portfolio["active_scope_acres"],
+            places=1,
+        )
+        self.assertEqual(
+            portfolio["required_trucks_one_trip"],
+            math.ceil(portfolio["estimated_tons_remaining"] / 23.5),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

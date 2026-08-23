@@ -278,6 +278,48 @@ def derive_block_status(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sorted(statuses, key=lambda item: item["source_block_code"])
 
 
+def read_summary_scope() -> dict[str, Any]:
+    workbook = load_workbook(
+        DATA / "2026 HARVEST STATUS.xlsx", read_only=True, data_only=True
+    )
+    sheet = workbook["Summary"]
+    regions = []
+    for region, column in (("CLEMENTS", "D"), ("DELTA", "K"), ("LODI", "R")):
+        total = number(sheet[f"{column}5"].value) or 0
+        picked = number(sheet[f"{column}6"].value) or 0
+        in_progress = number(sheet[f"{column}7"].value) or 0
+        pending = number(sheet[f"{column}8"].value) or 0
+        regions.append(
+            {
+                "key": region,
+                "total_acres": round(total, 2),
+                "acres_picked": round(picked, 2),
+                "acres_remaining": round(max(0, total - picked), 2),
+                "in_progress_acres": round(in_progress, 2),
+                "pending_acres": round(pending, 2),
+                "unclassified_acres": round(
+                    max(0, total - picked - in_progress - pending), 2
+                ),
+                "progress_pct": round(100 * picked / total, 1) if total else 0,
+            }
+        )
+    result = {
+        "active_scope_acres": round(number(sheet["D2"].value) or 0, 2),
+        "acres_picked": round(number(sheet["G2"].value) or 0, 2),
+        "in_progress_acres": round(number(sheet["K2"].value) or 0, 2),
+        "pending_acres": round(number(sheet["Q2"].value) or 0, 2),
+        "regions": regions,
+    }
+    result["acres_remaining"] = round(
+        result["active_scope_acres"] - result["acres_picked"], 2
+    )
+    result["progress_pct"] = round(
+        100 * result["acres_picked"] / result["active_scope_acres"], 1
+    )
+    workbook.close()
+    return result
+
+
 def find_header_row(sheet: Any, required: str, max_rows: int = 10) -> tuple[int, list[Any]]:
     required_key = header_key(required)
     accepted = {required_key, f"{required_key}NAME"}
@@ -780,10 +822,150 @@ def build_review_queue(
     }
 
 
+def build_dashboard_summary(
+    blocks: list[dict[str, Any]],
+    statuses: list[dict[str, Any]],
+    brix: list[dict[str, Any]],
+    summary_scope: dict[str, Any],
+) -> dict[str, Any]:
+    block_lookup = {item["subblock_id"]: item for item in blocks}
+    names_by_parent: dict[str, Counter[str]] = defaultdict(Counter)
+    brix_by_parent: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for observation in brix:
+        if observation["season"] != 2026 or not observation["block_id"]:
+            continue
+        names_by_parent[observation["block_id"]][observation["vineyard_name"]] += 1
+        brix_by_parent[observation["block_id"]].append(observation)
+
+    display_names: dict[str, str] = {}
+    latest_brix: dict[str, float] = {}
+    for block_id, counts in names_by_parent.items():
+        display_names[block_id] = sorted(
+            counts.items(), key=lambda item: (-item[1], len(item[0]), item[0])
+        )[0][0]
+    for block_id, observations in brix_by_parent.items():
+        latest_date = max(item["sampled_at"] for item in observations)
+        values = [
+            item["brix"] for item in observations if item["sampled_at"] == latest_date
+        ]
+        latest_brix[block_id] = round(mean(values), 2)
+
+    dashboard_blocks: list[dict[str, Any]] = []
+    for status in statuses:
+        master = block_lookup.get(status["subblock_id"])
+        parent_code = master["parent_code"] if master else status["source_block_code"]
+        block_id = status["block_id"]
+        dashboard_blocks.append(
+            {
+                "block_id": block_id,
+                "subblock_id": status["subblock_id"],
+                "parent_code": parent_code,
+                "subblock_code": master["subblock_code"]
+                if master
+                else status["source_block_code"],
+                "vineyard_name": display_names.get(block_id, parent_code),
+                "region": (master["region"] if master else None) or "UNKNOWN",
+                "variety": (master["variety_code"] if master else None) or "UNKNOWN",
+                "status": status["status"],
+                "as_of_date": status["as_of_date"],
+                "total_acres": status["total_acres"],
+                "acres_picked": status["acres_picked"],
+                "acres_remaining": status["acres_remaining"],
+                "latest_brix": latest_brix.get(block_id),
+                "estimated_tons_remaining": status["estimated_tons_remaining"],
+                "required_trucks_one_trip": status["required_trucks_one_trip"],
+            }
+        )
+
+    def aggregate(records: list[dict[str, Any]], field: str) -> list[dict[str, Any]]:
+        groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for record in records:
+            groups[record[field]].append(record)
+        result = []
+        for key, group in groups.items():
+            picked = sum(item["acres_picked"] or 0 for item in group)
+            remaining = sum(item["acres_remaining"] or 0 for item in group)
+            total = picked + remaining
+            tons = sum(item["estimated_tons_remaining"] or 0 for item in group)
+            result.append(
+                {
+                    "key": key,
+                    "total_acres": round(total, 2),
+                    "acres_picked": round(picked, 2),
+                    "acres_remaining": round(remaining, 2),
+                    "progress_pct": round(100 * picked / total, 1) if total else 0,
+                    "estimated_tons_remaining": round(tons, 2),
+                    "required_trucks_one_trip": math.ceil(tons / DEFAULT_PAYLOAD_TONS)
+                    if tons > 0
+                    else 0,
+                    "tracked_blocks": len(group),
+                }
+            )
+        return sorted(result, key=lambda item: (-item["total_acres"], item["key"]))
+
+    picked_acres = sum(item["acres_picked"] or 0 for item in dashboard_blocks)
+    remaining_acres = sum(item["acres_remaining"] or 0 for item in dashboard_blocks)
+    tracked_acres = picked_acres + remaining_acres
+    remaining_tons = sum(
+        item["estimated_tons_remaining"] or 0 for item in dashboard_blocks
+    )
+    managed_acres = sum(item["total_acres"] or 0 for item in blocks)
+    status_order = {"in_progress": 0, "pending": 1, "harvested": 2}
+    dashboard_blocks.sort(
+        key=lambda item: (
+            status_order[item["status"]],
+            -(item["acres_remaining"] or 0),
+            item["subblock_code"],
+        )
+    )
+    tracked_regions = {item["key"]: item for item in aggregate(dashboard_blocks, "region")}
+    scope_regions = []
+    for region in summary_scope["regions"]:
+        tracked = tracked_regions.get(region["key"], {})
+        scope_regions.append(
+            {
+                **region,
+                "estimated_tons_remaining": tracked.get(
+                    "estimated_tons_remaining", 0
+                ),
+                "required_trucks_one_trip": tracked.get(
+                    "required_trucks_one_trip", 0
+                ),
+                "tracked_blocks": tracked.get("tracked_blocks", 0),
+            }
+        )
+
+    return {
+        "as_of_date": max(item["as_of_date"] for item in dashboard_blocks),
+        "payload_tons": DEFAULT_PAYLOAD_TONS,
+        "portfolio": {
+            "managed_acres": round(managed_acres, 2),
+            "active_scope_acres": summary_scope["active_scope_acres"],
+            "acres_picked": summary_scope["acres_picked"],
+            "acres_remaining": summary_scope["acres_remaining"],
+            "in_progress_acres": summary_scope["in_progress_acres"],
+            "pending_acres": summary_scope["pending_acres"],
+            "progress_pct": summary_scope["progress_pct"],
+            "observed_tracked_acres": round(tracked_acres, 2),
+            "estimated_tons_remaining": round(remaining_tons, 2),
+            "required_trucks_one_trip": math.ceil(
+                remaining_tons / DEFAULT_PAYLOAD_TONS
+            )
+            if remaining_tons > 0
+            else 0,
+            "tracked_blocks": len(dashboard_blocks),
+        },
+        "by_region": scope_regions,
+        "by_variety": aggregate(dashboard_blocks, "variety"),
+        "blocks": dashboard_blocks,
+    }
+
+
 def run() -> dict[str, Any]:
     blocks, parent_blocks, indexes = read_blocks()
     events = read_harvest_events(indexes)
     statuses = derive_block_status(events)
+    summary_scope = read_summary_scope()
     brix, name_to_codes = read_brix(indexes)
     crop = read_crop_estimates(indexes)
     for estimate in crop:
@@ -793,6 +975,9 @@ def run() -> dict[str, Any]:
     schedule = read_schedule(indexes, name_to_codes)
     backend_candidates = build_backend_candidates(parent_blocks, brix, crop, schedule)
     review_queue = build_review_queue(events, crop, schedule)
+    dashboard_summary = build_dashboard_summary(
+        blocks, statuses, brix, summary_scope
+    )
     report = quality_report(
         blocks,
         parent_blocks,
@@ -813,6 +998,7 @@ def run() -> dict[str, Any]:
     write_json("harvest_plan.json", schedule)
     write_json("backend_block_candidates.json", backend_candidates)
     write_json("review_queue.json", review_queue)
+    write_json("dashboard_summary.json", dashboard_summary)
     write_json("data_quality.json", report)
     return report
 

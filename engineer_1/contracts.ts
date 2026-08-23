@@ -120,3 +120,54 @@ export interface BackendBlockCandidate {
   apiReady: boolean
   blockers: string[]
 }
+
+export interface DashboardBreakdown {
+  key: string
+  total_acres: number
+  acres_picked: number
+  acres_remaining: number
+  in_progress_acres?: number
+  pending_acres?: number
+  unclassified_acres?: number
+  progress_pct: number
+  estimated_tons_remaining: number
+  required_trucks_one_trip: number
+  tracked_blocks: number
+}
+
+export interface DashboardSummary {
+  as_of_date: string
+  payload_tons: number
+  portfolio: {
+    managed_acres: number
+    active_scope_acres: number
+    acres_picked: number
+    acres_remaining: number
+    in_progress_acres: number
+    pending_acres: number
+    progress_pct: number
+    observed_tracked_acres: number
+    estimated_tons_remaining: number
+    required_trucks_one_trip: number
+    tracked_blocks: number
+  }
+  by_region: DashboardBreakdown[]
+  by_variety: DashboardBreakdown[]
+  blocks: Array<{
+    block_id: string | null
+    subblock_id: string | null
+    parent_code: string
+    subblock_code: string
+    vineyard_name: string
+    region: string
+    variety: string
+    status: 'pending' | 'in_progress' | 'harvested'
+    as_of_date: string
+    total_acres: number | null
+    acres_picked: number | null
+    acres_remaining: number | null
+    latest_brix: number | null
+    estimated_tons_remaining: number | null
+    required_trucks_one_trip: number | null
+  }>
+}
