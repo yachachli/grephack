@@ -1,4 +1,4 @@
-import { CalendarDays, CloudSun, Grape, Layers3, LayoutDashboard, Settings, Sprout, Truck, X } from 'lucide-react'
+import { CalendarDays, CloudSun, Grape, Layers3, LayoutDashboard, Settings, Sprout, X } from 'lucide-react'
 
 export type AppWorkspace = 'overview' | 'blocks' | 'planner' | 'forecasting' | 'satellite'
 
@@ -7,7 +7,6 @@ const items = [
   { id: 'blocks', label: 'Block Status', route: 'blocks', icon: Grape },
   { id: 'planner', label: 'Harvest Planner', route: 'planner', icon: CalendarDays },
   { id: 'forecasting', label: 'Forecasting', route: 'forecasting', icon: CloudSun },
-  { id: 'fleet', label: 'Fleet & Logistics', route: 'planner', icon: Truck },
   { id: 'satellite', label: 'Satellite Intelligence', route: 'satellite', icon: Layers3 },
 ] as const
 
